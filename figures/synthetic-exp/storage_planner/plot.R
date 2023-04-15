@@ -1,0 +1,136 @@
+library(ggplot2)
+library(ggpubr)
+library(ggpattern)
+library(dplyr)
+
+text_size <- 35
+title_size <-40
+point_size <-25
+cap_size <-50
+
+
+
+myTheme <-theme(axis.text.x = element_text(size=text_size,color="black", margin=margin(t=15)),
+  axis.text.y = element_text(size=text_size, color="black"),
+  axis.title.x=element_text(size=title_size, color="black", face="bold",margin = margin(t = 15, r = 0, b = 0, l = 0)),
+  axis.title.y=element_text(size=title_size,color="black", face="bold")) + 
+  theme(legend.text = element_text(size = text_size), 
+                                  legend.title = element_text(size = title_size, face="bold"), 
+                                  legend.key.size = unit(2, 'cm'),
+                                  # legend.position = c(20, 15),
+                                  legend.box="vertical",
+        legend.margin = margin(b=1.5, unit='cm')) +
+  theme(panel.grid.major.y = element_line(color="black", size=0.75,linetype=2),
+        panel.background = element_rect(fill='transparent'),
+        plot.background = element_rect(fill='transparent', color=NA), 
+        axis.line.y = element_line(arrow = grid::arrow(angle=15,
+                                                       ends = "last", type="closed"),size=2),
+        axis.line.x = element_line(arrow = grid::arrow(angle=15,
+                                                       ends = "last", type="closed"),size=2))
+
+
+data <- read.csv(file = 'data.csv')
+data$Platform <-factor(data$Platform, levels=c("Azure", "GCS", "S3"))
+data$Chunk.Size <- factor(data$Chunk.Size, levels = c("4", "8", "16"))
+print(data)
+data <- data[data$Query=="Column-based",]
+p1<-ggplot(data, aes(Platform, Time)) + 
+  geom_bar_pattern(stat = "identity", 
+                   pattern = rep(c("none","stripe","stripe"),3),
+                   pattern_angle = rep(c(0,45,135),3),
+                   pattern_density = 0.05,
+                   pattern_spacing = 0.02,
+                   pattern_fill = 'black',
+                   color="black",
+                   aes(fill = Chunk.Size), 
+                   position=position_dodge2(preserve = "single",width=.5)) +
+  geom_text(aes(Platform, Time ,label=Choosen, group = Chunk.Size), 
+            position = position_dodge2(width = .85), vjust = -.15, size = 18)+
+  scale_fill_manual(" ", 
+                    labels = c("4", "8", "16"),
+                    values = c("4" = "black", "8"="grey45", "16"="white")) +
+  guides(fill = guide_legend(title="Chunk Size (MB)",
+                              override.aes = 
+                               list(
+                                 pattern = c("none", "stripe", "stripe"),
+                                 pattern_spacing = .1,
+                                 pattern_density = .05,
+                                 pattern_angle = c(0, 45, 135)
+                                 )
+                             )) +
+myTheme +
+labs(caption="(a) Time") +
+theme(plot.caption=element_text(hjust=0.5, margin=margin(40,0,0,0),size=cap_size, face="bold"))+
+xlab('Platform') +
+ylab('Time(s)') +
+scale_y_continuous(limits=c(0,1600), breaks=seq(0, 1600, 200), expand=c(0,0))
+
+p2<-ggplot(data, aes(Platform, Cost)) + 
+  geom_bar_pattern(stat = "identity", 
+                   pattern = rep(c("none","stripe","stripe"),3),
+                   pattern_angle = rep(c(0,45,135),3),
+                   pattern_density = 0.05,
+                   pattern_spacing = 0.02,
+                   pattern_fill = 'black',
+                   color="black",
+                   aes(fill = Chunk.Size), 
+                   position=position_dodge2(preserve = "single", width=.5)) +
+    geom_text(aes(Platform, Cost ,label=Choosen, group = Chunk.Size), 
+            position = position_dodge2(width = .85), vjust = -.15, size = 18)+
+  scale_fill_manual(" ", 
+                    labels = c("4", "8", "16"),
+                    values = c("4" = "black", "8"="grey45", "16"="white")) +
+  guides(fill = guide_legend(title="Chunk Size (MB)",
+                              override.aes = 
+                               list(
+                                 pattern = c("none", "stripe", "stripe"),
+                                 pattern_spacing = .1,
+                                 pattern_density = .05,
+                                 pattern_angle = c(0, 45, 135)
+                                 )
+                             )) +
+myTheme +
+labs(caption="(b) Cost") +
+theme(plot.caption=element_text(hjust=0.5, margin=margin(40,0,0,0),size=cap_size, face="bold"))+
+xlab('Platform') +
+ylab('Cost($)') +
+scale_y_continuous(limits=c(0,10), breaks=seq(0, 10, 2), expand=c(0,0))
+
+p3<-ggplot(data, aes(Platform, Transfer.Size)) + 
+  geom_bar_pattern(stat = "identity", 
+                   pattern = rep(c("none","stripe","stripe"),3),
+                   pattern_angle = rep(c(0,45,135),3),
+                   pattern_density = 0.05,
+                   pattern_spacing = 0.02,
+                   pattern_fill = 'black',
+                   color="black",
+                   aes(fill = Chunk.Size), 
+                   position=position_dodge2(preserve = "single",width=.5)) +
+    geom_text(aes(Platform, Transfer.Size ,label=Choosen, group = Chunk.Size), 
+            position = position_dodge2(width = .85), vjust = -.15, size = 18)+
+  scale_fill_manual(" ", 
+                    labels = c("4", "8", "16"),
+                    values = c("4" = "black", "8"="grey45", "16"="white")) +
+  guides(fill = guide_legend(title="Chunk Size (MB)",
+                              override.aes = 
+                               list(
+                                 pattern = c("none", "stripe", "stripe"),
+                                 pattern_spacing = .1,
+                                 pattern_density = .05,
+                                 pattern_angle = c(0, 45, 135)
+                                 )
+                             )) +
+myTheme +
+labs(caption="(c) Transferred Data Size") +
+theme(plot.caption=element_text(hjust=0.5, margin=margin(40,0,0,0),size=cap_size, face="bold"))+
+xlab('Platform') +
+ylab('Transferred Data Size (GB)') +
+scale_y_continuous(limits=c(0,80), breaks=seq(0, 80, 20), expand=c(0,0))
+
+p <- ggarrange(p1, NULL, p2, NULL,p3, nrow=1, common.legend = TRUE, widths = c(1,0.1,1,0.1,1))
+
+
+ggsave(file="planner-col.eps", plot=p, width=45, height=12, device="eps")
+
+
+

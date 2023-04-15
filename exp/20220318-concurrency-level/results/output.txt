@@ -1,0 +1,450 @@
+../build/read s3_vol_connector_1
+Mon Mar 21 17:02:48 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=1
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/0
+read async successfully: concurrency_test.h5/test/2
+read async successfully: concurrency_test.h5/test/1
+read async successfully: concurrency_test.h5/test/3
+read successfully
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 774.597
+../build/read s3_vol_connector_4
+Mon Mar 21 17:15:52 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=4
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/0
+read async successfully: concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/2
+read async successfully: concurrency_test.h5/test/1read successfully
+
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 325.277
+../build/read s3_vol_connector_4
+Mon Mar 21 17:21:25 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=4
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/0
+read async successfully: concurrency_test.h5/test/1
+read async successfully: concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/2
+read successfully
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 338.285
+../build/read s3_vol_connector_1
+Mon Mar 21 17:27:14 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=1
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/0
+read async successfully: concurrency_test.h5/test/2
+read async successfully: concurrency_test.h5/test/1
+read async successfully: concurrency_test.h5/test/3
+read successfully
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 650.481
+../build/read s3_vol_connector_2
+Mon Mar 21 17:38:17 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=2
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/0
+read async successfully: concurrency_test.h5/test/1
+read async successfully: concurrency_test.h5/test/2
+read successfullyread async successfully: concurrency_test.h5/test/3
+
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 600.402
+../build/read s3_vol_connector_4
+Mon Mar 21 17:48:21 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=4
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/2
+read async successfully: concurrency_test.h5/test/0
+read successfullyread async successfully: concurrency_test.h5/test/1
+
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 325.377
+../build/read s3_vol_connector_1
+Mon Mar 21 17:53:54 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=1
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/0
+read async successfully: concurrency_test.h5/test/2
+read async successfully: concurrency_test.h5/test/1
+read async successfully: concurrency_test.h5/test/3
+read successfully
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 882.471
+../build/read s3_vol_connector_2
+Mon Mar 21 18:08:43 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=2
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/2
+read async successfully: concurrency_test.h5/test/0
+read async successfully: concurrency_test.h5/test/1
+read async successfully: read successfullyconcurrency_test.h5/test/3
+
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 425.733
+../build/read s3_vol_connector_2
+Mon Mar 21 18:16:01 2022
+------ Open File: concurrency_test.h5
+------ Open dataset test
+------ Create Client: maxConnections=2
+------ S3get concurrency_test.h5/test/meta
+------ Get Space dataset
+------ Read dataset concurrency_test.h5/test
+------ Generate Chunk
+concurrency_test.h5/test/0 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/2 216172782113783820 0 2
+16384 16384 
+16384 [16383, 16383]
+16384 [0, 0]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/1 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [16383, 16383]
+0
+
+------ Generate Chunk
+concurrency_test.h5/test/3 216172782113783820 0 2
+16384 16384 
+16384 [0, 0]
+16384 [0, 0]
+0
+
+------ S3getAsync concurrency_test.h5/test/0
+------ S3getAsync concurrency_test.h5/test/2
+------ S3getAsync concurrency_test.h5/test/1
+------ S3getAsync concurrency_test.h5/test/3
+read async successfully: concurrency_test.h5/test/2
+read async successfully: concurrency_test.h5/test/0
+read async successfully: concurrency_test.h5/test/1
+read successfullyread async successfully: 
+concurrency_test.h5/test/3
+32766 32767 
+32767 32768 
+------ Close dataset
+------ Close File: concurrency_test.h5
+Total Time: 527.4
