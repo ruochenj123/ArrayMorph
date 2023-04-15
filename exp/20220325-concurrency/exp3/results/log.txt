@@ -1,0 +1,685 @@
+#DATE - Sun Apr 17 14:45:11 2022
+##### ../build/read 64
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 16264 15163  0 14:45 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 16265 16264  0 14:45 pts/6    00:00:00 ps -ef
+jiang.2+ 16266 16264  0 14:45 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 14:45:59 2022
+##### ../build/read 4
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 17423 15163  0 14:51 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 17424 17423  0 14:51 pts/6    00:00:00 ps -ef
+jiang.2+ 17425 17423  0 14:51 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 14:51:32 2022
+##### ../build/read 64
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 18524 15163  0 14:52 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 18525 18524  0 14:52 pts/6    00:00:00 ps -ef
+jiang.2+ 18526 18524  0 14:52 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 14:52:21 2022
+##### ../build/read 16
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 19595 15163  0 14:54 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19596 19595  0 14:54 pts/6    00:00:00 ps -ef
+jiang.2+ 19597 19595  0 14:54 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 14:54:09 2022
+##### ../build/read 4
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 20672 15163  0 14:59 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 20673 20672  0 14:59 pts/6    00:00:00 ps -ef
+jiang.2+ 20674 20672  0 14:59 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 14:59:27 2022
+##### ../build/read 16
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 21741 15163  0 15:01 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 21742 21741  0 15:01 pts/6    00:00:00 ps -ef
+jiang.2+ 21743 21741  0 15:01 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:01:15 2022
+##### ../build/read 256
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 23052 15163  0 15:02 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 23053 23052  0 15:02 pts/6    00:00:00 ps -ef
+jiang.2+ 23054 23052  0 15:02 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:02:03 2022
+##### ../build/read 1
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 24127 15163  0 15:20 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 24128 24127  0 15:20 pts/6    00:00:00 ps -ef
+jiang.2+ 24129 24127  0 15:20 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:20:53 2022
+##### ../build/read 64
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3631  3570  0 13:28 ?        00:00:08 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+  3642  3570  0 13:28 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+postfix  11584  3215  0 13:47 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 25228 15163  0 15:21 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25229 25228  0 15:21 pts/6    00:00:00 ps -ef
+jiang.2+ 25230 25228  0 15:21 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:21:41 2022
+##### ../build/read 1
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:03 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:01 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  2 15:35 ?        00:00:07 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+jiang.2+ 30271 15163  0 15:41 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 30272 30271  0 15:41 pts/6    00:00:00 ps -ef
+jiang.2+ 30273 30271  0 15:41 pts/6    00:00:00 grep -v ^[ ]*root
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:41:30 2022
+##### ../build/read 25
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:03 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  2 15:35 ?        00:00:09 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+ 31799 15163  0 15:42 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 31800 31799  0 15:42 pts/6    00:00:00 ps -ef
+jiang.2+ 31801 31799  0 15:42 pts/6    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:42:48 2022
+##### ../build/read 512
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1204 15163  0 15:43 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  1205  1204  0 15:43 pts/6    00:00:00 ps -ef
+jiang.2+  1206  1204  0 15:43 pts/6    00:00:00 grep -v ^[ ]*root
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:03 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  2 15:35 ?        00:00:10 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:43:36 2022
+##### ../build/read 256
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  2905  2663  0 15:43 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  2907  2905  0 15:43 pts/0    00:00:00 -bash
+jiang.2+  3007 15163  0 15:44 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  3008  3007  0 15:44 pts/6    00:00:00 ps -ef
+jiang.2+  3009  3007  0 15:44 pts/6    00:00:00 grep -v ^[ ]*root
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:03 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  2 15:35 ?        00:00:11 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:44:24 2022
+##### ../build/read 25
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  2905  2663  0 15:43 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  2907  2905  0 15:43 pts/0    00:00:00 -bash
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:03 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+jiang.2+  4384 15163  0 15:45 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  4385  4384  0 15:45 pts/6    00:00:00 ps -ef
+jiang.2+  4386  4384  0 15:45 pts/6    00:00:00 grep -v ^[ ]*root
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  2 15:35 ?        00:00:12 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 15:45:42 2022
+##### ../build/read 1
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:03 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+yang.52+  8390  8320  0 15:58 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  8391  8390  0 15:58 pts/0    00:00:00 -bash
+yang.52+  9353  8391 99 16:03 pts/0    00:17:43 ./bluefield_test --client --server-ip 10.1.1.3 --wr-size 1 --table-file ./out_table.txt
+jiang.2+  9653 15163  0 16:05 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  9654  9653  0 16:05 pts/6    00:00:00 ps -ef
+jiang.2+  9655  9653  0 16:05 pts/6    00:00:00 grep -v ^[ ]*root
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  1 15:35 ?        00:00:34 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 16:05:17 2022
+##### ../build/read 512
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:04 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+yang.52+  8390  8320  0 15:58 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  8391  8390  0 15:58 pts/0    00:00:00 -bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11395 15163  0 16:06 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 11396 11395  0 16:06 pts/6    00:00:00 ps -ef
+jiang.2+ 11397 11395  0 16:06 pts/6    00:00:00 grep -v ^[ ]*root
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  1 15:35 ?        00:00:35 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 16:06:05 2022
+##### ../build/read 512
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:04 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+yang.52+  8390  8320  0 15:58 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  8391  8390  0 15:58 pts/0    00:00:00 -bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 13172 15163  0 16:06 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 13173 13172  0 16:06 pts/6    00:00:00 ps -ef
+jiang.2+ 13174 13172  0 16:06 pts/6    00:00:00 grep -v ^[ ]*root
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  1 15:35 ?        00:00:36 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 16:06:53 2022
+##### ../build/read 16
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:04 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+yang.52+  8390  8320  0 15:58 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  8391  8390  0 15:58 pts/0    00:00:00 -bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 14617 15163  0 16:08 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14618 14617  0 16:08 pts/6    00:00:00 ps -ef
+jiang.2+ 14619 14617  0 16:08 pts/6    00:00:00 grep -v ^[ ]*root
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  1 15:35 ?        00:00:38 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 16:08:41 2022
+##### ../build/read 4
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:04 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+yang.52+  8390  8320  0 15:58 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  8391  8390  0 15:58 pts/0    00:00:00 -bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 16590 15163  0 16:13 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 16591 16590  0 16:13 pts/6    00:00:00 ps -ef
+jiang.2+ 16592 16590  0 16:13 pts/6    00:00:00 grep -v ^[ ]*root
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  1 15:35 ?        00:00:43 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 16:13:44 2022
+##### ../build/read 25
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:04 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+yang.52+  8390  8320  0 15:58 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  8391  8390  0 15:58 pts/0    00:00:00 -bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 17949 15163  0 16:15 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 17950 17949  0 16:15 pts/6    00:00:00 ps -ef
+jiang.2+ 17951 17949  0 16:15 pts/6    00:00:00 grep -v ^[ ]*root
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  1 15:35 ?        00:00:45 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----
+#DATE - Sun Apr 17 16:15:03 2022
+##### ../build/read 256
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+yang.52+  3372     1  0 13:27 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+  3373  3372  0 13:27 ?        00:00:00 (sd-pam)
+yang.52+  3558     1  0 13:28 ?        00:00:00 sh /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3570  3558  0 13:28 ?        00:00:04 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level off --connection-token-file /home/yang.5229/.vscode-server/.dfd34e8260c270da74b5c2d86d61aee4b6d56977.token
+yang.52+  3601  3570  0 13:28 ?        00:00:02 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=ptyHost
+yang.52+  3722  3601  0 13:28 pts/5    00:00:00 /bin/bash
+yang.52+  8390  8320  0 15:58 ?        00:00:00 sshd: yang.5229@pts/0
+yang.52+  8391  8390  0 15:58 pts/0    00:00:00 -bash
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 11848     1  0 13:51 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 11849 11848  0 13:51 ?        00:00:00 (sd-pam)
+jiang.2+ 15149     1  0 14:45 ?        00:00:00 SCREEN -S read
+jiang.2+ 15150 15149  0 14:45 pts/6    00:00:00 /bin/bash
+jiang.2+ 15162 15150  0 14:45 pts/6    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15163 15162  0 14:45 pts/6    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 19419 15163  0 16:15 pts/6    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19420 19419  0 16:15 pts/6    00:00:00 ps -ef
+jiang.2+ 19421 19419  0 16:15 pts/6    00:00:00 grep -v ^[ ]*root
+postfix  26498  3215  0 15:27 ?        00:00:00 pickup -l -t unix -u -c
+yang.52+ 28199 28123  0 15:35 ?        00:00:00 sshd: yang.5229@notty
+yang.52+ 28200 28199  0 15:35 ?        00:00:00 -bash
+yang.52+ 28204 28200  0 15:35 ?        00:00:00 bash
+yang.52+ 28255  3570  1 15:35 ?        00:00:46 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+yang.52+ 28266  3570  0 15:35 ?        00:00:00 /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node /home/yang.5229/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap-fork --type=fileWatcher
+www-data 30522  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 30523  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+---- PS INFO END ----

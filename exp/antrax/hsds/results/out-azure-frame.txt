@@ -1,0 +1,18 @@
+python3 /home/jiang.2091/antrax/hsds/src/run.py /home/jiang.2091/antrax/workload/0.05/workload.txt
+Sun Mar 26 18:36:54 2023
+total time:  84.94794821739197
+python3 /home/jiang.2091/antrax/hsds/src/run.py /home/jiang.2091/antrax/workload/0.01/workload.txt
+Sun Mar 26 18:38:57 2023
+total time:  20.74339985847473
+python3 /home/jiang.2091/antrax/hsds/src/run.py /home/jiang.2091/antrax/workload/0.01/workload.txt
+Sun Mar 26 18:40:00 2023
+total time:  18.771179676055908
+python3 /home/jiang.2091/antrax/hsds/src/run.py /home/jiang.2091/antrax/workload/0.1/workload.txt
+Sun Mar 26 18:41:03 2023
+total time:  168.34664368629456
+python3 /home/jiang.2091/antrax/hsds/src/run.py /home/jiang.2091/antrax/workload/0.05/workload.txt
+Sun Mar 26 18:44:07 2023
+total time:  86.99061846733093
+python3 /home/jiang.2091/antrax/hsds/src/run.py /home/jiang.2091/antrax/workload/0.1/workload.txt
+Sun Mar 26 18:46:10 2023
+total time:  163.631450176239

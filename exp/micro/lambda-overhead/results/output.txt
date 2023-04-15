@@ -1,0 +1,450 @@
+../build/build/read gc_lambda_40
+Mon Feb 13 17:25:27 2023
+start_stamp: 1676327127475
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 39
+Total Time: 22.8693
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1447952384 64987774976       32768   815165440 65141387264
+Swap:    2147479552   359768064  1787711488
+Request 65141387264
+end_stamp: 1676327168361
+../build/build/read gc_lambda_40
+Mon Feb 13 17:26:16 2023
+start_stamp: 1676327177604
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 39
+Total Time: 25.1372
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1546477568 65422508032       40960   281907200 65088000000
+Swap:    2147479552   359796736  1787682816
+Request 65088000000
+end_stamp: 1676327222257
+../build/build/read gc_lambda_100
+Mon Feb 13 17:27:20 2023
+start_stamp: 1676327241270
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 0
+Total Time: 10.7067
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1474056192 65490108416       24576   286728192 65158021120
+Swap:    2147479552   365301760  1782177792
+Request 65158021120
+end_stamp: 1676327270339
+../build/build/read gc_lambda_0
+Mon Feb 13 17:27:55 2023
+start_stamp: 1676327275620
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 64
+Total Time: 37.3221
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1180774400 65756925952       20480   313192448 65438064640
+Swap:    2147479552   366088192  1781391360
+Request 65438064640
+end_stamp: 1676327331295
+../build/build/read gc_lambda_20
+Mon Feb 13 17:28:59 2023
+start_stamp: 1676327339720
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 52
+Total Time: 32.1777
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1647738880 65292402688       20480   310751232 64972283904
+Swap:    2147479552   368185344  1779294208
+Request 64972283904
+end_stamp: 1676327389495
+../build/build/read gc_lambda_60
+Mon Feb 13 17:30:03 2023
+start_stamp: 1676327403712
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 26
+Total Time: 19.9124
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1517293568 65475518464       16384   258080768 65129095168
+Swap:    2147479552   370282496  1777197056
+Request 65129095168
+end_stamp: 1676327441735
+../build/build/read gc_lambda_20
+Mon Feb 13 17:30:52 2023
+start_stamp: 1676327452937
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 52
+Total Time: 31.532
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1702060032 65243103232       16384   305729536 64920510464
+Swap:    2147479552   376029184  1771450368
+Request 64920510464
+end_stamp: 1676327502084
+../build/build/read gc_lambda_80
+Mon Feb 13 17:31:56 2023
+start_stamp: 1676327517354
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 13
+Total Time: 12.4616
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1388142592 65562529792       16384   300220416 65237180416
+Swap:    2147479552   376147968  1771331584
+Request 65237180416
+end_stamp: 1676327547585
+../build/build/read gc_lambda_20
+Mon Feb 13 17:32:46 2023
+start_stamp: 1676327566370
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 52
+Total Time: 31.4162
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1680756736 65223409664       20480   346726400 64921313280
+Swap:    2147479552   374214656  1773264896
+Request 64921313280
+end_stamp: 1676327616061
+../build/build/read gc_lambda_40
+Mon Feb 13 17:33:50 2023
+start_stamp: 1676327630545
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 39
+Total Time: 23.4556
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1444470784 65535635456       20480   270786560 65195569152
+Swap:    2147479552   373952512  1773527040
+Request 65195569152
+end_stamp: 1676327671868
+../build/build/read gc_lambda_40
+Mon Feb 13 17:34:39 2023
+start_stamp: 1676327679853
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 39
+Total Time: 23.6243
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1390186496 65591758848       20480   268947456 65250758656
+Swap:    2147479552   373690368  1773789184
+Request 65250758656
+end_stamp: 1676327722293
+../build/build/read gc_lambda_80
+Mon Feb 13 17:35:28 2023
+start_stamp: 1676327728745
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 13
+Total Time: 12.8297
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1743306752 65194631168       20480   312954880 64875646976
+Swap:    2147479552   373428224  1774051328
+Request 64875646976
+end_stamp: 1676327760297
+../build/build/read gc_lambda_0
+Mon Feb 13 17:36:18 2023
+start_stamp: 1676327779053
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 64
+Total Time: 37.3778
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1213468672 65693478912       32768   343945216 65389993984
+Swap:    2147479552   366903296  1780576256
+Request 65389993984
+end_stamp: 1676327834044
+../build/build/read gc_lambda_60
+Mon Feb 13 17:37:22 2023
+start_stamp: 1676327843337
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 26
+Total Time: 17.5779
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1506484224 65481203712       24576   263204864 65137356800
+Swap:    2147479552   366891008  1780588544
+Request 65137356800
+end_stamp: 1676327879083
+../build/build/read gc_lambda_0
+Mon Feb 13 17:38:11 2023
+start_stamp: 1676327892319
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 64
+Total Time: 37.4093
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1178755072 65766780928       24576   305356800 65443999744
+Swap:    2147479552   367661056  1779818496
+Request 65443999744
+end_stamp: 1676327947881
+../build/build/read gc_lambda_80
+Mon Feb 13 17:39:16 2023
+start_stamp: 1676327956419
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 13
+Total Time: 12.5819
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1899405312 65065512960       20480   285974528 64733040640
+Swap:    2147479552   370544640  1776934912
+Request 64733040640
+end_stamp: 1676327986962
+../build/build/read gc_lambda_0
+Mon Feb 13 17:40:05 2023
+start_stamp: 1676328005461
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 64
+Total Time: 37.4915
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1177448448 65735958528       16384   337485824 65429110784
+Swap:    2147479552   370282496  1777197056
+Request 65429110784
+end_stamp: 1676328061889
+../build/build/read gc_lambda_80
+Mon Feb 13 17:41:09 2023
+start_stamp: 1676328069461
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 13
+Total Time: 12.4744
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1840463872 65112662016       24576   297766912 64786075648
+Swap:    2147479552   370544640  1776934912
+Request 64786075648
+end_stamp: 1676328100175
+../build/build/read gc_lambda_80
+Mon Feb 13 17:41:58 2023
+start_stamp: 1676328119336
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 13
+Total Time: 13.2142
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1740017664 65216012288       24576   294862848 64887984128
+Swap:    2147479552   370282496  1777197056
+Request 64887984128
+end_stamp: 1676328150674
+../build/build/read gc_lambda_100
+Mon Feb 13 17:42:48 2023
+start_stamp: 1676328169294
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 0
+Total Time: 10.5054
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1462714368 65477746688       24576   310431744 65157337088
+Swap:    2147479552   369758208  1777721344
+Request 65157337088
+end_stamp: 1676328198311
+../build/build/read gc_lambda_100
+Mon Feb 13 17:43:23 2023
+start_stamp: 1676328203502
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 0
+Total Time: 11.6371
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1341980672 65632137216       24576   276774912 65295052800
+Swap:    2147479552   370282496  1777197056
+Request 65295052800
+end_stamp: 1676328234027
+../build/build/read gc_lambda_100
+Mon Feb 13 17:44:12 2023
+start_stamp: 1676328253077
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 0
+Total Time: 13.1158
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1345830912 65636040704       20480   269021184 65295093760
+Swap:    2147479552   370020352  1777459200
+Request 65295093760
+end_stamp: 1676328284417
+../build/build/read gc_lambda_40
+Mon Feb 13 17:45:02 2023
+start_stamp: 1676328303111
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 39
+Total Time: 23.5098
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1381416960 65635569664       20480   233906176 65277050880
+Swap:    2147479552   371593216  1775886336
+Request 65277050880
+end_stamp: 1676328344604
+../build/build/read gc_lambda_20
+Mon Feb 13 17:45:51 2023
+start_stamp: 1676328352352
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 52
+Total Time: 30.9652
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1627729920 65318285312       16384   304877568 64995258368
+Swap:    2147479552   373952512  1773527040
+Request 64995258368
+end_stamp: 1676328401635
+../build/build/read gc_lambda_0
+Mon Feb 13 17:46:56 2023
+start_stamp: 1676328416602
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 64
+Total Time: 37.3989
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1167585280 65780604928       16384   302702592 65456492544
+Swap:    2147479552   373690368  1773789184
+Request 65456492544
+end_stamp: 1676328472095
+../build/build/read gc_lambda_60
+Mon Feb 13 17:48:01 2023
+start_stamp: 1676328481635
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 26
+Total Time: 17.387
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1532825600 65459740672       16384   258326528 65113444352
+Swap:    2147479552   373952512  1773527040
+Request 65113444352
+end_stamp: 1676328517450
+../build/build/read gc_lambda_20
+Mon Feb 13 17:48:50 2023
+start_stamp: 1676328530752
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 52
+Total Time: 33.1953
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1702400000 65199140864       20480   349351936 64898359296
+Swap:    2147479552   370282496  1777197056
+Request 64898359296
+end_stamp: 1676328581668
+../build/build/read gc_lambda_60
+Mon Feb 13 17:49:54 2023
+start_stamp: 1676328594761
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 26
+Total Time: 17.3007
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1468600320 65514250240       20480   268042240 65172811776
+Swap:    2147479552   370020352  1777459200
+Request 65172811776
+end_stamp: 1676328630488
+../build/build/read gc_lambda_100
+Mon Feb 13 17:50:43 2023
+start_stamp: 1676328643877
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 0
+Total Time: 10.4049
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1734959104 65241247744       20480   274685952 64903131136
+Swap:    2147479552   372117504  1775362048
+Request 64903131136
+end_stamp: 1676328672528
+../build/build/read gc_lambda_60
+Mon Feb 13 17:51:17 2023
+start_stamp: 1676328677902
+transfer_size: 536870912
+s3_req_num: 0
+azure_req_num: 0
+gc_req_num: 64
+s3_lambda_num: 0
+gc_lambda_num: 26
+Total Time: 17.7077
+              total        used        free      shared  buff/cache   available
+Mem:    67250892800  1474220032 65507631104       20480   269041664 65166680064
+Swap:    2147479552   371593216  1775886336
+Request 65166680064
+end_stamp: 1676328713834

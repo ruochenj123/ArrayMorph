@@ -1,0 +1,1620 @@
+../build/read 4 4 1024
+Tue Sep 20 18:50:43 2022
+start_stamp: 1663714243880
+# of requests: 256
+# of lambda: 1
+transferred size: 1073741824
+Total Time: 9.90146
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  6448644096 38558371840     1355776 22243864576 60054896640
+Swap:    2147479552   143597568  2003881984
+Request 60054896640
+end_stamp: 1663714272764
+../build/read 4 8 256
+Tue Sep 20 18:51:17 2022
+start_stamp: 1663714278164
+# of requests: 64
+# of lambda: 1
+transferred size: 272629760
+Total Time: 3.29262
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  6482227200 60504236032     1114112   264417280 60160446464
+Swap:    2147479552   156704768  1990774784
+Request 60160446464
+end_stamp: 1663714299410
+../build/read 64 4 4096
+Tue Sep 20 18:51:51 2022
+start_stamp: 1663714311410
+# of requests: 64
+# of lambda: 1
+transferred size: 4232052736
+Total Time: 37.056
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  7370493952 59234537472     1114112   645849088 59198066688
+Swap:    2147479552   302608384  1844871168
+Request 59198066688
+end_stamp: 1663714365535
+../build/read 4 4 1024
+Tue Sep 20 18:53:01 2022
+start_stamp: 1663714384934
+# of requests: 256
+# of lambda: 1
+transferred size: 1073741824
+Total Time: 10.0521
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  5815750656 60553441280      102400   881688576 60748451840
+Swap:    2147479552   367210496  1780269056
+Request 60748451840
+end_stamp: 1663714420693
+../build/read 64 4 1024
+Tue Sep 20 18:53:51 2022
+start_stamp: 1663714432176
+# of requests: 16
+# of lambda: 1
+transferred size: 1010827264
+Total Time: 10.694
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  5631627264 61258010624       65536   361242624 60963135488
+Swap:    2147479552   607334400  1540145152
+Request 60963135488
+end_stamp: 1663714460025
+../build/read 4 4 256
+Tue Sep 20 18:54:24 2022
+start_stamp: 1663714464986
+# of requests: 64
+# of lambda: 1
+transferred size: 268435456
+Total Time: 3.11382
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3709763584 63094214656       57344   446902272 62859497472
+Swap:    2147479552   575614976  1571864576
+Request 62859497472
+end_stamp: 1663714485332
+../build/read 64 8 256
+Tue Sep 20 18:54:58 2022
+start_stamp: 1663714498070
+# of requests: 4
+# of lambda: 1
+transferred size: 209715200
+Total Time: 4.97409
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1940393984 64854056960       57344   456429568 64628908032
+Swap:    2147479552   217788416  1929691136
+Request 64628908032
+end_stamp: 1663714521120
+../build/read 64 32 256
+Tue Sep 20 18:55:31 2022
+start_stamp: 1663714532293
+# of requests: 4
+# of lambda: 1
+transferred size: 234881024
+Total Time: 2.43101
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1844772864 65218162688       45056   187944960 64836640768
+Swap:    2147479552   269430784  1878048768
+Request 64836640768
+end_stamp: 1663714554737
+../build/read 4 4 4096
+Tue Sep 20 18:56:05 2022
+start_stamp: 1663714566159
+# of requests: 1024
+# of lambda: 1
+transferred size: 4294967296
+Total Time: 37.3329
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2603753472 64443580416       28672   203546624 64069898240
+Swap:    2147479552   327626752  1819852800
+Request 64069898240
+end_stamp: 1663714622128
+../build/read 64 4 1024
+Tue Sep 20 18:57:09 2022
+start_stamp: 1663714630051
+# of requests: 16
+# of lambda: 1
+transferred size: 1010827264
+Total Time: 10.6345
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2111647744 64945786880       20480   193445888 64567058432
+Swap:    2147479552   362323968  1785155584
+Request 64567058432
+end_stamp: 1663714659736
+../build/read 16 4 256
+Tue Sep 20 18:57:58 2022
+start_stamp: 1663714678750
+# of requests: 16
+# of lambda: 1
+transferred size: 255852544
+Total Time: 4.57326
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2104397824 64945168384       20480   201314304 64570347520
+Swap:    2147479552   417800192  1729679360
+Request 64570347520
+end_stamp: 1663714702592
+../build/read 16 4 4096
+Tue Sep 20 18:58:32 2022
+start_stamp: 1663714713309
+# of requests: 256
+# of lambda: 1
+transferred size: 4282384384
+Total Time: 37.4417
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2716708864 64323637248       20480   210534400 63953448960
+Swap:    2147479552   474619904  1672859648
+Request 63953448960
+end_stamp: 1663714769567
+../build/read 4 4 256
+Tue Sep 20 18:59:37 2022
+start_stamp: 1663714778975
+# of requests: 64
+# of lambda: 1
+transferred size: 268435456
+Total Time: 3.00036
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2035990528 65006534656       53248   208355328 64635346944
+Swap:    2147479552   413540352  1733939200
+Request 64635346944
+end_stamp: 1663714803020
+../build/read 16 8 256
+Tue Sep 20 19:00:11 2022
+start_stamp: 1663714812142
+# of requests: 16
+# of lambda: 1
+transferred size: 260046848
+Total Time: 5.06896
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1832902656 65244389376       53248   173588480 64855711744
+Swap:    2147479552   425070592  1722408960
+Request 64855711744
+end_stamp: 1663714835842
+../build/read 64 8 256
+Tue Sep 20 19:00:45 2022
+start_stamp: 1663714846492
+# of requests: 4
+# of lambda: 1
+transferred size: 209715200
+Total Time: 3.01378
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1534767104 65541361664       16384   174751744 65153265664
+Swap:    2147479552   435560448  1711919104
+Request 65153265664
+end_stamp: 1663714868575
+../build/read 16 32 4096
+Tue Sep 20 19:01:19 2022
+start_stamp: 1663714880300
+# of requests: 256
+# of lambda: 1
+transferred size: 4311744512
+Total Time: 40.157
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3026534400 64019083264       20480   205262848 63646265344
+Swap:    2147479552   442265600  1705213952
+Request 63646265344
+end_stamp: 1663714938898
+../build/read 64 8 1024
+Tue Sep 20 19:02:24 2022
+start_stamp: 1663714944933
+# of requests: 16
+# of lambda: 1
+transferred size: 1015021568
+Total Time: 17.1136
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1939673088 65137811456       20480   173395968 64749035520
+Swap:    2147479552   447094784  1700384768
+Request 64749035520
+end_stamp: 1663714981269
+../build/read 64 4 1024
+Tue Sep 20 19:03:13 2022
+start_stamp: 1663714993808
+# of requests: 16
+# of lambda: 1
+transferred size: 1010827264
+Total Time: 11.1319
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1960488960 65117843456       20480   172548096 64728662016
+Swap:    2147479552   448405504  1699074048
+Request 64728662016
+end_stamp: 1663715025375
+../build/read 64 8 4096
+Tue Sep 20 19:04:03 2022
+start_stamp: 1663715043800
+# of requests: 64
+# of lambda: 1
+transferred size: 4236247040
+Total Time: 37.8963
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3313500160 63738642432       20480   198737920 63362539520
+Swap:    2147479552   458719232  1688760320
+Request 63362539520
+end_stamp: 1663715100352
+../build/read 64 32 1024
+Tue Sep 20 19:05:08 2022
+start_stamp: 1663715108625
+# of requests: 16
+# of lambda: 1
+transferred size: 1040187392
+Total Time: 11.1348
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1844781056 65214353408       20480   191746048 64834764800
+Swap:    2147479552   447430656  1700048896
+Request 64834764800
+end_stamp: 1663715138967
+../build/read 64 32 4096
+Tue Sep 20 19:05:57 2022
+start_stamp: 1663715158150
+# of requests: 64
+# of lambda: 1
+transferred size: 4261412864
+Total Time: 38.3428
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3534323712 63518941184       16384   197615616 63142313984
+Swap:    2147479552   445390848  1702088704
+Request 63142313984
+end_stamp: 1663715215419
+../build/read 64 4 256
+Tue Sep 20 19:07:01 2022
+start_stamp: 1663715222316
+# of requests: 4
+# of lambda: 1
+transferred size: 205520896
+Total Time: 11.128
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1539805184 65530327040       16384   180748288 65145217024
+Swap:    2147479552   446439424  1701040128
+Request 65145217024
+end_stamp: 1663715252685
+../build/read 16 32 256
+Tue Sep 20 19:07:51 2022
+start_stamp: 1663715271549
+# of requests: 16
+# of lambda: 1
+transferred size: 285212672
+Total Time: 4.52364
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1858326528 65214279680       16384   178274304 64827932672
+Swap:    2147479552   448659456  1698820096
+Request 64827932672
+end_stamp: 1663715297420
+../build/read 4 8 4096
+Tue Sep 20 19:08:27 2022
+start_stamp: 1663715307858
+# of requests: 1024
+# of lambda: 1
+transferred size: 4299161600
+Total Time: 37.5799
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2436206592 64637919232       16384   176754688 64250830848
+Swap:    2147479552   454012928  1693466624
+Request 64250830848
+end_stamp: 1663715363832
+../build/read 4 32 4096
+Tue Sep 20 19:09:31 2022
+start_stamp: 1663715372216
+# of requests: 1024
+# of lambda: 1
+transferred size: 4324327424
+Total Time: 40.3885
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3473297408 63596597248       16384   180985856 63211630592
+Swap:    2147479552   452440064  1695039488
+Request 63211630592
+end_stamp: 1663715431099
+../build/read 4 8 256
+Tue Sep 20 19:10:36 2022
+start_stamp: 1663715436733
+# of requests: 64
+# of lambda: 1
+transferred size: 272629760
+Total Time: 3.31736
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1914916864 65164447744       16384   171515904 64774737920
+Swap:    2147479552   451178496  1696301056
+Request 64774737920
+end_stamp: 1663715460823
+../build/read 4 8 1024
+Tue Sep 20 19:11:10 2022
+start_stamp: 1663715470691
+# of requests: 256
+# of lambda: 1
+transferred size: 1077936128
+Total Time: 10.4255
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1920462848 65157169152       16384   173248512 64768339968
+Swap:    2147479552   451473408  1696006144
+Request 64768339968
+end_stamp: 1663715501035
+../build/read 64 32 4096
+Tue Sep 20 19:11:59 2022
+start_stamp: 1663715520549
+# of requests: 64
+# of lambda: 1
+transferred size: 4261412864
+Total Time: 37.3251
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3526934528 63525646336       20480   198299648 63149338624
+Swap:    2147479552   461783040  1685696512
+Request 63149338624
+end_stamp: 1663715575816
+../build/read 4 32 4096
+Tue Sep 20 19:13:03 2022
+start_stamp: 1663715584366
+# of requests: 1024
+# of lambda: 1
+transferred size: 4324327424
+Total Time: 40.1546
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3477348352 63577038848       20480   196493312 63199838208
+Swap:    2147479552   448675840  1698803712
+Request 63199838208
+end_stamp: 1663715643244
+../build/read 64 8 4096
+Tue Sep 20 19:14:08 2022
+start_stamp: 1663715648907
+# of requests: 64
+# of lambda: 1
+transferred size: 4236247040
+Total Time: 37.5257
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3546423296 63507488768       20480   196968448 63130513408
+Swap:    2147479552   444743680  1702735872
+Request 63130513408
+end_stamp: 1663715706128
+../build/read 16 32 1024
+Tue Sep 20 19:15:12 2022
+start_stamp: 1663715713324
+# of requests: 64
+# of lambda: 1
+transferred size: 1090519040
+Total Time: 10.249
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2816827392 64250073088       20480   183980032 63866613760
+Swap:    2147479552   447889408  1699590144
+Request 63866613760
+end_stamp: 1663715742548
+../build/read 16 8 1024
+Tue Sep 20 19:16:02 2022
+start_stamp: 1663715762757
+# of requests: 64
+# of lambda: 1
+transferred size: 1065353216
+Total Time: 10.0514
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2929393664 64142041088       16384   179445760 63756312576
+Swap:    2147479552   450260992  1697218560
+Request 63756312576
+end_stamp: 1663715790998
+../build/read 64 32 4096
+Tue Sep 20 19:16:36 2022
+start_stamp: 1663715796915
+# of requests: 64
+# of lambda: 1
+transferred size: 4261412864
+Total Time: 37.9076
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3000700928 64063123456       24576   187056128 63681204224
+Swap:    2147479552   447377408  1700102144
+Request 63681204224
+end_stamp: 1663715852824
+../build/read 4 32 256
+Tue Sep 20 19:17:40 2022
+start_stamp: 1663715860890
+# of requests: 64
+# of lambda: 1
+transferred size: 297795584
+Total Time: 3.24811
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2032308224 65045733376       24576   172838912 64656703488
+Swap:    2147479552   449474560  1698004992
+Request 64656703488
+end_stamp: 1663715882659
+../build/read 4 4 1024
+Tue Sep 20 19:18:14 2022
+start_stamp: 1663715894815
+# of requests: 256
+# of lambda: 1
+transferred size: 1073741824
+Total Time: 10.1605
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1894711296 65183166464       16384   173002752 64794214400
+Swap:    2147479552   449736704  1697742848
+Request 64794214400
+end_stamp: 1663715929670
+../build/read 4 32 4096
+Tue Sep 20 19:19:19 2022
+start_stamp: 1663715959557
+# of requests: 1024
+# of lambda: 1
+transferred size: 4324327424
+Total Time: 40.2172
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3266723840 63803494400       16384   180662272 63418376192
+Swap:    2147479552   449732608  1697746944
+Request 63418376192
+end_stamp: 1663716019276
+../build/read 4 32 1024
+Tue Sep 20 19:20:38 2022
+start_stamp: 1663716038848
+# of requests: 256
+# of lambda: 1
+transferred size: 1103101952
+Total Time: 30.4245
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2066178048 64987734016       20480   196968448 64610754560
+Swap:    2147479552   445239296  1702240256
+Request 64610754560
+end_stamp: 1663716089209
+../build/read 16 32 1024
+Tue Sep 20 19:21:42 2022
+start_stamp: 1663716102973
+# of requests: 64
+# of lambda: 1
+transferred size: 1090519040
+Total Time: 11.5714
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2804461568 64263806976       20480   182611968 63879647232
+Swap:    2147479552   447954944  1699524608
+Request 63879647232
+end_stamp: 1663716133525
+../build/read 16 4 4096
+Tue Sep 20 19:22:31 2022
+start_stamp: 1663716152206
+# of requests: 256
+# of lambda: 1
+transferred size: 4282384384
+Total Time: 65.4202
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2762235904 64292794368       16384   195850240 63915229184
+Swap:    2147479552   444788736  1702690816
+Request 63915229184
+end_stamp: 1663716236179
+../build/read 16 8 1024
+Tue Sep 20 19:24:05 2022
+start_stamp: 1663716246256
+# of requests: 64
+# of lambda: 1
+transferred size: 1065353216
+Total Time: 10.1671
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3607773184 63469535232       16384   173572096 63080878080
+Swap:    2147479552   447168512  1700311040
+Request 63080878080
+end_stamp: 1663716274366
+../build/read 16 32 1024
+Tue Sep 20 19:24:40 2022
+start_stamp: 1663716280656
+# of requests: 64
+# of lambda: 1
+transferred size: 1090519040
+Total Time: 11.9711
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2814152704 64261025792       16384   175702016 63873298432
+Swap:    2147479552   450580480  1696899072
+Request 63873298432
+end_stamp: 1663716311913
+../build/read 16 4 1024
+Tue Sep 20 19:25:30 2022
+start_stamp: 1663716331164
+# of requests: 64
+# of lambda: 1
+transferred size: 1061158912
+Total Time: 9.84416
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3317014528 63753912320       16384   179953664 63368437760
+Swap:    2147479552   448479232  1699000320
+Request 63368437760
+end_stamp: 1663716359023
+../build/read 4 8 4096
+Tue Sep 20 19:26:05 2022
+start_stamp: 1663716365873
+# of requests: 1024
+# of lambda: 1
+transferred size: 4299161600
+Total Time: 37.5042
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3094069248 63976345600       16384   180465664 63591124992
+Swap:    2147479552   449273856  1698205696
+Request 63591124992
+end_stamp: 1663716421541
+../build/read 64 8 256
+Tue Sep 20 19:27:09 2022
+start_stamp: 1663716429772
+# of requests: 4
+# of lambda: 1
+transferred size: 209715200
+Total Time: 8.61942
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1551544320 65525436416       16384   173899776 65136934912
+Swap:    2147479552   448487424  1698992128
+Request 65136934912
+end_stamp: 1663716458305
+../build/read 4 8 256
+Tue Sep 20 19:27:58 2022
+start_stamp: 1663716479272
+# of requests: 64
+# of lambda: 1
+transferred size: 272629760
+Total Time: 3.12298
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2056028160 65017155584       16384   177696768 64630550528
+Swap:    2147479552   460070912  1687408640
+Request 64630550528
+end_stamp: 1663716501625
+../build/read 64 8 4096
+Tue Sep 20 19:28:33 2022
+start_stamp: 1663716514297
+# of requests: 64
+# of lambda: 1
+transferred size: 4236247040
+Total Time: 37.6236
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3445272576 63605190656       20480   200417280 63229956096
+Swap:    2147479552   448012288  1699467264
+Request 63229956096
+end_stamp: 1663716571366
+../build/read 16 4 1024
+Tue Sep 20 19:29:37 2022
+start_stamp: 1663716578505
+# of requests: 64
+# of lambda: 1
+transferred size: 1061158912
+Total Time: 10.3651
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3611234304 63457431552       16384   182214656 63073095680
+Swap:    2147479552   446963712  1700515840
+Request 63073095680
+end_stamp: 1663716609722
+../build/read 16 8 1024
+Tue Sep 20 19:30:28 2022
+start_stamp: 1663716628772
+# of requests: 64
+# of lambda: 1
+transferred size: 1065353216
+Total Time: 10.6332
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3382386688 63687323648       16384   181170176 63302459392
+Swap:    2147479552   446955520  1700524032
+Request 63302459392
+end_stamp: 1663716658438
+../build/read 16 32 256
+Tue Sep 20 19:31:17 2022
+start_stamp: 1663716678172
+# of requests: 16
+# of lambda: 1
+transferred size: 285212672
+Total Time: 4.09433
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1780998144 65285496832       20480   184385536 64902230016
+Swap:    2147479552   448753664  1698725888
+Request 64902230016
+end_stamp: 1663716703122
+../build/read 16 8 1024
+Tue Sep 20 19:31:51 2022
+start_stamp: 1663716712305
+# of requests: 64
+# of lambda: 1
+transferred size: 1065353216
+Total Time: 9.89145
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2643070976 64429707264       20480   178102272 64043302912
+Swap:    2147479552   438833152  1708646400
+Request 64043302912
+end_stamp: 1663716740912
+../build/read 16 4 256
+Tue Sep 20 19:32:25 2022
+start_stamp: 1663716746330
+# of requests: 16
+# of lambda: 1
+transferred size: 255852544
+Total Time: 3.04948
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1701535744 65377763328       16384   171581440 64988086272
+Swap:    2147479552   444338176  1703141376
+Request 64988086272
+end_stamp: 1663716767746
+../build/read 64 8 1024
+Tue Sep 20 19:32:59 2022
+start_stamp: 1663716780097
+# of requests: 16
+# of lambda: 1
+transferred size: 1015021568
+Total Time: 10.655
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1883381760 65190854656       16384   176644096 64803721216
+Swap:    2147479552   445648896  1701830656
+Request 64803721216
+end_stamp: 1663716810415
+../build/read 64 8 1024
+Tue Sep 20 19:33:49 2022
+start_stamp: 1663716830188
+# of requests: 16
+# of lambda: 1
+transferred size: 1015021568
+Total Time: 12.6948
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1762263040 65309011968       16384   179605504 64923324416
+Swap:    2147479552   447594496  1699885056
+Request 64923324416
+end_stamp: 1663716861375
+../build/read 64 4 256
+Tue Sep 20 19:34:39 2022
+start_stamp: 1663716879755
+# of requests: 4
+# of lambda: 1
+transferred size: 205520896
+Total Time: 3.62674
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1547612160 65529065472       16384   174202880 65140719616
+Swap:    2147479552   448905216  1698574336
+Request 65140719616
+end_stamp: 1663716902193
+../build/read 16 4 256
+Tue Sep 20 19:35:13 2022
+start_stamp: 1663716913555
+# of requests: 16
+# of lambda: 1
+transferred size: 255852544
+Total Time: 5.69224
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1731268608 65347059712       16384   172552192 64957882368
+Swap:    2147479552   451878912  1695600640
+Request 64957882368
+end_stamp: 1663716937555
+../build/read 64 32 1024
+Tue Sep 20 19:35:47 2022
+start_stamp: 1663716947747
+# of requests: 16
+# of lambda: 1
+transferred size: 1040187392
+Total Time: 10.2923
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2017406976 65054560256       16384   178913280 64668553216
+Swap:    2147479552   452050944  1695428608
+Request 64668553216
+end_stamp: 1663716976732
+../build/read 16 32 4096
+Tue Sep 20 19:36:22 2022
+start_stamp: 1663716982555
+# of requests: 256
+# of lambda: 1
+transferred size: 4311744512
+Total Time: 39.5949
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2931683328 64124346368       20480   194850816 63746322432
+Swap:    2147479552   447332352  1700147200
+Request 63746322432
+end_stamp: 1663717040758
+../build/read 16 4 4096
+Tue Sep 20 19:37:26 2022
+start_stamp: 1663717047271
+# of requests: 256
+# of lambda: 1
+transferred size: 4282384384
+Total Time: 37.7717
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2650988544 64405934080       20480   193957888 64027451392
+Swap:    2147479552   448380928  1699098624
+Request 64027451392
+end_stamp: 1663717105260
+../build/read 4 8 256
+Tue Sep 20 19:38:33 2022
+start_stamp: 1663717113696
+# of requests: 64
+# of lambda: 1
+transferred size: 272629760
+Total Time: 5.88998
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2065162240 65005703168       16384   180015104 64620261376
+Swap:    2147479552   454488064  1692991488
+Request 64620261376
+end_stamp: 1663717138840
+../build/read 4 32 256
+Tue Sep 20 19:39:07 2022
+start_stamp: 1663717147580
+# of requests: 64
+# of lambda: 1
+transferred size: 297795584
+Total Time: 3.2377
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1876779008 65191538688       20480   182562816 64807370752
+Swap:    2147479552   448196608  1699282944
+Request 64807370752
+end_stamp: 1663717170602
+../build/read 64 4 4096
+Tue Sep 20 19:39:41 2022
+start_stamp: 1663717182129
+# of requests: 64
+# of lambda: 1
+transferred size: 4232052736
+Total Time: 37.4297
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3245887488 63814672384       16384   190320640 63434379264
+Swap:    2147479552   454365184  1693114368
+Request 63434379264
+end_stamp: 1663717238307
+../build/read 64 4 4096
+Tue Sep 20 19:40:45 2022
+start_stamp: 1663717246463
+# of requests: 64
+# of lambda: 1
+transferred size: 4232052736
+Total Time: 37.0498
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3486932992 63585701888       16384   178245632 63199358976
+Swap:    2147479552   448860160  1698619392
+Request 63199358976
+end_stamp: 1663717301709
+../build/read 16 32 4096
+Tue Sep 20 19:41:50 2022
+start_stamp: 1663717311054
+# of requests: 256
+# of lambda: 1
+transferred size: 4311744512
+Total Time: 39.4481
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2859458560 64209121280       16384   182300672 63824814080
+Swap:    2147479552   451743744  1695735808
+Request 63824814080
+end_stamp: 1663717369513
+../build/read 64 32 1024
+Tue Sep 20 19:42:54 2022
+start_stamp: 1663717375221
+# of requests: 16
+# of lambda: 1
+transferred size: 1040187392
+Total Time: 10.5133
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1863135232 65210908672       16384   176836608 64823881728
+Swap:    2147479552   451743744  1695735808
+Request 64823881728
+end_stamp: 1663717404501
+../build/read 4 8 4096
+Tue Sep 20 19:43:28 2022
+start_stamp: 1663717409387
+# of requests: 1024
+# of lambda: 1
+transferred size: 4299161600
+Total Time: 37.3632
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2234195968 64829046784       16384   187637760 64447414272
+Swap:    2147479552   450433024  1697046528
+Request 64447414272
+end_stamp: 1663717466907
+../build/read 16 8 4096
+Tue Sep 20 19:44:32 2022
+start_stamp: 1663717473421
+# of requests: 256
+# of lambda: 1
+transferred size: 4286578688
+Total Time: 37.4159
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2725871616 64327467008       20480   197541888 63950688256
+Swap:    2147479552   445714432  1701765120
+Request 63950688256
+end_stamp: 1663717529476
+../build/read 4 32 256
+Tue Sep 20 19:45:36 2022
+start_stamp: 1663717537387
+# of requests: 64
+# of lambda: 1
+transferred size: 297795584
+Total Time: 6.7647
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2079694848 64986050560       20480   185135104 64603164672
+Swap:    2147479552   445452288  1702027264
+Request 64603164672
+end_stamp: 1663717563115
+../build/read 16 32 256
+Tue Sep 20 19:46:10 2022
+start_stamp: 1663717571245
+# of requests: 16
+# of lambda: 1
+transferred size: 285212672
+Total Time: 5.51293
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1904840704 65154654208       20480   191385600 64774889472
+Swap:    2147479552   448860160  1698619392
+Request 64774889472
+end_stamp: 1663717596565
+../build/read 16 32 4096
+Tue Sep 20 19:46:44 2022
+start_stamp: 1663717605312
+# of requests: 256
+# of lambda: 1
+transferred size: 4311744512
+Total Time: 39.7949
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2471804928 64581976064       20480   197099520 64205070336
+Swap:    2147479552   445460480  1702019072
+Request 64205070336
+end_stamp: 1663717664071
+../build/read 4 8 1024
+Tue Sep 20 19:48:04 2022
+start_stamp: 1663717684754
+# of requests: 256
+# of lambda: 1
+transferred size: 1077936128
+Total Time: 10.9305
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1954254848 65102446592       16384   194179072 64724082688
+Swap:    2147479552   448274432  1699205120
+Request 64724082688
+end_stamp: 1663717714273
+../build/read 16 8 256
+Tue Sep 20 19:48:38 2022
+start_stamp: 1663717719095
+# of requests: 16
+# of lambda: 1
+transferred size: 260046848
+Total Time: 3.37425
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1693413376 65384394752       16384   173072384 64995471360
+Swap:    2147479552   450895872  1696583680
+Request 64995471360
+end_stamp: 1663717743206
+../build/read 16 4 256
+Tue Sep 20 19:49:12 2022
+start_stamp: 1663717752912
+# of requests: 16
+# of lambda: 1
+transferred size: 255852544
+Total Time: 5.17781
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1754361856 65323139072       16384   173379584 64934367232
+Swap:    2147479552   452104192  1695375360
+Request 64934367232
+end_stamp: 1663717778449
+../build/read 4 4 4096
+Tue Sep 20 19:49:48 2022
+start_stamp: 1663717788987
+# of requests: 1024
+# of lambda: 1
+transferred size: 4294967296
+Total Time: 37.2158
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2473103360 64598667264       16384   179109888 64212766720
+Swap:    2147479552   467562496  1679917056
+Request 64212766720
+end_stamp: 1663717845039
+../build/read 64 32 256
+Tue Sep 20 19:50:52 2022
+start_stamp: 1663717852953
+# of requests: 4
+# of lambda: 1
+transferred size: 234881024
+Total Time: 3.82022
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1529475072 65535561728       16384   185843712 65153044480
+Swap:    2147479552   452374528  1695105024
+Request 65153044480
+end_stamp: 1663717877522
+../build/read 64 8 1024
+Tue Sep 20 19:51:26 2022
+start_stamp: 1663717887237
+# of requests: 16
+# of lambda: 1
+transferred size: 1015021568
+Total Time: 10.6929
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1971875840 65105403904       16384   173600768 64716754944
+Swap:    2147479552   450859008  1696620544
+Request 64716754944
+end_stamp: 1663717916674
+../build/read 16 4 4096
+Tue Sep 20 19:52:00 2022
+start_stamp: 1663717921178
+# of requests: 256
+# of lambda: 1
+transferred size: 4282384384
+Total Time: 37.5326
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2567561216 64508370944       16384   174948352 64120381440
+Swap:    2147479552   451907584  1695571968
+Request 64120381440
+end_stamp: 1663717977966
+../build/read 4 8 1024
+Tue Sep 20 19:53:04 2022
+start_stamp: 1663717985336
+# of requests: 256
+# of lambda: 1
+transferred size: 1077936128
+Total Time: 10.915
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2050445312 65014026240       20480   186408960 64631775232
+Swap:    2147479552   448499712  1698979840
+Request 64631775232
+end_stamp: 1663718016829
+../build/read 64 8 256
+Tue Sep 20 19:53:55 2022
+start_stamp: 1663718035611
+# of requests: 4
+# of lambda: 1
+transferred size: 209715200
+Total Time: 3.59624
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1571192832 65491738624       16384   187949056 65110257664
+Swap:    2147479552   449277952  1698201600
+Request 65110257664
+end_stamp: 1663718057867
+../build/read 64 8 1024
+Tue Sep 20 19:54:28 2022
+start_stamp: 1663718069211
+# of requests: 16
+# of lambda: 1
+transferred size: 1015021568
+Total Time: 10.5218
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1948467200 65109426176       20480   192987136 64730464256
+Swap:    2147479552   447705088  1699774464
+Request 64730464256
+end_stamp: 1663718098735
+../build/read 4 32 4096
+Tue Sep 20 19:55:18 2022
+start_stamp: 1663718118536
+# of requests: 1024
+# of lambda: 1
+transferred size: 4324327424
+Total Time: 39.837
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3560009728 63492239360       16384   198631424 63116111872
+Swap:    2147479552   445083648  1702395904
+Request 63116111872
+end_stamp: 1663718178367
+../build/read 64 4 4096
+Tue Sep 20 19:56:37 2022
+start_stamp: 1663718198386
+# of requests: 64
+# of lambda: 1
+transferred size: 4232052736
+Total Time: 37.3518
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3573071872 63499431936       16384   178376704 63113166848
+Swap:    2147479552   447582208  1699897344
+Request 63113166848
+end_stamp: 1663718253978
+../build/read 4 32 1024
+Tue Sep 20 19:57:41 2022
+start_stamp: 1663718262311
+# of requests: 256
+# of lambda: 1
+transferred size: 1103101952
+Total Time: 14.7369
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1993949184 65070313472       16384   186617856 64688140288
+Swap:    2147479552   446271488  1701208064
+Request 64688140288
+end_stamp: 1663718295849
+../build/read 64 32 1024
+Tue Sep 20 19:58:31 2022
+start_stamp: 1663718312102
+# of requests: 16
+# of lambda: 1
+transferred size: 1040187392
+Total Time: 10.0337
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1922297856 65147383808       16384   181198848 64762527744
+Swap:    2147479552   448892928  1698586624
+Request 64762527744
+end_stamp: 1663718341524
+../build/read 4 32 256
+Tue Sep 20 19:59:20 2022
+start_stamp: 1663718361211
+# of requests: 64
+# of lambda: 1
+transferred size: 297795584
+Total Time: 3.29074
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1885847552 65187995648       16384   177037312 64801050624
+Swap:    2147479552   449753088  1697726464
+Request 64801050624
+end_stamp: 1663718384272
+../build/read 64 4 256
+Tue Sep 20 19:59:55 2022
+start_stamp: 1663718395611
+# of requests: 4
+# of lambda: 1
+transferred size: 205520896
+Total Time: 2.95551
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1528213504 65544163328       16384   178503680 65157951488
+Swap:    2147479552   459390976  1688088576
+Request 65157951488
+end_stamp: 1663718417086
+../build/read 4 8 1024
+Tue Sep 20 20:00:29 2022
+start_stamp: 1663718429586
+# of requests: 256
+# of lambda: 1
+transferred size: 1077936128
+Total Time: 11.2003
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1984888832 65091584000       16384   174407680 64703340544
+Swap:    2147479552   452313088  1695166464
+Request 64703340544
+end_stamp: 1663718461729
+../build/read 4 4 4096
+Tue Sep 20 20:01:19 2022
+start_stamp: 1663718480186
+# of requests: 1024
+# of lambda: 1
+transferred size: 4294967296
+Total Time: 37.291
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2400423936 64627671040       24576   222785536 64263606272
+Swap:    2147479552   441618432  1705861120
+Request 64263606272
+end_stamp: 1663718536045
+../build/read 4 32 256
+Tue Sep 20 20:02:23 2022
+start_stamp: 1663718545177
+# of requests: 64
+# of lambda: 1
+transferred size: 297795584
+Total Time: 5.70161
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1988497408 65070780416       24576   191602688 64691118080
+Swap:    2147479552   443715584  1703763968
+Request 64691118080
+end_stamp: 1663718570848
+../build/read 64 8 4096
+Tue Sep 20 20:02:58 2022
+start_stamp: 1663718578619
+# of requests: 64
+# of lambda: 1
+transferred size: 4236247040
+Total Time: 37.4925
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3619057664 63437082624       24576   194740224 63059005440
+Swap:    2147479552   444239872  1703239680
+Request 63059005440
+end_stamp: 1663718634301
+../build/read 16 4 4096
+Tue Sep 20 20:04:02 2022
+start_stamp: 1663718642869
+# of requests: 256
+# of lambda: 1
+transferred size: 4282384384
+Total Time: 37.4751
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2681139200 64377589760       16384   192151552 63998214144
+Swap:    2147479552   443363328  1704116224
+Request 63998214144
+end_stamp: 1663718699091
+../build/read 64 4 1024
+Tue Sep 20 20:05:06 2022
+start_stamp: 1663718706960
+# of requests: 16
+# of lambda: 1
+transferred size: 1010827264
+Total Time: 11.2364
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1804500992 65273040896       16384   173338624 64884244480
+Swap:    2147479552   446631936  1700847616
+Request 64884244480
+end_stamp: 1663718737173
+../build/read 64 32 256
+Tue Sep 20 20:05:55 2022
+start_stamp: 1663718756343
+# of requests: 4
+# of lambda: 1
+transferred size: 234881024
+Total Time: 3.10867
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1539252224 65529393152       16384   182235136 65145049088
+Swap:    2147479552   448495616  1698983936
+Request 65145049088
+end_stamp: 1663718777843
+../build/read 16 4 1024
+Tue Sep 20 20:06:29 2022
+start_stamp: 1663718790310
+# of requests: 64
+# of lambda: 1
+transferred size: 1061158912
+Total Time: 9.85631
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2404466688 64673120256       16384   173293568 64284319744
+Swap:    2147479552   448757760  1698721792
+Request 64284319744
+end_stamp: 1663718818757
+../build/read 4 4 1024
+Tue Sep 20 20:07:03 2022
+start_stamp: 1663718824518
+# of requests: 256
+# of lambda: 1
+transferred size: 1073741824
+Total Time: 10.0313
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1973207040 65105264640       16384   172408832 64716009472
+Swap:    2147479552   449245184  1698234368
+Request 64716009472
+end_stamp: 1663718853654
+../build/read 4 4 1024
+Tue Sep 20 20:07:38 2022
+start_stamp: 1663718858593
+# of requests: 256
+# of lambda: 1
+transferred size: 1073741824
+Total Time: 10.0982
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1954701312 65123110912       16384   173068288 64734191616
+Swap:    2147479552   451309568  1696169984
+Request 64734191616
+end_stamp: 1663718889482
+../build/read 64 32 1024
+Tue Sep 20 20:08:27 2022
+start_stamp: 1663718907960
+# of requests: 16
+# of lambda: 1
+transferred size: 1040187392
+Total Time: 10.6707
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1828274176 65246683136       16384   175923200 64859197440
+Swap:    2147479552   450437120  1697042432
+Request 64859197440
+end_stamp: 1663718936754
+../build/read 64 8 4096
+Tue Sep 20 20:09:02 2022
+start_stamp: 1663718942626
+# of requests: 64
+# of lambda: 1
+transferred size: 4236247040
+Total Time: 37.1232
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3506036736 63549825024       20480   195018752 63171887104
+Swap:    2147479552   445456384  1702023168
+Request 63171887104
+end_stamp: 1663718998799
+../build/read 4 4 256
+Tue Sep 20 20:10:06 2022
+start_stamp: 1663719007026
+# of requests: 64
+# of lambda: 1
+transferred size: 268435456
+Total Time: 5.87344
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1853517824 65215266816       16384   182095872 64830861312
+Swap:    2147479552   450437120  1697042432
+Request 64830861312
+end_stamp: 1663719032552
+../build/read 4 32 1024
+Tue Sep 20 20:10:44 2022
+start_stamp: 1663719044835
+# of requests: 256
+# of lambda: 1
+transferred size: 1103101952
+Total Time: 14.7719
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2032599040 65018167296       20480   200114176 64642768896
+Swap:    2147479552   450355200  1697124352
+Request 64642768896
+end_stamp: 1663719078128
+../build/read 16 32 1024
+Tue Sep 20 20:11:33 2022
+start_stamp: 1663719093684
+# of requests: 64
+# of lambda: 1
+transferred size: 1090519040
+Total Time: 10.8644
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3600453632 63456563200       20480   193863680 63078051840
+Swap:    2147479552   448061440  1699418112
+Request 63078051840
+end_stamp: 1663719123047
+../build/read 4 32 1024
+Tue Sep 20 20:12:07 2022
+start_stamp: 1663719127901
+# of requests: 256
+# of lambda: 1
+transferred size: 1103101952
+Total Time: 13.8786
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1954684928 65108242432       16384   187953152 64726769664
+Swap:    2147479552   449261568  1698217984
+Request 64726769664
+end_stamp: 1663719162170
+../build/read 4 32 4096
+Tue Sep 20 20:12:56 2022
+start_stamp: 1663719177418
+# of requests: 1024
+# of lambda: 1
+transferred size: 4324327424
+Total Time: 39.565
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3517542400 63551553536       16384   181784576 63167000576
+Swap:    2147479552   454189056  1693290496
+Request 63167000576
+end_stamp: 1663719234780
+../build/read 64 32 4096
+Tue Sep 20 20:14:00 2022
+start_stamp: 1663719241127
+# of requests: 64
+# of lambda: 1
+transferred size: 4261412864
+Total Time: 37.4741
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3003207680 64065970176       16384   181702656 63681376256
+Swap:    2147479552   445800448  1701679104
+Request 63681376256
+end_stamp: 1663719296647
+../build/read 16 32 256
+Tue Sep 20 20:15:04 2022
+start_stamp: 1663719305176
+# of requests: 16
+# of lambda: 1
+transferred size: 285212672
+Total Time: 5.35776
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1839009792 65235161088       16384   176709632 64848068608
+Swap:    2147479552   448684032  1698795520
+Request 64848068608
+end_stamp: 1663719329217
+../build/read 16 8 4096
+Tue Sep 20 20:15:39 2022
+start_stamp: 1663719339767
+# of requests: 256
+# of lambda: 1
+transferred size: 4286578688
+Total Time: 37.424
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2734641152 64331042816       16384   185196544 63948181504
+Swap:    2147479552   450519040  1696960512
+Request 63948181504
+end_stamp: 1663719395853
+../build/read 4 4 256
+Tue Sep 20 20:16:43 2022
+start_stamp: 1663719403917
+# of requests: 64
+# of lambda: 1
+transferred size: 268435456
+Total Time: 3.08727
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2046124032 65029406720       16384   175349760 64641617920
+Swap:    2147479552   451567616  1695911936
+Request 64641617920
+end_stamp: 1663719426658
+../build/read 4 8 1024
+Tue Sep 20 20:17:17 2022
+start_stamp: 1663719437917
+# of requests: 256
+# of lambda: 1
+transferred size: 1077936128
+Total Time: 10.9755
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1987796992 65070415872       28672   192667648 64691281920
+Swap:    2147479552   454172672  1693306880
+Request 64691281920
+end_stamp: 1663719467460
+../build/read 16 32 4096
+Tue Sep 20 20:17:52 2022
+start_stamp: 1663719473101
+# of requests: 256
+# of lambda: 1
+transferred size: 4311744512
+Total Time: 40.3533
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2944651264 64105934848       28672   200294400 63730630656
+Swap:    2147479552   448405504  1699074048
+Request 63730630656
+end_stamp: 1663719532795
+../build/read 16 8 256
+Tue Sep 20 20:19:11 2022
+start_stamp: 1663719552284
+# of requests: 16
+# of lambda: 1
+transferred size: 260046848
+Total Time: 5.05044
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1796763648 65265442816       20480   188674048 64884322304
+Swap:    2147479552   447545344  1699934208
+Request 64884322304
+end_stamp: 1663719576563
+../build/read 4 8 4096
+Tue Sep 20 20:19:45 2022
+start_stamp: 1663719586434
+# of requests: 1024
+# of lambda: 1
+transferred size: 4299161600
+Total Time: 37.32
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3099029504 63956676608       16384   195174400 63578800128
+Swap:    2147479552   446529536  1700950016
+Request 63578800128
+end_stamp: 1663719642719
+../build/read 64 4 1024
+Tue Sep 20 20:20:50 2022
+start_stamp: 1663719651067
+# of requests: 16
+# of lambda: 1
+transferred size: 1010827264
+Total Time: 10.3163
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1903022080 65166974976       16384   180883456 64781963264
+Swap:    2147479552   446316544  1701163008
+Request 64781963264
+end_stamp: 1663719680197
+../build/read 16 8 4096
+Tue Sep 20 20:21:24 2022
+start_stamp: 1663719685317
+# of requests: 256
+# of lambda: 1
+transferred size: 4286578688
+Total Time: 37.4386
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2838093824 64232132608       16384   180654080 63847006208
+Swap:    2147479552   449200128  1698279424
+Request 63847006208
+end_stamp: 1663719741554
+../build/read 16 8 4096
+Tue Sep 20 20:22:28 2022
+start_stamp: 1663719749342
+# of requests: 256
+# of lambda: 1
+transferred size: 4286578688
+Total Time: 37.1807
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2963959808 64101023744       16384   185896960 63718514688
+Swap:    2147479552   449986560  1697492992
+Request 63718514688
+end_stamp: 1663719805601
+../build/read 16 4 256
+Tue Sep 20 20:23:32 2022
+start_stamp: 1663719813408
+# of requests: 16
+# of lambda: 1
+transferred size: 255852544
+Total Time: 4.88146
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1816170496 65261920256       16384   172789760 64872841216
+Swap:    2147479552   452608000  1694871552
+Request 64872841216
+end_stamp: 1663719838924
+../build/read 64 4 256
+Tue Sep 20 20:24:08 2022
+start_stamp: 1663719848658
+# of requests: 4
+# of lambda: 1
+transferred size: 205520896
+Total Time: 2.4005
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1478115328 65596837888       16384   175927296 65209348096
+Swap:    2147479552   461238272  1686241280
+Request 65209348096
+end_stamp: 1663719870125
+../build/read 16 8 1024
+Tue Sep 20 20:24:42 2022
+start_stamp: 1663719882583
+# of requests: 64
+# of lambda: 1
+transferred size: 1065353216
+Total Time: 10.2792
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3624919040 63448313856       16384   177647616 63061671936
+Swap:    2147479552   452849664  1694629888
+Request 63061671936
+end_stamp: 1663719912515
+../build/read 64 4 4096
+Tue Sep 20 20:25:31 2022
+start_stamp: 1663719932066
+# of requests: 64
+# of lambda: 1
+transferred size: 4232052736
+Total Time: 37.5073
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3663462400 63388397568       20480   199020544 63012450304
+Swap:    2147479552   451657728  1695821824
+Request 63012450304
+end_stamp: 1663719988553
+../build/read 16 4 1024
+Tue Sep 20 20:26:36 2022
+start_stamp: 1663719996800
+# of requests: 64
+# of lambda: 1
+transferred size: 1061158912
+Total Time: 9.79992
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3441340416 63624687616       16384   184852480 63241654272
+Swap:    2147479552   449560576  1697918976
+Request 63241654272
+end_stamp: 1663720025569
+../build/read 4 32 1024
+Tue Sep 20 20:27:10 2022
+start_stamp: 1663720030991
+# of requests: 256
+# of lambda: 1
+transferred size: 1103101952
+Total Time: 13.9981
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1932480512 65134157824       16384   184242176 64750817280
+Swap:    2147479552   449822720  1697656832
+Request 64750817280
+end_stamp: 1663720064178
+../build/read 4 4 4096
+Tue Sep 20 20:27:59 2022
+start_stamp: 1663720080391
+# of requests: 1024
+# of lambda: 1
+transferred size: 4294967296
+Total Time: 37.568
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2443874304 64611500032       16384   195506176 64233803776
+Swap:    2147479552   449224704  1698254848
+Request 64233803776
+end_stamp: 1663720136957
+../build/read 16 4 1024
+Tue Sep 20 20:29:03 2022
+start_stamp: 1663720144199
+# of requests: 64
+# of lambda: 1
+transferred size: 1061158912
+Total Time: 10.2943
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2886877184 64186191872       16384   177811456 63799644160
+Swap:    2147479552   446803968  1700675584
+Request 63799644160
+end_stamp: 1663720173679
+../build/read 64 32 4096
+Tue Sep 20 20:29:53 2022
+start_stamp: 1663720193891
+# of requests: 64
+# of lambda: 1
+transferred size: 4261412864
+Total Time: 37.8884
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2727391232 64339574784       16384   183914496 63956074496
+Swap:    2147479552   447651840  1699827712
+Request 63956074496
+end_stamp: 1663720252050
+../build/read 4 4 256
+Tue Sep 20 20:30:58 2022
+start_stamp: 1663720259516
+# of requests: 64
+# of lambda: 1
+transferred size: 268435456
+Total Time: 3.16655
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2047246336 65025892352       16384   177741824 64639307776
+Swap:    2147479552   452894720  1694584832
+Request 64639307776
+end_stamp: 1663720282552
+../build/read 4 8 256
+Tue Sep 20 20:31:33 2022
+start_stamp: 1663720294574
+# of requests: 64
+# of lambda: 1
+transferred size: 272629760
+Total Time: 3.32746
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2081447936 64969924608       20480   199507968 64594231296
+Swap:    2147479552   455094272  1692385280
+Request 64594231296
+end_stamp: 1663720316693
+../build/read 4 4 4096
+Tue Sep 20 20:32:08 2022
+start_stamp: 1663720328982
+# of requests: 1024
+# of lambda: 1
+transferred size: 4294967296
+Total Time: 37.3894
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2412990464 64659763200       20480   178126848 64273371136
+Swap:    2147479552   447754240  1699725312
+Request 64273371136
+end_stamp: 1663720385572
+../build/read 16 8 256
+Tue Sep 20 20:33:12 2022
+start_stamp: 1663720392916
+# of requests: 16
+# of lambda: 1
+transferred size: 260046848
+Total Time: 5.32452
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1800138752 65272791040       16384   177950720 64886304768
+Swap:    2147479552   450236416  1697243136
+Request 64886304768
+end_stamp: 1663720417489
+../build/read 64 4 256
+Tue Sep 20 20:33:46 2022
+start_stamp: 1663720427141
+# of requests: 4
+# of lambda: 1
+transferred size: 205520896
+Total Time: 5.25516
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1548689408 65516474368       16384   185716736 65133924352
+Swap:    2147479552   450392064  1697087488
+Request 65133924352
+end_stamp: 1663720453248
+../build/read 64 32 256
+Tue Sep 20 20:34:31 2022
+start_stamp: 1663720472490
+# of requests: 4
+# of lambda: 1
+transferred size: 234881024
+Total Time: 3.27435
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1533870080 65522585600       20480   194424832 65144336384
+Swap:    2147479552   448552960  1698926592
+Request 65144336384
+end_stamp: 1663720494941
+../build/read 64 32 256
+Tue Sep 20 20:35:06 2022
+start_stamp: 1663720506749
+# of requests: 4
+# of lambda: 1
+transferred size: 234881024
+Total Time: 2.77677
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1523593216 65535614976       16384   191672320 65155932160
+Swap:    2147479552   449437696  1698041856
+Request 65155932160
+end_stamp: 1663720528389
+../build/read 16 8 4096
+Tue Sep 20 20:35:40 2022
+start_stamp: 1663720540740
+# of requests: 256
+# of lambda: 1
+transferred size: 4286578688
+Total Time: 37.3443
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  2339827712 64711938048       20480   199114752 64336031744
+Swap:    2147479552   444891136  1702588416
+Request 64336031744
+end_stamp: 1663720596985
+../build/read 16 32 256
+Tue Sep 20 20:36:44 2022
+start_stamp: 1663720604832
+# of requests: 16
+# of lambda: 1
+transferred size: 285212672
+Total Time: 4.76327
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1714503680 65349263360       16384   187113472 64967368704
+Swap:    2147479552   447586304  1699893248
+Request 64967368704
+end_stamp: 1663720629633
+../build/read 16 8 256
+Tue Sep 20 20:37:18 2022
+start_stamp: 1663720639157
+# of requests: 16
+# of lambda: 1
+transferred size: 260046848
+Total Time: 5.11901
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1837785088 65237598208       16384   175497216 64849874944
+Swap:    2147479552   457838592  1689640960
+Request 64849874944
+end_stamp: 1663720662684
+../build/read 16 32 1024
+Tue Sep 20 20:37:52 2022
+start_stamp: 1663720672798
+# of requests: 64
+# of lambda: 1
+transferred size: 1090519040
+Total Time: 11.2215
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3455389696 63607287808       16384   188203008 63225946112
+Swap:    2147479552   451022848  1696456704
+Request 63225946112
+end_stamp: 1663720702717
+../build/read 4 8 4096
+Tue Sep 20 20:38:41 2022
+start_stamp: 1663720722132
+# of requests: 1024
+# of lambda: 1
+transferred size: 4299161600
+Total Time: 37.3914
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3020800000 64050688000       16384   179392512 63664930816
+Swap:    2147479552   454959104  1692520448
+Request 63664930816
+end_stamp: 1663720778845
+../build/read 64 8 256
+Tue Sep 20 20:39:45 2022
+start_stamp: 1663720786198
+# of requests: 4
+# of lambda: 1
+transferred size: 209715200
+Total Time: 3.79141
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  1540448256 65536114688       16384   174317568 65147838464
+Swap:    2147479552   453038080  1694441472
+Request 65147838464
+end_stamp: 1663720813612

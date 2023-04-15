@@ -1,0 +1,360 @@
+../build/read 8388608
+Thu Sep  8 17:37:34 2022
+start_stamp: 1662673054850
+# of requests: 1
+# of lambda: 1
+transferred size: 8388608
+Total Time: 1.42893
+end_stamp: 1662673056279
+../build/read 262144
+Thu Sep  8 17:37:52 2022
+start_stamp: 1662673072923
+# of requests: 1
+# of lambda: 1
+transferred size: 262144
+Total Time: 0.671985
+end_stamp: 1662673073595
+../build/read 4194304
+Thu Sep  8 17:37:55 2022
+start_stamp: 1662673075981
+# of requests: 1
+# of lambda: 1
+transferred size: 4194304
+Total Time: 1.07599
+end_stamp: 1662673077058
+../build/read 67108864
+Thu Sep  8 17:38:14 2022
+start_stamp: 1662673094049
+# of requests: 1
+# of lambda: 1
+transferred size: 67108864
+Total Time: 5.062
+end_stamp: 1662673099111
+../build/read 1048576
+Thu Sep  8 17:38:32 2022
+start_stamp: 1662673112124
+# of requests: 1
+# of lambda: 1
+transferred size: 1048576
+Total Time: 0.837822
+end_stamp: 1662673112962
+../build/read 2097152
+Thu Sep  8 17:38:35 2022
+start_stamp: 1662673115183
+# of requests: 1
+# of lambda: 1
+transferred size: 2097152
+Total Time: 0.796653
+end_stamp: 1662673115979
+../build/read 262144
+Thu Sep  8 17:38:38 2022
+start_stamp: 1662673118241
+# of requests: 1
+# of lambda: 1
+transferred size: 262144
+Total Time: 0.741812
+end_stamp: 1662673118983
+../build/read 262144
+Thu Sep  8 17:38:41 2022
+start_stamp: 1662673121300
+# of requests: 1
+# of lambda: 1
+transferred size: 262144
+Total Time: 0.664539
+end_stamp: 1662673121964
+../build/read 1048576
+Thu Sep  8 17:38:44 2022
+start_stamp: 1662673124357
+# of requests: 1
+# of lambda: 1
+transferred size: 1048576
+Total Time: 0.788175
+end_stamp: 1662673125146
+../build/read 2097152
+Thu Sep  8 17:38:47 2022
+start_stamp: 1662673127417
+# of requests: 1
+# of lambda: 1
+transferred size: 2097152
+Total Time: 1.46529
+end_stamp: 1662673128882
+../build/read 16777216
+Thu Sep  8 17:39:05 2022
+start_stamp: 1662673145492
+# of requests: 1
+# of lambda: 1
+transferred size: 16777216
+Total Time: 1.50877
+end_stamp: 1662673147001
+../build/read 2097152
+Thu Sep  8 17:39:23 2022
+start_stamp: 1662673163567
+# of requests: 1
+# of lambda: 1
+transferred size: 2097152
+Total Time: 0.753603
+end_stamp: 1662673164321
+../build/read 33554432
+Thu Sep  8 17:39:26 2022
+start_stamp: 1662673166643
+# of requests: 1
+# of lambda: 1
+transferred size: 33554432
+Total Time: 2.43816
+end_stamp: 1662673169081
+../build/read 8388608
+Thu Sep  8 17:39:44 2022
+start_stamp: 1662673184726
+# of requests: 1
+# of lambda: 1
+transferred size: 8388608
+Total Time: 1.17638
+end_stamp: 1662673185903
+../build/read 524288
+Thu Sep  8 17:40:02 2022
+start_stamp: 1662673202802
+# of requests: 1
+# of lambda: 1
+transferred size: 524288
+Total Time: 0.741894
+end_stamp: 1662673203544
+../build/read 16777216
+Thu Sep  8 17:40:05 2022
+start_stamp: 1662673205869
+# of requests: 1
+# of lambda: 1
+transferred size: 16777216
+Total Time: 1.50743
+end_stamp: 1662673207376
+../build/read 16777216
+Thu Sep  8 17:40:23 2022
+start_stamp: 1662673223926
+# of requests: 1
+# of lambda: 1
+transferred size: 16777216
+Total Time: 1.48236
+end_stamp: 1662673225408
+../build/read 67108864
+Thu Sep  8 17:40:41 2022
+start_stamp: 1662673241986
+# of requests: 1
+# of lambda: 1
+transferred size: 67108864
+Total Time: 4.19491
+end_stamp: 1662673246181
+../build/read 8388608
+Thu Sep  8 17:41:00 2022
+start_stamp: 1662673260053
+# of requests: 1
+# of lambda: 1
+transferred size: 8388608
+Total Time: 1.93712
+end_stamp: 1662673261990
+../build/read 67108864
+Thu Sep  8 17:41:18 2022
+start_stamp: 1662673278129
+# of requests: 1
+# of lambda: 1
+transferred size: 67108864
+Total Time: 5.16969
+end_stamp: 1662673283299
+../build/read 33554432
+Thu Sep  8 17:41:36 2022
+start_stamp: 1662673296204
+# of requests: 1
+# of lambda: 1
+transferred size: 33554432
+Total Time: 2.33343
+end_stamp: 1662673298538
+../build/read 4194304
+Thu Sep  8 17:41:54 2022
+start_stamp: 1662673314263
+# of requests: 1
+# of lambda: 1
+transferred size: 4194304
+Total Time: 1.06046
+end_stamp: 1662673315323
+../build/read 2097152
+Thu Sep  8 17:42:12 2022
+start_stamp: 1662673332338
+# of requests: 1
+# of lambda: 1
+transferred size: 2097152
+Total Time: 0.803039
+end_stamp: 1662673333141
+../build/read 524288
+Thu Sep  8 17:42:15 2022
+start_stamp: 1662673335397
+# of requests: 1
+# of lambda: 1
+transferred size: 524288
+Total Time: 0.713805
+end_stamp: 1662673336111
+../build/read 16777216
+Thu Sep  8 17:42:18 2022
+start_stamp: 1662673338455
+# of requests: 1
+# of lambda: 1
+transferred size: 16777216
+Total Time: 1.68294
+end_stamp: 1662673340138
+../build/read 8388608
+Thu Sep  8 17:42:36 2022
+start_stamp: 1662673356531
+# of requests: 1
+# of lambda: 1
+transferred size: 8388608
+Total Time: 2.56904
+end_stamp: 1662673359100
+../build/read 524288
+Thu Sep  8 17:42:54 2022
+start_stamp: 1662673374607
+# of requests: 1
+# of lambda: 1
+transferred size: 524288
+Total Time: 0.753393
+end_stamp: 1662673375360
+../build/read 67108864
+Thu Sep  8 17:42:57 2022
+start_stamp: 1662673377674
+# of requests: 1
+# of lambda: 1
+transferred size: 67108864
+Total Time: 4.23164
+end_stamp: 1662673381905
+../build/read 1048576
+Thu Sep  8 17:43:15 2022
+start_stamp: 1662673395740
+# of requests: 1
+# of lambda: 1
+transferred size: 1048576
+Total Time: 0.766098
+end_stamp: 1662673396506
+../build/read 524288
+Thu Sep  8 17:43:18 2022
+start_stamp: 1662673398799
+# of requests: 1
+# of lambda: 1
+transferred size: 524288
+Total Time: 0.654929
+end_stamp: 1662673399454
+../build/read 67108864
+Thu Sep  8 17:43:21 2022
+start_stamp: 1662673401866
+# of requests: 1
+# of lambda: 1
+transferred size: 67108864
+Total Time: 4.73091
+end_stamp: 1662673406597
+../build/read 4194304
+Thu Sep  8 17:43:39 2022
+start_stamp: 1662673419942
+# of requests: 1
+# of lambda: 1
+transferred size: 4194304
+Total Time: 0.940725
+end_stamp: 1662673420883
+../build/read 1048576
+Thu Sep  8 17:43:42 2022
+start_stamp: 1662673423000
+# of requests: 1
+# of lambda: 1
+transferred size: 1048576
+Total Time: 0.774018
+end_stamp: 1662673423774
+../build/read 4194304
+Thu Sep  8 17:43:46 2022
+start_stamp: 1662673426067
+# of requests: 1
+# of lambda: 1
+transferred size: 4194304
+Total Time: 0.962711
+end_stamp: 1662673427030
+../build/read 4194304
+Thu Sep  8 17:43:49 2022
+start_stamp: 1662673429126
+# of requests: 1
+# of lambda: 1
+transferred size: 4194304
+Total Time: 1.09723
+end_stamp: 1662673430223
+../build/read 33554432
+Thu Sep  8 17:44:07 2022
+start_stamp: 1662673447201
+# of requests: 1
+# of lambda: 1
+transferred size: 33554432
+Total Time: 2.17832
+end_stamp: 1662673449379
+../build/read 33554432
+Thu Sep  8 17:44:25 2022
+start_stamp: 1662673465276
+# of requests: 1
+# of lambda: 1
+transferred size: 33554432
+Total Time: 2.31728
+end_stamp: 1662673467594
+../build/read 524288
+Thu Sep  8 17:44:43 2022
+start_stamp: 1662673483352
+# of requests: 1
+# of lambda: 1
+transferred size: 524288
+Total Time: 0.738432
+end_stamp: 1662673484090
+../build/read 16777216
+Thu Sep  8 17:44:46 2022
+start_stamp: 1662673486418
+# of requests: 1
+# of lambda: 1
+transferred size: 16777216
+Total Time: 1.59501
+end_stamp: 1662673488013
+../build/read 1048576
+Thu Sep  8 17:45:04 2022
+start_stamp: 1662673504494
+# of requests: 1
+# of lambda: 1
+transferred size: 1048576
+Total Time: 6.25544
+end_stamp: 1662673510750
+../build/read 8388608
+Thu Sep  8 17:45:22 2022
+start_stamp: 1662673522694
+# of requests: 1
+# of lambda: 1
+transferred size: 8388608
+Total Time: 1.13032
+end_stamp: 1662673523824
+../build/read 33554432
+Thu Sep  8 17:45:40 2022
+start_stamp: 1662673540754
+# of requests: 1
+# of lambda: 1
+transferred size: 33554432
+Total Time: 2.66919
+end_stamp: 1662673543423
+../build/read 262144
+Thu Sep  8 17:45:58 2022
+start_stamp: 1662673558829
+# of requests: 1
+# of lambda: 1
+transferred size: 262144
+Total Time: 0.67821
+end_stamp: 1662673559508
+../build/read 262144
+Thu Sep  8 17:46:01 2022
+start_stamp: 1662673561887
+# of requests: 1
+# of lambda: 1
+transferred size: 262144
+Total Time: 0.623245
+end_stamp: 1662673562510
+../build/read 2097152
+Thu Sep  8 17:46:04 2022
+start_stamp: 1662673564946
+# of requests: 1
+# of lambda: 1
+transferred size: 2097152
+Total Time: 0.800769
+end_stamp: 1662673565747

@@ -1,0 +1,132 @@
+#DATE - Fri Sep  2 14:49:13 2022
+##### time aws lambda invoke --function-name hslambda --payload file://query.txt outfile.txt
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1076 27679  0 14:49 pts/0    00:00:00 /bin/bash ./read.sh
+jiang.2+  1077  1076  0 14:49 pts/0    00:00:00 python randomization.py ../results/out.txt ../results/log.txt
+jiang.2+  1338  1077  0 14:50 pts/0    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  1339  1338  0 14:50 pts/0    00:00:00 ps -ef
+jiang.2+  1340  1338  0 14:50 pts/0    00:00:00 grep -v ^[ ]*root
+syslog    1658     1  0 Aug22 ?        00:00:41 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:15 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:00:47 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:00 /usr/sbin/chronyd
+www-data 10866  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 10867  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+ 12186     1  0 10:32 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+ 12187 12186  0 10:32 ?        00:00:00 (sd-pam)
+kang.10+ 12485     1  0 10:32 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.e4503b30fc78200f846c62cf8091b76ff5547662.token
+kang.10+ 12497 12485  0 10:32 ?        00:00:13 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.e4503b30fc78200f846c62cf8091b76ff5547662.token
+kang.10+ 12618 12497  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220902T103244
+kang.10+ 12632 12497  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=fileWatcher
+kang.10+ 12675 12497  0 10:32 ?        00:00:30 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+ 12825 12675  0 10:32 ?        00:00:13 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+ 12864 12675  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=12675
+kang.10+ 13133     1  0 11:14 ?        00:00:00 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 12825 {4889A57E-0B90-47A1-B54C-8BA0860D1E23}
+kang.10+ 13155     1  0 11:14 ?        00:00:40 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 12825 {76B4B1ED-EDD4-47FB-9B69-7676979AC925}
+kang.10+ 13177 12497  0 11:14 ?        00:00:32 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+ 13188 12497  0 11:15 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=fileWatcher
+kang.10+ 13233 13177  0 11:15 ?        00:00:08 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+ 13428 13177  0 11:15 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/extensions/redhat.fabric8-analytics-0.3.6/dist/server.js --node-ipc --clientProcessId=13177
+kang.10+ 13513 13177  8 11:15 ?        00:19:10 /home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/jre/17.0.4-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:/home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/lombok/lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/kang.1002/.vscode-server/data/User/workspaceStorage/8ef1d704ce5df1324ecb1dae917dc3ac/redhat.java -jar /home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/kang.1002/.vscode-server/data/User/globalStorage/redhat.java/1.10.0/config_linux -data /home/kang.1002/.vscode-server/data/User/workspaceStorage/8ef1d704ce5df1324ecb1dae917dc3ac/redhat.java/jdt_ws
+kang.10+ 14507     1  0 11:18 ?        00:00:15 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 13233 {E095F860-1641-496B-B92E-05DDED0A7FDA}
+kang.10+ 14686     1  0 11:18 ?        00:00:19 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 13233 {4DEBE193-FEE1-49F1-B2B0-D24E9E336104}
+postfix  16660  3211  0 13:42 ?        00:00:00 pickup -l -t unix -u -c
+postfix  18129  3211  0 Aug30 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 20781 20710  0 13:58 ?        00:00:00 sshd: kang.1002@notty
+kang.10+ 20782 20781  0 13:58 ?        00:00:00 -bash
+kang.10+ 20786 20782  0 13:58 ?        00:00:00 bash
+jiang.2+ 27597     1  0 14:26 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 27598 27597  0 14:26 ?        00:00:00 (sd-pam)
+jiang.2+ 27678 27595  0 14:26 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+ 27679 27678  0 14:26 pts/0    00:00:00 -bash
+---- PS INFO END ----
+#DATE - Fri Sep  2 14:50:16 2022
+##### time aws lambda invoke --function-name hslambda --payload file://query.txt outfile.txt
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1076 27679  0 14:49 pts/0    00:00:00 /bin/bash ./read.sh
+jiang.2+  1077  1076  0 14:49 pts/0    00:00:00 python randomization.py ../results/out.txt ../results/log.txt
+jiang.2+  1584  1077  0 14:51 pts/0    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  1585  1584  0 14:51 pts/0    00:00:00 ps -ef
+jiang.2+  1586  1584  0 14:51 pts/0    00:00:00 grep -v ^[ ]*root
+syslog    1658     1  0 Aug22 ?        00:00:41 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:15 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:00:47 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:00 /usr/sbin/chronyd
+www-data 10866  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 10867  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+ 12186     1  0 10:32 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+ 12187 12186  0 10:32 ?        00:00:00 (sd-pam)
+kang.10+ 12485     1  0 10:32 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.e4503b30fc78200f846c62cf8091b76ff5547662.token
+kang.10+ 12497 12485  0 10:32 ?        00:00:13 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.e4503b30fc78200f846c62cf8091b76ff5547662.token
+kang.10+ 12618 12497  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220902T103244
+kang.10+ 12632 12497  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=fileWatcher
+kang.10+ 12675 12497  0 10:32 ?        00:00:30 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+ 12825 12675  0 10:32 ?        00:00:13 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+ 12864 12675  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=12675
+kang.10+ 13133     1  0 11:14 ?        00:00:00 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 12825 {4889A57E-0B90-47A1-B54C-8BA0860D1E23}
+kang.10+ 13155     1  0 11:14 ?        00:00:40 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 12825 {76B4B1ED-EDD4-47FB-9B69-7676979AC925}
+kang.10+ 13177 12497  0 11:14 ?        00:00:32 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+ 13188 12497  0 11:15 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=fileWatcher
+kang.10+ 13233 13177  0 11:15 ?        00:00:08 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+ 13428 13177  0 11:15 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/extensions/redhat.fabric8-analytics-0.3.6/dist/server.js --node-ipc --clientProcessId=13177
+kang.10+ 13513 13177  8 11:15 ?        00:19:10 /home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/jre/17.0.4-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:/home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/lombok/lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/kang.1002/.vscode-server/data/User/workspaceStorage/8ef1d704ce5df1324ecb1dae917dc3ac/redhat.java -jar /home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/kang.1002/.vscode-server/data/User/globalStorage/redhat.java/1.10.0/config_linux -data /home/kang.1002/.vscode-server/data/User/workspaceStorage/8ef1d704ce5df1324ecb1dae917dc3ac/redhat.java/jdt_ws
+kang.10+ 14507     1  0 11:18 ?        00:00:15 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 13233 {E095F860-1641-496B-B92E-05DDED0A7FDA}
+kang.10+ 14686     1  0 11:18 ?        00:00:19 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 13233 {4DEBE193-FEE1-49F1-B2B0-D24E9E336104}
+postfix  16660  3211  0 13:42 ?        00:00:00 pickup -l -t unix -u -c
+postfix  18129  3211  0 Aug30 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 20781 20710  0 13:58 ?        00:00:00 sshd: kang.1002@notty
+kang.10+ 20782 20781  0 13:58 ?        00:00:00 -bash
+kang.10+ 20786 20782  0 13:58 ?        00:00:00 bash
+jiang.2+ 27597     1  0 14:26 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 27598 27597  0 14:26 ?        00:00:00 (sd-pam)
+jiang.2+ 27678 27595  0 14:26 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+ 27679 27678  0 14:26 pts/0    00:00:00 -bash
+---- PS INFO END ----
+#DATE - Fri Sep  2 14:51:19 2022
+##### time aws lambda invoke --function-name hslambda --payload file://query.txt outfile.txt
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1076 27679  0 14:49 pts/0    00:00:00 /bin/bash ./read.sh
+jiang.2+  1077  1076  0 14:49 pts/0    00:00:00 python randomization.py ../results/out.txt ../results/log.txt
+syslog    1658     1  0 Aug22 ?        00:00:41 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:15 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jiang.2+  1868  1077  0 14:52 pts/0    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  1869  1868  0 14:52 pts/0    00:00:00 ps -ef
+jiang.2+  1871  1868  0 14:52 pts/0    00:00:00 grep -v ^[ ]*root
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:00:47 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:00 /usr/sbin/chronyd
+www-data 10866  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 10867  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+ 12186     1  0 10:32 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+ 12187 12186  0 10:32 ?        00:00:00 (sd-pam)
+kang.10+ 12485     1  0 10:32 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.e4503b30fc78200f846c62cf8091b76ff5547662.token
+kang.10+ 12497 12485  0 10:32 ?        00:00:13 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.e4503b30fc78200f846c62cf8091b76ff5547662.token
+kang.10+ 12618 12497  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220902T103244
+kang.10+ 12632 12497  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=fileWatcher
+kang.10+ 12675 12497  0 10:32 ?        00:00:30 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+ 12825 12675  0 10:32 ?        00:00:14 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+ 12864 12675  0 10:32 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=12675
+kang.10+ 13133     1  0 11:14 ?        00:00:00 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 12825 {4889A57E-0B90-47A1-B54C-8BA0860D1E23}
+kang.10+ 13155     1  0 11:14 ?        00:00:42 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 12825 {76B4B1ED-EDD4-47FB-9B69-7676979AC925}
+kang.10+ 13177 12497  0 11:14 ?        00:00:32 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+ 13188 12497  0 11:15 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/bootstrap-fork --type=fileWatcher
+kang.10+ 13233 13177  0 11:15 ?        00:00:08 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+ 13428 13177  0 11:15 ?        00:00:00 /home/kang.1002/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /home/kang.1002/.vscode-server/extensions/redhat.fabric8-analytics-0.3.6/dist/server.js --node-ipc --clientProcessId=13177
+kang.10+ 13513 13177  8 11:15 ?        00:19:10 /home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/jre/17.0.4-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:/home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/lombok/lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/kang.1002/.vscode-server/data/User/workspaceStorage/8ef1d704ce5df1324ecb1dae917dc3ac/redhat.java -jar /home/kang.1002/.vscode-server/extensions/redhat.java-1.10.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/kang.1002/.vscode-server/data/User/globalStorage/redhat.java/1.10.0/config_linux -data /home/kang.1002/.vscode-server/data/User/workspaceStorage/8ef1d704ce5df1324ecb1dae917dc3ac/redhat.java/jdt_ws
+kang.10+ 14507     1  0 11:18 ?        00:00:15 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 13233 {E095F860-1641-496B-B92E-05DDED0A7FDA}
+kang.10+ 14686     1  0 11:18 ?        00:00:19 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 13233 {4DEBE193-FEE1-49F1-B2B0-D24E9E336104}
+postfix  16660  3211  0 13:42 ?        00:00:00 pickup -l -t unix -u -c
+postfix  18129  3211  0 Aug30 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 20781 20710  0 13:58 ?        00:00:00 sshd: kang.1002@notty
+kang.10+ 20782 20781  0 13:58 ?        00:00:00 -bash
+kang.10+ 20786 20782  0 13:58 ?        00:00:00 bash
+jiang.2+ 27597     1  0 14:26 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 27598 27597  0 14:26 ?        00:00:00 (sd-pam)
+jiang.2+ 27678 27595  0 14:26 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+ 27679 27678  0 14:26 pts/0    00:00:00 -bash
+---- PS INFO END ----

@@ -1,0 +1,135 @@
+../build/read 16384
+Tue Jun 21 21:05:48 2022
+0 0 
+0 0 
+Total Time: 232.228
+../build/read 16777216
+Tue Jun 21 21:09:51 2022
+0 0 
+0 0 
+Total Time: 76.8117
+../build/read 4194304
+Tue Jun 21 21:11:24 2022
+0 0 
+0 0 
+Total Time: 76.9945
+../build/read 65536
+Tue Jun 21 21:12:58 2022
+0 0 
+0 0 
+Total Time: 85.1563
+../build/read 262144
+Tue Jun 21 21:14:31 2022
+0 0 
+0 0 
+Total Time: 77.4808
+../build/read 65536
+Tue Jun 21 21:16:04 2022
+0 0 
+0 0 
+Total Time: 83.1146
+../build/read 16384
+Tue Jun 21 21:17:37 2022
+0 0 
+0 0 
+Total Time: 264.114
+../build/read 16384
+Tue Jun 21 21:22:10 2022
+0 0 
+0 0 
+Total Time: 231.558
+../build/read 1073741824
+Tue Jun 21 21:26:14 2022
+0 0 
+0 0 
+Total Time: 88.7557
+../build/read 1048576
+Tue Jun 21 21:27:47 2022
+0 0 
+0 0 
+Total Time: 76.0562
+../build/read 268435456
+Tue Jun 21 21:29:20 2022
+0 0 
+0 0 
+Total Time: 123.583
+../build/read 268435456
+Tue Jun 21 21:31:38 2022
+0 0 
+0 0 
+Total Time: 107.495
+../build/read 67108864
+Tue Jun 21 21:33:41 2022
+0 0 
+0 0 
+Total Time: 83.7258
+../build/read 1073741824
+Tue Jun 21 21:35:15 2022
+0 0 
+0 0 
+Total Time: 201.515
+../build/read 268435456
+Tue Jun 21 21:38:48 2022
+0 0 
+0 0 
+Total Time: 97.0298
+../build/read 262144
+Tue Jun 21 21:40:36 2022
+0 0 
+0 0 
+Total Time: 76.87
+../build/read 1048576
+Tue Jun 21 21:42:09 2022
+0 0 
+0 0 
+Total Time: 76.4398
+../build/read 16777216
+Tue Jun 21 21:43:42 2022
+0 0 
+0 0 
+Total Time: 76.7067
+../build/read 67108864
+Tue Jun 21 21:45:15 2022
+0 0 
+0 0 
+Total Time: 83.5329
+../build/read 67108864
+Tue Jun 21 21:46:48 2022
+0 0 
+0 0 
+Total Time: 91.0331
+../build/read 262144
+Tue Jun 21 21:48:37 2022
+0 0 
+0 0 
+Total Time: 76.932
+../build/read 16777216
+Tue Jun 21 21:50:10 2022
+0 0 
+0 0 
+Total Time: 77.4922
+../build/read 1073741824
+Tue Jun 21 21:51:43 2022
+0 0 
+0 0 
+Total Time: 250.665
+../build/read 65536
+Tue Jun 21 21:56:01 2022
+0 0 
+0 0 
+Total Time: 80.0127
+../build/read 4194304
+Tue Jun 21 21:57:34 2022
+0 0 
+0 0 
+Total Time: 76.2985
+../build/read 4194304
+Tue Jun 21 21:59:07 2022
+0 0 
+0 0 
+Total Time: 76.3455
+../build/read 1048576
+Tue Jun 21 22:00:41 2022
+0 0 
+0 0 
+Total Time: 76.2819

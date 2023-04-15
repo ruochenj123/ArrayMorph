@@ -1,0 +1,360 @@
+../build/read s3_vol_get 1 4096 512 512
+Fri Jun 10 15:29:49 2022
+Total Time: 5.39469
+../build/read s3_vol_range 1 16384 512 768
+Fri Jun 10 15:30:07 2022
+Total Time: 16.2508
+../build/read s3_vol_range 1 16384 512 768
+Fri Jun 10 15:30:40 2022
+Total Time: 14.1906
+../build/read s3_vol_merge 1 8192 512 512
+Fri Jun 10 15:30:58 2022
+Total Time: 4.24197
+../build/read s3_vol_range 2 4096 512 512
+Fri Jun 10 15:31:16 2022
+Total Time: 4.06344
+../build/read s3_vol_range 1 512 768 512
+Fri Jun 10 15:31:34 2022
+Total Time: 4.99437
+../build/read s3_vol_range 1 512 768 512
+Fri Jun 10 15:31:52 2022
+Total Time: 4.73747
+../build/read s3_vol_merge 2 1024 512 512
+Fri Jun 10 15:32:10 2022
+Total Time: 29.8398
+../build/read s3_vol_range 1 2048 512 512
+Fri Jun 10 15:32:44 2022
+Total Time: 5.53946
+../build/read s3_vol_range 2 1024 512 512
+Fri Jun 10 15:33:02 2022
+Total Time: 3.87793
+../build/read s3_vol_range 2 256 896 0
+Fri Jun 10 15:33:20 2022
+Total Time: 4.11045
+../build/read s3_vol_merge 1 8192 512 512
+Fri Jun 10 15:33:38 2022
+Total Time: 6.16304
+../build/read s3_vol_merge 1 256 896 0
+Fri Jun 10 15:33:56 2022
+Total Time: 3.01934
+../build/read s3_vol_merge 1 16384 512 768
+Fri Jun 10 15:34:14 2022
+Total Time: 5.37704
+../build/read s3_vol_merge 2 16384 512 768
+Fri Jun 10 15:34:32 2022
+Total Time: 340.75
+../build/read s3_vol_merge 2 1024 512 512
+Fri Jun 10 15:40:20 2022
+Total Time: 41.1099
+../build/read s3_vol_range 2 32768 0 896
+Fri Jun 10 15:41:08 2022
+Total Time: 17.4976
+../build/read s3_vol_merge 1 4096 512 512
+Fri Jun 10 15:41:41 2022
+Total Time: 4.96633
+../build/read s3_vol_merge 2 4096 512 512
+Fri Jun 10 15:42:00 2022
+Total Time: 148.42
+../build/read s3_vol_range 2 4096 512 512
+Fri Jun 10 15:44:33 2022
+Total Time: 5.38477
+../build/read s3_vol_range 1 1024 512 512
+Fri Jun 10 15:44:51 2022
+Total Time: 4.83281
+../build/read s3_vol_range 2 2048 512 512
+Fri Jun 10 15:45:09 2022
+Total Time: 3.87554
+../build/read s3_vol_get 1 8192 512 512
+Fri Jun 10 15:45:27 2022
+Total Time: 4.66007
+../build/read s3_vol_merge 1 32768 0 896
+Fri Jun 10 15:45:45 2022
+Total Time: 6.55971
+../build/read s3_vol_merge 2 8192 512 512
+Fri Jun 10 15:46:03 2022
+Total Time: 192.189
+../build/read s3_vol_range 2 512 768 512
+Fri Jun 10 15:49:21 2022
+Total Time: 3.9082
+../build/read s3_vol_range 2 512 768 512
+Fri Jun 10 15:49:39 2022
+Total Time: 4.03663
+../build/read s3_vol_get 1 1024 512 512
+Fri Jun 10 15:49:57 2022
+Total Time: 5.45537
+../build/read s3_vol_merge 1 256 896 0
+Fri Jun 10 15:50:15 2022
+Total Time: 4.03762
+../build/read s3_vol_range 2 2048 512 512
+Fri Jun 10 15:50:33 2022
+Total Time: 3.89265
+../build/read s3_vol_merge 1 2048 512 512
+Fri Jun 10 15:50:51 2022
+Total Time: 3.71261
+../build/read s3_vol_get 1 256 896 0
+Fri Jun 10 15:51:10 2022
+Total Time: 6.75518
+../build/read s3_vol_range 2 16384 512 768
+Fri Jun 10 15:51:28 2022
+Total Time: 9.88474
+../build/read s3_vol_merge 1 256 896 0
+Fri Jun 10 15:51:46 2022
+Total Time: 2.84032
+../build/read s3_vol_merge 2 2048 512 512
+Fri Jun 10 15:52:04 2022
+Total Time: 36.3493
+../build/read s3_vol_get 1 4096 512 512
+Fri Jun 10 15:52:52 2022
+Total Time: 4.45268
+../build/read s3_vol_range 1 8192 512 512
+Fri Jun 10 15:53:10 2022
+Total Time: 8.70458
+../build/read s3_vol_get 1 32768 0 896
+Fri Jun 10 15:53:28 2022
+Total Time: 5.20467
+../build/read s3_vol_range 1 16384 512 768
+Fri Jun 10 15:53:46 2022
+Total Time: 13.3657
+../build/read s3_vol_get 1 32768 0 896
+Fri Jun 10 15:54:04 2022
+Total Time: 5.92075
+../build/read s3_vol_get 1 2048 512 512
+Fri Jun 10 15:54:22 2022
+Total Time: 4.56584
+../build/read s3_vol_range 2 512 768 512
+Fri Jun 10 15:54:40 2022
+Total Time: 3.92439
+../build/read s3_vol_range 1 256 896 0
+Fri Jun 10 15:54:58 2022
+Total Time: 5.16314
+../build/read s3_vol_range 2 8192 512 512
+Fri Jun 10 15:55:16 2022
+Total Time: 4.7156
+../build/read s3_vol_merge 2 256 896 0
+Fri Jun 10 15:55:34 2022
+Total Time: 10.0233
+../build/read s3_vol_range 2 16384 512 768
+Fri Jun 10 15:55:52 2022
+Total Time: 9.92493
+../build/read s3_vol_get 1 512 768 512
+Fri Jun 10 15:56:10 2022
+Total Time: 5.68353
+../build/read s3_vol_merge 2 512 768 512
+Fri Jun 10 15:56:29 2022
+Total Time: 20.5791
+../build/read s3_vol_merge 1 32768 0 896
+Fri Jun 10 15:57:02 2022
+Total Time: 6.66412
+../build/read s3_vol_get 1 1024 512 512
+Fri Jun 10 15:57:20 2022
+Total Time: 5.0501
+../build/read s3_vol_get 1 32768 0 896
+Fri Jun 10 15:57:38 2022
+Total Time: 6.8213
+../build/read s3_vol_merge 2 16384 512 768
+Fri Jun 10 15:57:56 2022
+Total Time: 389.36
+../build/read s3_vol_merge 1 16384 512 768
+Fri Jun 10 16:04:29 2022
+Total Time: 5.06862
+../build/read s3_vol_get 1 256 896 0
+Fri Jun 10 16:04:47 2022
+Total Time: 6.68199
+../build/read s3_vol_merge 2 2048 512 512
+Fri Jun 10 16:05:05 2022
+Total Time: 77.4823
+../build/read s3_vol_merge 2 512 768 512
+Fri Jun 10 16:06:38 2022
+Total Time: 18.6431
+../build/read s3_vol_merge 1 512 768 512
+Fri Jun 10 16:07:12 2022
+Total Time: 3.37477
+../build/read s3_vol_range 1 1024 512 512
+Fri Jun 10 16:07:30 2022
+Total Time: 4.71715
+../build/read s3_vol_range 1 32768 0 896
+Fri Jun 10 16:07:48 2022
+Total Time: 24.8485
+../build/read s3_vol_merge 1 2048 512 512
+Fri Jun 10 16:08:21 2022
+Total Time: 3.4128
+../build/read s3_vol_merge 1 4096 512 512
+Fri Jun 10 16:08:39 2022
+Total Time: 3.88175
+../build/read s3_vol_merge 1 512 768 512
+Fri Jun 10 16:08:57 2022
+Total Time: 4.07793
+../build/read s3_vol_get 1 2048 512 512
+Fri Jun 10 16:09:15 2022
+Total Time: 4.34635
+../build/read s3_vol_get 1 4096 512 512
+Fri Jun 10 16:09:33 2022
+Total Time: 4.88054
+../build/read s3_vol_range 2 8192 512 512
+Fri Jun 10 16:09:51 2022
+Total Time: 5.38454
+../build/read s3_vol_get 1 512 768 512
+Fri Jun 10 16:10:09 2022
+Total Time: 5.71898
+../build/read s3_vol_range 1 32768 0 896
+Fri Jun 10 16:10:27 2022
+Total Time: 27.9162
+../build/read s3_vol_range 1 4096 512 512
+Fri Jun 10 16:11:00 2022
+Total Time: 5.41707
+../build/read s3_vol_merge 2 8192 512 512
+Fri Jun 10 16:11:18 2022
+Total Time: 196.253
+../build/read s3_vol_range 1 8192 512 512
+Fri Jun 10 16:14:52 2022
+Total Time: 9.91179
+../build/read s3_vol_get 1 8192 512 512
+Fri Jun 10 16:15:10 2022
+Total Time: 5.15528
+../build/read s3_vol_range 1 2048 512 512
+Fri Jun 10 16:15:28 2022
+Total Time: 5.24279
+../build/read s3_vol_merge 2 256 896 0
+Fri Jun 10 16:15:46 2022
+Total Time: 9.48761
+../build/read s3_vol_get 1 256 896 0
+Fri Jun 10 16:16:04 2022
+Total Time: 6.35388
+../build/read s3_vol_merge 2 16384 512 768
+Fri Jun 10 16:16:22 2022
+Total Time: 334.231
+../build/read s3_vol_merge 2 8192 512 512
+Fri Jun 10 16:22:10 2022
+Total Time: 235.87
+../build/read s3_vol_merge 1 32768 0 896
+Fri Jun 10 16:26:14 2022
+Total Time: 6.1782
+../build/read s3_vol_range 1 512 768 512
+Fri Jun 10 16:26:32 2022
+Total Time: 4.73403
+../build/read s3_vol_merge 1 512 768 512
+Fri Jun 10 16:26:50 2022
+Total Time: 4.13302
+../build/read s3_vol_merge 1 16384 512 768
+Fri Jun 10 16:27:08 2022
+Total Time: 5.13778
+../build/read s3_vol_range 1 2048 512 512
+Fri Jun 10 16:27:26 2022
+Total Time: 5.06063
+../build/read s3_vol_range 2 16384 512 768
+Fri Jun 10 16:27:44 2022
+Total Time: 10.3048
+../build/read s3_vol_range 2 256 896 0
+Fri Jun 10 16:28:02 2022
+Total Time: 4.01843
+../build/read s3_vol_merge 2 4096 512 512
+Fri Jun 10 16:28:20 2022
+Total Time: 124.063
+../build/read s3_vol_get 1 16384 512 768
+Fri Jun 10 16:30:38 2022
+Total Time: 4.93401
+../build/read s3_vol_merge 1 4096 512 512
+Fri Jun 10 16:30:56 2022
+Total Time: 5.13681
+../build/read s3_vol_range 1 256 896 0
+Fri Jun 10 16:31:14 2022
+Total Time: 5.42709
+../build/read s3_vol_range 1 4096 512 512
+Fri Jun 10 16:31:32 2022
+Total Time: 5.47274
+../build/read s3_vol_range 1 256 896 0
+Fri Jun 10 16:31:51 2022
+Total Time: 5.35898
+../build/read s3_vol_range 2 1024 512 512
+Fri Jun 10 16:32:09 2022
+Total Time: 2.8776
+../build/read s3_vol_merge 2 32768 0 896
+Fri Jun 10 16:32:27 2022
+Total Time: 530.06
+../build/read s3_vol_merge 2 512 768 512
+Fri Jun 10 16:41:30 2022
+Total Time: 19.2288
+../build/read s3_vol_range 1 1024 512 512
+Fri Jun 10 16:42:03 2022
+Total Time: 5.07604
+../build/read s3_vol_get 1 16384 512 768
+Fri Jun 10 16:42:21 2022
+Total Time: 5.84012
+../build/read s3_vol_merge 2 2048 512 512
+Fri Jun 10 16:42:39 2022
+Total Time: 72.0662
+../build/read s3_vol_merge 1 1024 512 512
+Fri Jun 10 16:43:57 2022
+Total Time: 3.76882
+../build/read s3_vol_get 1 8192 512 512
+Fri Jun 10 16:44:16 2022
+Total Time: 4.43881
+../build/read s3_vol_range 2 4096 512 512
+Fri Jun 10 16:44:34 2022
+Total Time: 3.90138
+../build/read s3_vol_range 2 8192 512 512
+Fri Jun 10 16:44:52 2022
+Total Time: 4.94151
+../build/read s3_vol_range 2 1024 512 512
+Fri Jun 10 16:45:10 2022
+Total Time: 3.87585
+../build/read s3_vol_merge 2 32768 0 896
+Fri Jun 10 16:45:28 2022
+Total Time: 566.922
+../build/read s3_vol_range 2 32768 0 896
+Fri Jun 10 16:55:01 2022
+Total Time: 17.214
+../build/read s3_vol_merge 1 8192 512 512
+Fri Jun 10 16:55:34 2022
+Total Time: 5.43556
+../build/read s3_vol_get 1 512 768 512
+Fri Jun 10 16:55:52 2022
+Total Time: 5.64646
+../build/read s3_vol_range 2 2048 512 512
+Fri Jun 10 16:56:11 2022
+Total Time: 3.88463
+../build/read s3_vol_get 1 2048 512 512
+Fri Jun 10 16:56:29 2022
+Total Time: 4.3644
+../build/read s3_vol_range 2 32768 0 896
+Fri Jun 10 16:56:47 2022
+Total Time: 16.0341
+../build/read s3_vol_get 1 1024 512 512
+Fri Jun 10 16:57:20 2022
+Total Time: 4.54238
+../build/read s3_vol_merge 1 2048 512 512
+Fri Jun 10 16:57:38 2022
+Total Time: 4.29333
+../build/read s3_vol_range 2 256 896 0
+Fri Jun 10 16:57:56 2022
+Total Time: 4.01461
+../build/read s3_vol_merge 1 1024 512 512
+Fri Jun 10 16:58:14 2022
+Total Time: 4.22976
+../build/read s3_vol_range 1 4096 512 512
+Fri Jun 10 16:58:32 2022
+Total Time: 5.75874
+../build/read s3_vol_merge 2 4096 512 512
+Fri Jun 10 16:58:50 2022
+Total Time: 123.581
+../build/read s3_vol_merge 2 32768 0 896
+Fri Jun 10 17:01:08 2022
+Total Time: 564.281
+../build/read s3_vol_merge 2 1024 512 512
+Fri Jun 10 17:10:42 2022
+Total Time: 30.6584
+../build/read s3_vol_range 1 32768 0 896
+Fri Jun 10 17:11:15 2022
+Total Time: 23.4611
+../build/read s3_vol_merge 1 1024 512 512
+Fri Jun 10 17:11:48 2022
+Total Time: 4.09979
+../build/read s3_vol_get 1 16384 512 768
+Fri Jun 10 17:12:06 2022
+Total Time: 5.3545
+../build/read s3_vol_range 1 8192 512 512
+Fri Jun 10 17:12:24 2022
+Total Time: 10.0967
+../build/read s3_vol_merge 2 256 896 0
+Fri Jun 10 17:12:42 2022
+Total Time: 11.3559

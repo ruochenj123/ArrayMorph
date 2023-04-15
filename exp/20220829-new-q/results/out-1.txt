@@ -1,0 +1,72 @@
+../build/read s3_vol_get
+Mon Aug 29 14:00:21 2022
+start_stamp: 1661796021954
+# of requests: 256
+# of lambda: 0
+transferred size: 1073741824
+Total Time: 12.2371
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  4141195264 61004980224     1208320  2104705024 62469136384
+Swap:    2147479552   434372608  1713106944
+Request 62469136384
+end_stamp: 1661796051445
+../build/read s3_vol_hybrid
+Mon Aug 29 14:00:58 2022
+start_stamp: 1661796060054
+# of requests: 256
+# of lambda: 32
+transferred size: 823001344
+Total Time: 11.5829
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  4052553728 62796578816     1097728   401747968 62522544128
+Swap:    2147479552   535035904  1612443648
+Request 62522544128
+end_stamp: 1661796089911
+../build/read s3_vol_get
+Mon Aug 29 14:01:46 2022
+start_stamp: 1661796107129
+# of requests: 256
+# of lambda: 0
+transferred size: 1073741824
+Total Time: 12.5341
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3896434688 63023054848     1056768   331390976 62713696256
+Swap:    2147479552   655998976  1491480576
+Request 62713696256
+end_stamp: 1661796137183
+../build/read s3_vol_hybrid
+Mon Aug 29 14:02:19 2022
+start_stamp: 1661796140012
+# of requests: 256
+# of lambda: 32
+transferred size: 823001344
+Total Time: 10.4912
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3832123392 63147556864     1011712   271200256 62807519232
+Swap:    2147479552   715472896  1432006656
+Request 62807519232
+end_stamp: 1661796175716
+../build/read s3_vol_hybrid
+Mon Aug 29 14:03:08 2022
+start_stamp: 1661796189059
+# of requests: 256
+# of lambda: 32
+transferred size: 823001344
+Total Time: 10.063
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3652046848 63291535360     1011712   307298304 62969913344
+Swap:    2147479552   901775360  1245704192
+Request 62969913344
+end_stamp: 1661796217548
+../build/read s3_vol_get
+Mon Aug 29 14:03:42 2022
+start_stamp: 1661796223503
+# of requests: 256
+# of lambda: 0
+transferred size: 1073741824
+Total Time: 12.9314
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  3559698432 63439237120     1007616   251944960 63089405952
+Swap:    2147479552  1066401792  1081077760
+Request 63089405952
+end_stamp: 1661796255512

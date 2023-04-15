@@ -1,0 +1,50 @@
+../build/read s3_vol_lambda
+Thu Jul 21 20:09:20 2022
+start_stamp: 1658448561190
+# of requests: 1024
+Total Time: 37.8222
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  8806793216 58247831552     1388544   196255744 57869848576
+Swap:    2147479552  2147442688       36864
+Request 57869848576
+end_stamp: 1658448617550
+../build/read s3_vol_get
+Thu Jul 21 20:10:24 2022
+start_stamp: 1658448625257
+# of requests: 1024
+Total Time: 39.8887
+free(): invalid pointer
+end_stamp: 1658448684299
+../build/read s3_vol_lambda
+Thu Jul 21 20:11:28 2022
+start_stamp: 1658448689948
+# of requests: 1024
+Total Time: 40.7804
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  8856412160 58185728000     1388544   208740352 57813983232
+Swap:    2147479552  2147479552           0
+Request 57813983232
+end_stamp: 1658448746959
+../build/read s3_vol_lambda
+Thu Jul 21 20:12:32 2022
+start_stamp: 1658448753007
+# of requests: 1024
+Total Time: 35.6974
+end_stamp: 1658448806966
+../build/read s3_vol_get
+Thu Jul 21 20:13:36 2022
+start_stamp: 1658448816423
+# of requests: 1024
+Total Time: 39.7067
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  8769437696 58286637056     1388544   194805760 57907912704
+Swap:    2147479552  2147479552           0
+Request 57907912704
+end_stamp: 1658448873483
+../build/read s3_vol_get
+Thu Jul 21 20:14:40 2022
+start_stamp: 1658448880981
+# of requests: 1024
+Total Time: 40.0216
+free(): invalid pointer
+end_stamp: 1658448940365

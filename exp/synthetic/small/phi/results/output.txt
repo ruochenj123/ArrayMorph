@@ -1,0 +1,1272 @@
+../build/build/read azure_pareto_1000 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_column_test.txt small_2048
+Mon Mar 20 17:35:00 2023
+start_stamp: 1679348100707
+qnum: 10
+chunk num:512
+Plans: 
+GET: 512
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 8589934592
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 512
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 8589934592
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 512
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 8589934592
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+end_stamp: 1679350223682
+Total Time: 921
+../build/build/read azure_pareto_1000 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_column_test.txt small_2048
+Mon Mar 20 18:10:35 2023
+start_stamp: 1679350235561
+qnum: 10
+chunk num:512
+Plans: 
+GET: 512
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 8589934592
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 512
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 8589934592
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 512
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 8589934592
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 448
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7516192768
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+end_stamp: 1679352412222
+Total Time: 874.71
+../build/build/read s3_pareto_0 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_cube_test.txt small_2048
+Mon Mar 20 18:46:55 2023
+start_stamp: 1679352415379
+qnum: 10
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 361
+MERGE: 0
+LAMBDA: 80
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 441
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 361
+MERGE: 0
+LAMBDA: 80
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 441
+azure_req_num: 0
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 361
+MERGE: 0
+LAMBDA: 80
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 441
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 361
+MERGE: 0
+LAMBDA: 80
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 441
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+end_stamp: 1679353016017
+Total Time: 598.152
+../build/build/read azure_pareto_1000 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_row_test.txt small_2048
+Mon Mar 20 18:56:58 2023
+start_stamp: 1679353018951
+qnum: 10
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+end_stamp: 1679353782398
+Total Time: 601.434
+../build/build/read s3_pareto_0 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_cube_test.txt small_2048
+Mon Mar 20 19:09:47 2023
+start_stamp: 1679353787674
+qnum: 10
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 361
+MERGE: 0
+LAMBDA: 80
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 441
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 361
+MERGE: 0
+LAMBDA: 80
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 441
+azure_req_num: 0
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 361
+MERGE: 0
+LAMBDA: 80
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 441
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 361
+MERGE: 0
+LAMBDA: 80
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 441
+azure_req_num: 0
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 380
+MERGE: 0
+LAMBDA: 82
+Multi-fetch: 0
+transfer_size: 6871746816
+s3_req_num: 462
+azure_req_num: 0
+gc_req_num: 0
+end_stamp: 1679354387085
+Total Time: 597.507
+../build/build/read s3_pareto_0 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_row_test.txt small_2048
+Mon Mar 20 19:19:51 2023
+start_stamp: 1679354391249
+qnum: 10
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+end_stamp: 1679354990920
+Total Time: 597.68
+../build/build/read s3_pareto_0 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_column_test.txt small_2048
+Mon Mar 20 19:29:54 2023
+start_stamp: 1679354994839
+qnum: 10
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+end_stamp: 1679355595598
+Total Time: 598.828
+../build/build/read azure_pareto_1000 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_cube_test.txt small_2048
+Mon Mar 20 19:39:58 2023
+start_stamp: 1679355598415
+qnum: 10
+chunk num:462
+Plans: 
+GET: 418
+MERGE: 44
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7469895488
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 399
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 441
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 420
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 399
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 441
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 399
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 441
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 418
+MERGE: 44
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7469895488
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 418
+MERGE: 44
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7469895488
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 420
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 399
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 441
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 418
+MERGE: 44
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7469895488
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+end_stamp: 1679357707554
+Total Time:697.14
+../build/build/read azure_pareto_1000 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_row_test.txt small_2048
+Mon Mar 20 20:15:18 2023
+start_stamp: 1679357718140
+qnum: 10
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 512
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 128
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 0
+azure_req_num: 448
+gc_req_num: 0
+end_stamp: 1679359193441
+Total Time: 613.25
+../build/build/read s3_pareto_0 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_row_test.txt small_2048
+Mon Mar 20 20:40:07 2023
+start_stamp: 1679359207495
+qnum: 10
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+end_stamp: 1679359808188
+Total Time: 598.632
+../build/build/read s3_pareto_0 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_column_test.txt small_2048
+Mon Mar 20 20:50:11 2023
+start_stamp: 1679359811113
+qnum: 10
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+chunk num:512
+Plans: 
+GET: 384
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 512
+azure_req_num: 0
+gc_req_num: 0
+chunk num:448
+Plans: 
+GET: 320
+MERGE: 0
+LAMBDA: 128
+Multi-fetch: 0
+transfer_size: 6871842816
+s3_req_num: 448
+azure_req_num: 0
+gc_req_num: 0
+end_stamp: 1679360413058
+Total Time: 600.022
+../build/build/read azure_pareto_1000 /home/jiang.2091/s3-hyperslab/exp/synthetic/small/workload/small_cube_test.txt small_2048
+Mon Mar 20 21:00:29 2023
+start_stamp: 1679360429683
+qnum: 10
+chunk num:462
+Plans: 
+GET: 418
+MERGE: 44
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7469895488
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 399
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 441
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 420
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 399
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 441
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 399
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 441
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 418
+MERGE: 44
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7469895488
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 418
+MERGE: 44
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7469895488
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 420
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+chunk num:441
+Plans: 
+GET: 399
+MERGE: 42
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7130369856
+s3_req_num: 0
+azure_req_num: 441
+gc_req_num: 0
+chunk num:462
+Plans: 
+GET: 418
+MERGE: 44
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 7469895488
+s3_req_num: 0
+azure_req_num: 462
+gc_req_num: 0
+end_stamp: 1679362036711
+Total Time: 685.13

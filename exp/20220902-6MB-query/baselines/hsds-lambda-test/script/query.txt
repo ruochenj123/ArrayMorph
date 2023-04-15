@@ -1,0 +1,12 @@
+{
+  "method": "GET",
+  "path": "/datasets/d-2f22962d-e0592840-e15c-625d94-9e4cbf/value",
+  "headers": {
+    "accept": "application/octet-stream"
+  },
+  "params": {
+    "domain": "/home/admin/hsds.hdf5",
+    "select": "[0:32767, 0:47]",
+    "bucket": "hsds-hyperslab-test"
+  }
+}

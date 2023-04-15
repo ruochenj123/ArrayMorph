@@ -1,0 +1,5 @@
+System,Cost($),Time(s)
+HSDS,3.12,3760.66
+HSLambda,0.97,5801.92
+TileDB,0.28,1804.02
+Our Method,0.01,1296.21

@@ -5,7 +5,7 @@
 2. Download and compile HDF5 1.13 (https://github.com/HDFGroup/hdf5/releases/tag/hdf5-1_13_0).
 3. Download and compile ArrayMorph
 ```
-git clone https://github.com/ruochenj123/azure-vol-test.git
+download the repo
 cd $HOME/ArrayMorph/arraymorph
 cmake -B ./build -S . -DCMAKE_TOOLCHAIN_FILE=PATH_TO_VCPKG/vcpkg/scripts/buildsystems/vcpkg.cmake
 cd build

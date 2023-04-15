@@ -1,0 +1,74 @@
+../build/read 65536 s3_vol_get
+Wed Jun 29 17:22:16 2022
+0 0 
+0 0 
+Total Time: 14.0836
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  5126004736 61881524224      614400   243351552 61527486464
+Swap:    2147479552  1768685568   378793984
+Request 61527486464
+../build/read 1073741824 s3_vol_get
+Wed Jun 29 17:23:05 2022
+0 0 
+0 0 
+Total Time: 185.766
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  4336558080 62674886656      552960   239435776 62318911488
+Swap:    2147479552  1919418368   228061184
+Request 62318911488
+../build/read 65536 s3_vol_get
+Wed Jun 29 17:26:38 2022
+0 0 
+0 0 
+Total Time: 13.7746
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  4954791936 62048489472      552960   247599104 61696602112
+Swap:    2147479552  1977876480   169603072
+Request 61696602112
+../build/read 1073741824 s3_vol_range
+Wed Jun 29 17:27:11 2022
+0 0 
+0 0 
+Total Time: 13.7118
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  4623081472 62385065984      552960   242733056 62030745600
+Swap:    2147479552  2041217024   106262528
+Request 62030745600
+../build/read 1073741824 s3_vol_get
+Wed Jun 29 17:27:59 2022
+0 0 
+0 0 
+Total Time: 151.436
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  4142542848 62869049344      548864   239288320 62512984064
+Swap:    2147479552  2103443456    44036096
+Request 62512984064
+../build/read 1073741824 s3_vol_range
+Wed Jun 29 17:31:02 2022
+0 0 
+0 0 
+Total Time: 12.6922
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  4461195264 62555066368      548864   234618880 62196686848
+Swap:    2147479552  2147475456        4096
+Request 62196686848
+../build/read 1073741824 s3_vol_get
+Wed Jun 29 17:31:36 2022
+0 0 
+0 0 
+Total Time: 195.724
+              total        used        free      shared  buff/cache   available
+Mem:    67250880512  4024528896 62972952576      557056   253399040 62623961088
+Swap:    2147479552  2147278848      200704
+Request 62623961088
+../build/read 1073741824 s3_vol_range
+Wed Jun 29 17:35:25 2022
+0 0 
+0 0 
+Total Time: 13.8101
+../build/read 65536 s3_vol_get
+Wed Jun 29 17:36:14 2022
+0 0 
+0 0 
+Total Time: 13.696
+free(): invalid pointer

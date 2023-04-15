@@ -1,0 +1,9 @@
+python3.8 ../src/read.py
+Fri Sep  2 16:43:09 2022
+total time:  7.60750675201416
+python3.8 ../src/read.py
+Fri Sep  2 16:44:12 2022
+total time:  9.059247016906738
+python3.8 ../src/read.py
+Fri Sep  2 16:45:15 2022
+total time:  10.31265926361084

@@ -1,0 +1,688 @@
+#DATE - Tue Aug  9 20:23:49 2022
+##### ../build/read s3_vol_lambda 262144
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+jiang.2+ 10087  1255  0 20:24 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 10088 10087  0 20:24 pts/2    00:00:00 ps -ef
+jiang.2+ 10089 10087  0 20:24 pts/2    00:00:00 grep -v ^[ ]*root
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:28 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:34 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:30 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:24:53 2022
+##### ../build/read s3_vol_lambda 262144
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+jiang.2+ 18824  1255  0 20:25 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 18825 18824  0 20:25 pts/2    00:00:00 ps -ef
+jiang.2+ 18826 18824  0 20:25 pts/2    00:00:00 grep -v ^[ ]*root
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:28 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:34 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:30 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:25:56 2022
+##### ../build/read s3_vol_lambda 4194304
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+jiang.2+ 27403  1255  0 20:26 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 27404 27403  0 20:26 pts/2    00:00:00 ps -ef
+jiang.2+ 27405 27403  0 20:26 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:28 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:34 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:27:00 2022
+##### ../build/read s3_vol_lambda 1048576
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+jiang.2+  4018  1255  0 20:28 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  4019  4018  0 20:28 pts/2    00:00:00 ps -ef
+jiang.2+  4020  4018  0 20:28 pts/2    00:00:00 grep -v ^[ ]*root
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:28 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:34 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:28:18 2022
+##### ../build/read s3_vol_lambda 67108864
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+jiang.2+ 12396  1255  0 20:29 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 12397 12396  0 20:29 pts/2    00:00:00 ps -ef
+jiang.2+ 12398 12396  0 20:29 pts/2    00:00:00 grep -v ^[ ]*root
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:28 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:34 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:29:22 2022
+##### ../build/read s3_vol_lambda 67108864
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+jiang.2+ 20690  1255  0 20:30 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 20691 20690  0 20:30 pts/2    00:00:00 ps -ef
+jiang.2+ 20692 20690  0 20:30 pts/2    00:00:00 grep -v ^[ ]*root
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:28 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:30:26 2022
+##### ../build/read s3_vol_lambda 67108864
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+jiang.2+ 28977  1255  0 20:31 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 28978 28977  0 20:31 pts/2    00:00:00 ps -ef
+jiang.2+ 28979 28977  0 20:31 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:28 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:31:29 2022
+##### ../build/read s3_vol_lambda 4194304
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+etsadmin  5545     1  0 20:32 ?        00:00:00 /lib/systemd/systemd --user
+etsadmin  5546  5545  0 20:32 ?        00:00:00 (sd-pam)
+jiang.2+  5595  1255  0 20:32 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  5597  5595  0 20:32 pts/2    00:00:00 ps -ef
+jiang.2+  5598  5595  0 20:32 pts/2    00:00:00 grep -v ^[ ]*root
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:28 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:32:33 2022
+##### ../build/read s3_vol_lambda 16777216
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+jiang.2+ 14205  1255  0 20:33 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14206 14205  0 20:33 pts/2    00:00:00 ps -ef
+jiang.2+ 14207 14205  0 20:33 pts/2    00:00:00 grep -v ^[ ]*root
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:33:37 2022
+##### ../build/read s3_vol_lambda 16777216
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+jiang.2+ 22694  1255  0 20:34 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 22695 22694  0 20:34 pts/2    00:00:00 ps -ef
+jiang.2+ 22696 22694  0 20:34 pts/2    00:00:00 grep -v ^[ ]*root
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:34:40 2022
+##### ../build/read s3_vol_lambda 65536
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+jiang.2+ 31719  1255  0 20:35 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 31720 31719  0 20:35 pts/2    00:00:00 ps -ef
+jiang.2+ 31721 31719  0 20:35 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:35:43 2022
+##### ../build/read s3_vol_lambda 65536
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  8209  1255  0 20:36 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  8210  8209  0 20:36 pts/2    00:00:00 ps -ef
+jiang.2+  8211  8209  0 20:36 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:36:47 2022
+##### ../build/read s3_vol_lambda 1048576
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+jiang.2+ 16880  1255  0 20:37 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 16881 16880  0 20:37 pts/2    00:00:00 ps -ef
+jiang.2+ 16882 16880  0 20:37 pts/2    00:00:00 grep -v ^[ ]*root
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:37:50 2022
+##### ../build/read s3_vol_lambda 65536
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+jiang.2+ 25618  1255  0 20:38 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25619 25618  0 20:38 pts/2    00:00:00 ps -ef
+jiang.2+ 25620 25618  0 20:38 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:35 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:38:54 2022
+##### ../build/read s3_vol_lambda 16777216
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jiang.2+  2033  1255  0 20:39 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  2034  2033  0 20:39 pts/2    00:00:00 ps -ef
+jiang.2+  2035  2033  0 20:39 pts/2    00:00:00 grep -v ^[ ]*root
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:36 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:39:58 2022
+##### ../build/read s3_vol_lambda 4194304
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+jiang.2+ 10714  1255  0 20:40 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 10715 10714  0 20:40 pts/2    00:00:00 ps -ef
+jiang.2+ 10716 10714  0 20:40 pts/2    00:00:00 grep -v ^[ ]*root
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:36 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:41:01 2022
+##### ../build/read s3_vol_lambda 262144
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+jiang.2+ 19449  1255  0 20:42 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19450 19449  0 20:42 pts/2    00:00:00 ps -ef
+jiang.2+ 19451 19449  0 20:42 pts/2    00:00:00 grep -v ^[ ]*root
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:36 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----
+#DATE - Tue Aug  9 20:42:05 2022
+##### ../build/read s3_vol_lambda 1048576
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1239     1  0 20:23 ?        00:00:00 SCREEN -S read
+jiang.2+  1240  1239  0 20:23 pts/2    00:00:00 /bin/bash
+jiang.2+  1254  1240  0 20:23 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  1255  1254  0 20:23 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+wang.52+  1336     1  0 Jul27 ?        00:00:00 /lib/systemd/systemd --user
+wang.52+  1337  1336  0 Jul27 ?        00:00:00 (sd-pam)
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+message+  1643     1  0 Apr02 ?        00:00:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wang.52+  2070     1  0 Jul27 ?        00:00:00 SCREEN
+wang.52+  2071  2070  0 Jul27 pts/1    00:00:00 -bin/tcsh
+_chrony   2120     1  0 Apr02 ?        00:00:07 /usr/sbin/chronyd
+postfix   6043  3215  0 19:38 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  6102     1  0 19:55 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+  6103  6102  0 19:55 ?        00:00:00 (sd-pam)
+yang.52+  6530     1  0 Apr18 ?        00:00:06 SCREEN -L
+yang.52+  6531  6530  0 Apr18 pts/6    00:00:00 /bin/bash
+www-data  6668 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  6669 30309  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:02 qmgr -l -t unix -u
+syslog   15663     1  0 May06 ?        00:00:05 /usr/sbin/rsyslogd -n
+wang.52+ 16605     1  0 Aug04 ?        00:00:16 memcached -p 2378 -d -P /tmp/memcached.pid
+yang.52+ 24978     1  0 Apr18 ?        00:00:02 /lib/systemd/systemd --user
+yang.52+ 24980 24978  0 Apr18 ?        00:00:00 (sd-pam)
+jiang.2+ 28169 28093  0 20:43 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+ 28170 28169  0 20:43 pts/0    00:00:00 -bash
+jiang.2+ 28175  1255  0 20:43 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 28176 28175  0 20:43 pts/2    00:00:00 ps -ef
+jiang.2+ 28177 28175  0 20:43 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 30119     1  0 Jun04 ?        00:00:01 /lib/systemd/systemd --user
+kang.10+ 30120 30119  0 Jun04 ?        00:00:00 (sd-pam)
+kang.10+ 30687     1  0 Jun04 ?        01:05:29 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-namenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+kang.10+ 30895     1  0 Jun04 ?        01:16:36 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-datanode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+kang.10+ 31239     1  0 Jun04 ?        00:30:12 /home/kang.1002/app/jdk-11.0.11/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/home/kang.1002/data/Hadoop/logs -Dyarn.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dyarn.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/home/kang.1002/app/hadoop-3.3.1/lib/native -Dhadoop.log.dir=/home/kang.1002/data/Hadoop/logs -Dhadoop.log.file=hadoop-kang.1002-secondarynamenode-cse-dnc196740s.coeit.osu.edu.log -Dhadoop.home.dir=/home/kang.1002/app/hadoop-3.3.1 -Dhadoop.id.str=kang.1002 -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+kang.10+ 31413     1  0 Jun04 ?        00:42:18 /home/kang.1002/app/jdk-11.0.11/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/*:/home/kang.1002/app/hadoop-3.3.1/etc/hadoop/ -Xmx1g org.apache.spark.deploy.master.Master --host cse-dnc196740s.coeit.osu.edu --port 7077 --webui-port 8080
+kang.10+ 31573     1  0 Jun04 ?        00:23:31 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/kang.1002/installpackages/spark-3.2.0/conf/:/home/kang.1002/installpackages/spark-3.2.0/assembly/target/scala-2.12/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://cse-dnc196740s.coeit.osu.edu:7077
+---- PS INFO END ----

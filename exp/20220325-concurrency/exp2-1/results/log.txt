@@ -1,0 +1,494 @@
+#DATE - Thu Apr 14 16:03:15 2022
+##### ../build/read 1024
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15027 15000  0 16:08 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15028 15027  0 16:08 pts/2    00:00:00 ps -ef
+jiang.2+ 15029 15027  0 16:08 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:08:48 2022
+##### ../build/read 16
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15337 15000  0 16:10 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15338 15337  0 16:10 pts/2    00:00:00 ps -ef
+jiang.2+ 15339 15337  0 16:10 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:10:06 2022
+##### ../build/read 256
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15384 15000  0 16:12 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15385 15384  0 16:12 pts/2    00:00:00 ps -ef
+jiang.2+ 15386 15384  0 16:12 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:12:24 2022
+##### ../build/read 1024
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15408 15000  0 16:16 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15409 15408  0 16:16 pts/2    00:00:00 ps -ef
+jiang.2+ 15410 15408  0 16:16 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:16:27 2022
+##### ../build/read 1
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 19573 15000  0 16:18 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19574 19573  0 16:18 pts/2    00:00:00 ps -ef
+jiang.2+ 19575 19573  0 16:18 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:18:16 2022
+##### ../build/read 64
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 19759 15000  0 16:19 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19760 19759  0 16:19 pts/2    00:00:00 ps -ef
+jiang.2+ 19761 19759  0 16:19 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:19:49 2022
+##### ../build/read 256
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 19804 15000  0 16:22 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19805 19804  0 16:22 pts/2    00:00:00 ps -ef
+jiang.2+ 19806 19804  0 16:22 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:22:07 2022
+##### ../build/read 64
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 19907 15000  0 16:23 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19908 19907  0 16:23 pts/2    00:00:00 ps -ef
+jiang.2+ 19909 19907  0 16:23 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:23:40 2022
+##### ../build/read 16
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 20221 15000  0 16:24 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 20222 20221  0 16:24 pts/2    00:00:00 ps -ef
+jiang.2+ 20223 20221  0 16:24 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:24:58 2022
+##### ../build/read 16
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 20515 15000  0 16:25 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 20516 20515  0 16:25 pts/2    00:00:00 ps -ef
+jiang.2+ 20517 20515  0 16:25 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:25:46 2022
+##### ../build/read 4
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 21619 15000  0 16:27 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 21620 21619  0 16:27 pts/2    00:00:00 ps -ef
+jiang.2+ 21621 21619  0 16:27 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:27:05 2022
+##### ../build/read 4
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 22709 15000  0 16:28 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 22710 22709  0 16:28 pts/2    00:00:00 ps -ef
+jiang.2+ 22711 22709  0 16:28 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:28:38 2022
+##### ../build/read 1024
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 22734 15000  0 16:32 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 22735 22734  0 16:32 pts/2    00:00:00 ps -ef
+jiang.2+ 22736 22734  0 16:32 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:32:11 2022
+##### ../build/read 256
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 22781 15000  0 16:34 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 22782 22781  0 16:34 pts/2    00:00:00 ps -ef
+jiang.2+ 22783 22781  0 16:34 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:34:44 2022
+##### ../build/read 1
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 26943 15000  0 16:36 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 26944 26943  0 16:36 pts/2    00:00:00 ps -ef
+jiang.2+ 26945 26943  0 16:36 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:36:32 2022
+##### ../build/read 4
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 28031 15000  0 16:37 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 28032 28031  0 16:37 pts/2    00:00:00 ps -ef
+jiang.2+ 28033 28031  0 16:37 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:37:50 2022
+##### ../build/read 1
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 32191 15000  0 16:39 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 32192 32191  0 16:39 pts/2    00:00:00 ps -ef
+jiang.2+ 32193 32191  0 16:39 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Thu Apr 14 16:39:39 2022
+##### ../build/read 64
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1621     1  0 Apr02 ?        00:00:00 /usr/sbin/atd -f
+syslog    1627     1  0 Apr02 ?        00:00:01 /usr/sbin/rsyslogd -n
+message+  1643     1  0 Apr02 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+_chrony   2120     1  0 Apr02 ?        00:00:00 /usr/sbin/chronyd
+www-data  7066  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  7067  2973  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix  10040  3215  0 Apr02 ?        00:00:00 qmgr -l -t unix -u
+yang.52+ 10712     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+yang.52+ 10713 10712  0 10:17 ?        00:00:00 (sd-pam)
+yang.52+ 11328     1  0 10:37 ?        00:00:00 SCREEN -L
+yang.52+ 11329 11328  0 10:37 pts/0    00:00:00 /bin/bash
+jiang.2+ 13708     1  0 14:27 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 13709 13708  0 14:27 ?        00:00:00 (sd-pam)
+postfix  14222  3215  0 15:43 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14986     1  0 16:03 ?        00:00:00 SCREEN -S read
+jiang.2+ 14987 14986  0 16:03 pts/2    00:00:00 /bin/bash
+jiang.2+ 14999 14987  0 16:03 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 15000 14999  0 16:03 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+yang.52+ 19744 19674  0 16:19 ?        00:00:00 sshd: yang.5229@pts/1
+yang.52+ 19745 19744  0 16:19 pts/1    00:00:00 -bash
+jiang.2+ 32293 15000  0 16:41 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 32294 32293  0 16:41 pts/2    00:00:00 ps -ef
+jiang.2+ 32295 32293  0 16:41 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----

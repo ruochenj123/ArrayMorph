@@ -1,0 +1,1919 @@
+#DATE - Tue Jan 24 15:49:37 2023
+##### ../build/build/read 4096 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:06 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:11 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6392  6304  0 15:19 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+  6393  6392  0 15:19 pts/1    00:00:00 -bash
+jiang.2+ 13192  4734  0 15:49 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 13193 13192  0 15:49 pts/2    00:00:00 ps -ef
+jiang.2+ 13194 13192  0 15:49 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+jiang.2+ 31714 31468  0 14:17 ?        00:00:01 sshd: jiang.2091@pts/0
+jiang.2+ 31715 31714  0 14:17 pts/0    00:00:00 -bash
+postfix  31938  3279  0 14:54 ?        00:00:00 pickup -l -t unix -u -c
+---- PS INFO END ----
+#DATE - Tue Jan 24 15:49:55 2023
+##### ../build/build/read 262144 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:11 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 17022  4734  0 17:14 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 17023 17022  0 17:14 pts/2    00:00:00 ps -ef
+jiang.2+ 17024 17022  0 17:14 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  20659  3279  0 16:34 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 17:14:33 2023
+##### ../build/build/read 16384 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:11 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20659  3279  0 16:34 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 25541  4734  0 17:14 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25542 25541  0 17:14 pts/2    00:00:00 ps -ef
+jiang.2+ 25543 25541  0 17:14 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 17:14:51 2023
+##### ../build/build/read 2048 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1393  4734  0 17:14 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  1394  1393  0 17:14 pts/2    00:00:00 ps -ef
+jiang.2+  1396  1393  0 17:14 pts/2    00:00:00 grep -v ^[ ]*root
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:11 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20659  3279  0 16:34 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 17:14:54 2023
+##### ../build/build/read 8192 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jiang.2+  1677  4734  0 17:15 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  1678  1677  0 17:15 pts/2    00:00:00 ps -ef
+jiang.2+  1679  1677  0 17:15 pts/2    00:00:00 grep -v ^[ ]*root
+syslog    1750     1  0 Jan20 ?        00:00:11 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20659  3279  0 16:34 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 17:15:12 2023
+##### ../build/build/read 131072 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:11 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 18118  4734  0 17:23 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 18119 18118  0 17:23 pts/2    00:00:00 ps -ef
+jiang.2+ 18120 18118  0 17:23 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  20659  3279  0 16:34 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 17:23:46 2023
+##### ../build/build/read 262144 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  7238  4734  0 18:45 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  7239  7238  0 18:45 pts/2    00:00:00 ps -ef
+jiang.2+  7240  7238  0 18:45 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:45:08 2023
+##### ../build/build/read 2048 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 15461  4734  0 18:45 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15462 15461  0 18:45 pts/2    00:00:00 ps -ef
+jiang.2+ 15463 15461  0 18:45 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:45:26 2023
+##### ../build/build/read 131072 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 24238  4734  0 18:50 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 24239 24238  0 18:50 pts/2    00:00:00 ps -ef
+jiang.2+ 24240 24238  0 18:50 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:50:30 2023
+##### ../build/build/read 16384 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 25028  4734  0 18:50 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25029 25028  0 18:50 pts/2    00:00:00 ps -ef
+jiang.2+ 25030 25028  0 18:50 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:50:48 2023
+##### ../build/build/read 16384 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 25684  4734  0 18:51 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25685 25684  0 18:51 pts/2    00:00:00 ps -ef
+jiang.2+ 25686 25684  0 18:51 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:51:06 2023
+##### ../build/build/read 8192 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 25955  4734  0 18:51 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25956 25955  0 18:51 pts/2    00:00:00 ps -ef
+jiang.2+ 25957 25955  0 18:51 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:51:24 2023
+##### ../build/build/read 8192 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 26242  4734  0 18:51 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 26243 26242  0 18:51 pts/2    00:00:00 ps -ef
+jiang.2+ 26244 26242  0 18:51 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:51:42 2023
+##### ../build/build/read 16384 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 26898  4734  0 18:51 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 26899 26898  0 18:51 pts/2    00:00:00 ps -ef
+jiang.2+ 26900 26898  0 18:51 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:52:00 2023
+##### ../build/build/read 16384 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 27698  4734  0 18:52 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 27699 27698  0 18:52 pts/2    00:00:00 ps -ef
+jiang.2+ 27700 27698  0 18:52 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:52:18 2023
+##### ../build/build/read 32768 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:15 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12937  3279  0 18:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 30189  4734  0 18:57 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 30190 30189  0 18:57 pts/2    00:00:00 ps -ef
+jiang.2+ 30191 30189  0 18:57 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 18:57:21 2023
+##### ../build/build/read 524288 azure_vol
+> Process terminated due to timeout.
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:16 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 15:49 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 15:49 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 15:49 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 15:49 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  15286  3279  0 23:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 27468  4734  0 23:57 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 27469 27468  0 23:57 pts/2    00:00:00 ps -ef
+jiang.2+ 27470 27468  0 23:57 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 30193     1 13 18:57 pts/2    00:39:44 [read] <defunct>
+jiang.2+ 31471     1  0 14:17 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 14:17 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Tue Jan 24 23:57:56 2023
+##### ../build/build/read 262144 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:17 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  15286  3279  0 Jan24 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 30506  4734  0 00:35 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 30507 30506  0 00:35 pts/2    00:00:00 ps -ef
+jiang.2+ 30508 30506  0 00:35 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 00:35:46 2023
+##### ../build/build/read 131072 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:17 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  15286  3279  0 Jan24 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+jiang.2+ 31821  4734  0 00:48 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 31822 31821  0 00:48 pts/2    00:00:00 ps -ef
+jiang.2+ 31823 31821  0 00:48 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Wed Jan 25 00:48:20 2023
+##### ../build/build/read 262144 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:17 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix   8412  3279  0 00:54 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  9586  4734  0 01:08 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  9587  9586  0 01:08 pts/2    00:00:00 ps -ef
+jiang.2+  9588  9586  0 01:08 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 01:08:09 2023
+##### ../build/build/read 524288 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 24045  4734  0 05:20 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 24046 24045  0 05:20 pts/2    00:00:00 ps -ef
+jiang.2+ 24047 24045  0 05:20 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+postfix  32265  3279  0 04:14 ?        00:00:00 pickup -l -t unix -u -c
+---- PS INFO END ----
+#DATE - Wed Jan 25 05:20:25 2023
+##### ../build/build/read 4096 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 24124  4734  0 05:20 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 24125 24124  0 05:20 pts/2    00:00:00 ps -ef
+jiang.2+ 24126 24124  0 05:20 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+postfix  32265  3279  0 04:14 ?        00:00:00 pickup -l -t unix -u -c
+---- PS INFO END ----
+#DATE - Wed Jan 25 05:20:44 2023
+##### ../build/build/read 4096 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 24203  4734  0 05:20 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 24204 24203  0 05:20 pts/2    00:00:00 ps -ef
+jiang.2+ 24205 24203  0 05:20 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+postfix  32265  3279  0 04:14 ?        00:00:00 pickup -l -t unix -u -c
+---- PS INFO END ----
+#DATE - Wed Jan 25 05:21:02 2023
+##### ../build/build/read 131072 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+www-data  2962  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  2963  2961  0 Jan20 ?        00:00:00 /usr/sbin/apache2 -k start
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 25156  4734  0 05:41 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25157 25156  0 05:41 pts/2    00:00:00 ps -ef
+jiang.2+ 25158 25156  0 05:41 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+postfix  32265  3279  0 04:14 ?        00:00:00 pickup -l -t unix -u -c
+---- PS INFO END ----
+#DATE - Wed Jan 25 05:41:51 2023
+##### ../build/build/read 524288 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   2193  3279  0 05:54 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  7513  4734  0 07:00 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  7514  7513  0 07:00 pts/2    00:00:00 ps -ef
+jiang.2+  7515  7513  0 07:00 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 07:00:13 2023
+##### ../build/build/read 2048 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   2193  3279  0 05:54 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  7545  4734  0 07:00 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  7546  7545  0 07:00 pts/2    00:00:00 ps -ef
+jiang.2+  7547  7545  0 07:00 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 07:00:16 2023
+##### ../build/build/read 65536 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   2193  3279  0 05:54 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15912  4734  0 07:02 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15913 15912  0 07:02 pts/2    00:00:00 ps -ef
+jiang.2+ 15914 15912  0 07:02 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 07:02:49 2023
+##### ../build/build/read 2048 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   2193  3279  0 05:54 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15943  4734  0 07:02 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15944 15943  0 07:02 pts/2    00:00:00 ps -ef
+jiang.2+ 15945 15943  0 07:02 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 07:02:52 2023
+##### ../build/build/read 8192 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:12 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:18 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   2193  3279  0 05:54 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 16214  4734  0 07:03 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 16215 16214  0 07:03 pts/2    00:00:00 ps -ef
+jiang.2+ 16216 16214  0 07:03 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 07:03:10 2023
+##### ../build/build/read 524288 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 13377  6054  0 09:22 pts/0    00:00:00 vim output.txt
+jiang.2+ 29300  4734  0 09:27 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 29301 29300  0 09:27 pts/2    00:00:00 ps -ef
+jiang.2+ 29302 29300  0 09:27 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:27:50 2023
+##### ../build/build/read 65536 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  5881  4734  0 09:29 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  5882  5881  0 09:29 pts/2    00:00:00 ps -ef
+jiang.2+  5883  5881  0 09:29 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 13377  6054  0 09:22 pts/0    00:00:01 vim output.txt
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:29:54 2023
+##### ../build/build/read 131072 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 14711  4734  0 09:34 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14712 14711  0 09:34 pts/2    00:00:00 ps -ef
+jiang.2+ 14713 14711  0 09:34 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:34:57 2023
+##### ../build/build/read 4096 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 14790  4734  0 09:35 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14791 14790  0 09:35 pts/2    00:00:00 ps -ef
+jiang.2+ 14792 14790  0 09:35 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:35:15 2023
+##### ../build/build/read 8192 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 15061  4734  0 09:35 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15062 15061  0 09:35 pts/2    00:00:00 ps -ef
+jiang.2+ 15063 15061  0 09:35 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:35:33 2023
+##### ../build/build/read 32768 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 23632  4734  0 09:36 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 23633 23632  0 09:36 pts/2    00:00:00 ps -ef
+jiang.2+ 23634 23632  0 09:36 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:36:06 2023
+##### ../build/build/read 16384 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+jiang.2+ 32122  4734  0 09:36 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 32123 32122  0 09:36 pts/2    00:00:00 ps -ef
+jiang.2+ 32124 32122  0 09:36 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:36:24 2023
+##### ../build/build/read 65536 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+jiang.2+  8420  4734  0 09:37 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  8421  8420  0 09:37 pts/2    00:00:00 ps -ef
+jiang.2+  8422  8420  0 09:37 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:37:57 2023
+##### ../build/build/read 32768 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:19 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6053  5306  0 09:20 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+  6054  6053  0 09:20 pts/0    00:00:00 -bash
+jiang.2+ 10671  4734  0 09:38 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 10672 10671  0 09:38 pts/2    00:00:00 ps -ef
+jiang.2+ 10673 10671  0 09:38 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  11873  3279  0 09:14 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 13375 13362  0 09:22 pts/1    00:00:00 screen -r
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 09:38:45 2023
+##### ../build/build/read 524288 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:20 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix   7046  3279  0 10:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+  7117  4734  0 11:43 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  7118  7117  0 11:43 pts/2    00:00:00 ps -ef
+jiang.2+  7119  7117  0 11:43 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 13361 13290  0 09:22 ?        00:00:00 sshd: jiang.2091@pts/1
+jiang.2+ 13362 13361  0 09:22 pts/1    00:00:00 -bash
+jiang.2+ 16882 16072  0 10:51 ?        00:00:00 sshd: jiang.2091@pts/0
+jiang.2+ 16883 16882  0 10:51 pts/0    00:00:00 -bash
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 11:43:55 2023
+##### ../build/build/read 262144 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:20 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix   7046  3279  0 10:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 17099  4734  0 12:03 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 17100 17099  0 12:03 pts/2    00:00:00 ps -ef
+jiang.2+ 17101 17099  0 12:03 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 12:03:44 2023
+##### ../build/build/read 16384 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:20 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix   7046  3279  0 10:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 17900  4734  0 12:03 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 17901 17900  0 12:03 pts/2    00:00:00 ps -ef
+jiang.2+ 17902 17900  0 12:03 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 12:04:02 2023
+##### ../build/build/read 524288 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix   9533  3279  0 14:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 30422  4734  0 15:48 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 30423 30422  0 15:48 pts/2    00:00:00 ps -ef
+jiang.2+ 30424 30422  0 15:48 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 15:49:02 2023
+##### ../build/build/read 16384 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix   9533  3279  0 14:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31083  4734  0 15:49 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 31084 31083  0 15:49 pts/2    00:00:00 ps -ef
+jiang.2+ 31085 31083  0 15:49 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 15:49:20 2023
+##### ../build/build/read 131072 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  7709  4734  0 15:54 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  7710  7709  0 15:54 pts/2    00:00:00 ps -ef
+jiang.2+  7711  7709  0 15:54 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 15:54:23 2023
+##### ../build/build/read 65536 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12230  3279  0 15:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 16344  4734  0 15:56 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 16345 16344  0 15:56 pts/2    00:00:00 ps -ef
+jiang.2+ 16346 16344  0 15:56 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 15:56:27 2023
+##### ../build/build/read 65536 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12230  3279  0 15:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 25165  4734  0 15:58 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25166 25165  0 15:58 pts/2    00:00:00 ps -ef
+jiang.2+ 25167 25165  0 15:58 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 15:58:45 2023
+##### ../build/build/read 65536 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+jiang.2+  1309  4734  0 16:00 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  1310  1309  0 16:00 pts/2    00:00:00 ps -ef
+jiang.2+  1311  1309  0 16:00 pts/2    00:00:00 grep -v ^[ ]*root
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12230  3279  0 15:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 16:00:18 2023
+##### ../build/build/read 32768 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 10017  4734  0 16:00 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 10018 10017  0 16:00 pts/2    00:00:00 ps -ef
+jiang.2+ 10019 10017  0 16:00 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  12230  3279  0 15:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 16:00:51 2023
+##### ../build/build/read 32768 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12230  3279  0 15:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12637  4734  0 16:01 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 12638 12637  0 16:01 pts/2    00:00:00 ps -ef
+jiang.2+ 12639 12637  0 16:01 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 16:01:39 2023
+##### ../build/build/read 16384 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12230  3279  0 15:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 21214  4734  0 16:01 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 21215 21214  0 16:01 pts/2    00:00:00 ps -ef
+jiang.2+ 21216 21214  0 16:01 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 16:01:57 2023
+##### ../build/build/read 524288 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:21 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+jiang.2+  3234  4734  0 17:20 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  3235  3234  0 17:20 pts/2    00:00:00 ps -ef
+jiang.2+  3236  3234  0 17:20 pts/2    00:00:00 grep -v ^[ ]*root
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12230  3279  0 15:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 17:20:19 2023
+##### ../build/build/read 524288 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12754  3279  0 17:35 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 17635  4734  0 18:38 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 17636 17635  0 18:38 pts/2    00:00:00 ps -ef
+jiang.2+ 17637 17635  0 18:38 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 18:38:41 2023
+##### ../build/build/read 32768 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12754  3279  0 17:35 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 19829  4734  0 18:39 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19830 19829  0 18:39 pts/2    00:00:00 ps -ef
+jiang.2+ 19831 19829  0 18:39 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 18:39:29 2023
+##### ../build/build/read 2048 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12754  3279  0 17:35 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 19861  4734  0 18:39 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19862 19861  0 18:39 pts/2    00:00:00 ps -ef
+jiang.2+ 19863 19861  0 18:39 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 18:39:32 2023
+##### ../build/build/read 2048 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12754  3279  0 17:35 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 28077  4734  0 18:39 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 28078 28077  0 18:39 pts/2    00:00:00 ps -ef
+jiang.2+ 28079 28077  0 18:39 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 18:39:35 2023
+##### ../build/build/read 65536 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+  4319  4734  0 18:41 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  4320  4319  0 18:41 pts/2    00:00:00 ps -ef
+jiang.2+  4321  4319  0 18:41 pts/2    00:00:00 grep -v ^[ ]*root
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12754  3279  0 17:35 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 18:41:08 2023
+##### ../build/build/read 262144 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  12754  3279  0 17:35 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 14356  4734  0 19:00 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14357 14356  0 19:00 pts/2    00:00:00 ps -ef
+jiang.2+ 14358 14356  0 19:00 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 19:00:57 2023
+##### ../build/build/read 131072 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15711  4734  0 19:36 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15712 15711  0 19:36 pts/2    00:00:00 ps -ef
+jiang.2+ 15713 15711  0 19:36 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 19:36:17 2023
+##### ../build/build/read 2048 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15742  4734  0 19:36 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15743 15742  0 19:36 pts/2    00:00:00 ps -ef
+jiang.2+ 15744 15742  0 19:36 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 19:36:21 2023
+##### ../build/build/read 8192 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 24079  4734  0 19:36 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 24080 24079  0 19:36 pts/2    00:00:00 ps -ef
+jiang.2+ 24081 24079  0 19:36 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 19:36:39 2023
+##### ../build/build/read 131072 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 25242  4734  0 19:45 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25243 25242  0 19:45 pts/2    00:00:00 ps -ef
+jiang.2+ 25244 25242  0 19:45 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 19:45:27 2023
+##### ../build/build/read 262144 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 28661  4734  0 20:17 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 28662 28661  0 20:17 pts/2    00:00:00 ps -ef
+jiang.2+ 28663 28661  0 20:17 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:17:47 2023
+##### ../build/build/read 32768 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  4977  4734  0 20:18 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  4978  4977  0 20:18 pts/2    00:00:00 ps -ef
+jiang.2+  4979  4977  0 20:18 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:18:20 2023
+##### ../build/build/read 131072 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6058  4734  0 20:41 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  6059  6058  0 20:41 pts/2    00:00:00 ps -ef
+jiang.2+  6060  6058  0 20:41 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:41:09 2023
+##### ../build/build/read 2048 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6090  4734  0 20:41 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  6091  6090  0 20:41 pts/2    00:00:00 ps -ef
+jiang.2+  6092  6090  0 20:41 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:41:12 2023
+##### ../build/build/read 4096 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  6182  4734  0 20:41 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  6183  6182  0 20:41 pts/2    00:00:00 ps -ef
+jiang.2+  6184  6182  0 20:41 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:41:30 2023
+##### ../build/build/read 65536 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 14563  4734  0 20:45 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14564 14563  0 20:45 pts/2    00:00:00 ps -ef
+jiang.2+ 14565 14563  0 20:45 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:45:19 2023
+##### ../build/build/read 2048 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 14594  4734  0 20:45 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14595 14594  0 20:45 pts/2    00:00:00 ps -ef
+jiang.2+ 14596 14594  0 20:45 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:45:22 2023
+##### ../build/build/read 32768 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 17164  4734  0 20:46 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 17165 17164  0 20:46 pts/2    00:00:00 ps -ef
+jiang.2+ 17166 17164  0 20:46 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  28725  3279  0 19:15 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:46:10 2023
+##### ../build/build/read 65536 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  24939  3279  0 20:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 25876  4734  0 20:58 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25877 25876  0 20:58 pts/2    00:00:00 ps -ef
+jiang.2+ 25878 25876  0 20:58 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:58:14 2023
+##### ../build/build/read 8192 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  24939  3279  0 20:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 26149  4734  0 20:58 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 26150 26149  0 20:58 pts/2    00:00:00 ps -ef
+jiang.2+ 26151 26149  0 20:58 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:58:32 2023
+##### ../build/build/read 4096 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:13 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:22 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+jiang.2+  2069  4734  0 20:58 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  2070  2069  0 20:58 pts/2    00:00:00 ps -ef
+jiang.2+  2071  2069  0 20:58 pts/2    00:00:00 grep -v ^[ ]*root
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  24939  3279  0 20:55 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 20:58:50 2023
+##### ../build/build/read 524288 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 14437  4734  0 23:11 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14438 14437  0 23:11 pts/2    00:00:00 ps -ef
+jiang.2+ 14439 14437  0 23:11 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 23:11:59 2023
+##### ../build/build/read 4096 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 14516  4734  0 23:12 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 14517 14516  0 23:12 pts/2    00:00:00 ps -ef
+jiang.2+ 14518 14516  0 23:12 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 23:12:18 2023
+##### ../build/build/read 8192 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 22854  4734  0 23:12 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 22855 22854  0 23:12 pts/2    00:00:00 ps -ef
+jiang.2+ 22856 22854  0 23:12 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 23:12:36 2023
+##### ../build/build/read 32768 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 25413  4734  0 23:13 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25414 25413  0 23:13 pts/2    00:00:00 ps -ef
+jiang.2+ 25415 25413  0 23:13 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 23:13:24 2023
+##### ../build/build/read 262144 gc_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 28886  4734  0 23:54 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 28887 28886  0 23:54 pts/2    00:00:00 ps -ef
+jiang.2+ 28888 28886  0 23:54 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 23:54:14 2023
+##### ../build/build/read 4096 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  4925  4734  0 23:54 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  4926  4925  0 23:54 pts/2    00:00:00 ps -ef
+jiang.2+  4927  4925  0 23:54 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 23:54:32 2023
+##### ../build/build/read 262144 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  5211  4734  0 23:54 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  5212  5211  0 23:54 pts/2    00:00:00 ps -ef
+jiang.2+  5213  5211  0 23:54 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 23:54:50 2023
+##### ../build/build/read 4096 azure_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+  5290  4734  0 23:54 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  5291  5290  0 23:54 pts/2    00:00:00 ps -ef
+jiang.2+  5292  5290  0 23:54 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----
+#DATE - Wed Jan 25 23:54:53 2023
+##### ../build/build/read 8192 s3_vol
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+daemon    1666     1  0 Jan20 ?        00:00:00 /usr/sbin/atd -f
+message+  1672     1  0 Jan20 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+syslog    1750     1  0 Jan20 ?        00:00:14 /usr/sbin/rsyslogd -n
+memcache  2058     1  0 Jan20 ?        00:00:23 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2107     1  0 Jan20 ?        00:00:00 /usr/sbin/chronyd
+postfix   3258  3279  0 22:35 ?        00:00:00 pickup -l -t unix -u -c
+postfix   3283  3279  0 Jan20 ?        00:00:00 qmgr -l -t unix -u
+www-data  4610  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4611  2961  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+jiang.2+  4699     1  0 Jan24 ?        00:00:00 SCREEN -S read
+jiang.2+  4700  4699  0 Jan24 pts/2    00:00:00 /bin/bash
+jiang.2+  4733  4700  0 Jan24 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+  4734  4733  0 Jan24 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 13627  4734  0 23:55 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 13628 13627  0 23:55 pts/2    00:00:00 ps -ef
+jiang.2+ 13629 13627  0 23:55 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 31471     1  0 Jan24 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 31472 31471  0 Jan24 ?        00:00:00 (sd-pam)
+---- PS INFO END ----

@@ -1,0 +1,717 @@
+#DATE - Tue Sep 13 14:42:21 2022
+##### ../build/read s3_vol_lambda_20
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:10 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:05 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:01:40 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:24 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  6 14:42 ?        00:00:03 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+jiang.2+ 21620 13047  0 14:43 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 21621 21620  0 14:43 pts/2    00:00:00 ps -ef
+jiang.2+ 21622 21620  0 14:43 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:43:41 2022
+##### ../build/read s3_vol_lambda_60
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:10 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:09 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:01:49 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:33 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  8 14:42 ?        00:00:11 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  2 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+jiang.2+ 30186 13047  0 14:44 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 30187 30186  0 14:44 pts/2    00:00:00 ps -ef
+jiang.2+ 30188 30186  0 14:44 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:45:02 2022
+##### ../build/read s3_vol_lambda_40
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:10 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1 23 14:46 ?        00:00:00 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+jiang.2+  6551 13047  0 14:46 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  6552  6551  0 14:46 pts/2    00:00:00 ps -ef
+jiang.2+  6553  6551  0 14:46 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+  6765  6492  0 10:18 ?        00:02:13 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:11 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:14 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:36 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  6 14:42 ?        00:00:15 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:46:36 2022
+##### ../build/read s3_vol_lambda_0
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:10 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1 13 14:46 ?        00:00:09 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:16 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:13 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:14 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:36 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 15281 13047  0 14:47 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 15282 15281  0 14:47 pts/2    00:00:00 ps -ef
+jiang.2+ 15283 15281  0 14:47 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  5 14:42 ?        00:00:15 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:47:40 2022
+##### ../build/read s3_vol_lambda_20
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:10 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  7 14:46 ?        00:00:11 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:18 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:15 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:37 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  4 14:42 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+jiang.2+ 23843 13047  0 14:49 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 23844 23843  0 14:49 pts/2    00:00:00 ps -ef
+jiang.2+ 23845 23843  0 14:49 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:49:16 2022
+##### ../build/read s3_vol_lambda_20
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:10 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  5 14:46 ?        00:00:13 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:19 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:17 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:39 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  4 14:42 ?        00:00:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+jiang.2+ 32357 13047  0 14:50 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 32358 32357  0 14:50 pts/2    00:00:00 ps -ef
+jiang.2+ 32359 32357  0 14:50 pts/2    00:00:00 grep -v ^[ ]*root
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:50:21 2022
+##### ../build/read s3_vol_lambda_100
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  5 14:46 ?        00:00:15 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:22 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:39 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+jiang.2+  8797 13047  0 14:51 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  8798  8797  0 14:51 pts/2    00:00:00 ps -ef
+jiang.2+  8799  8797  0 14:51 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  3 14:42 ?        00:00:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:51:25 2022
+##### ../build/read s3_vol_lambda_60
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  4 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:24 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:20 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:39 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 17351 13047  0 14:52 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 17354 17351  1 14:52 pts/2    00:00:00 ps -ef
+jiang.2+ 17355 17351  0 14:52 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  3 14:42 ?        00:00:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:52:32 2022
+##### ../build/read s3_vol_lambda_40
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:03 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  4 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:27 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:21 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:39 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  3 14:42 ?        00:00:21 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+jiang.2+ 25884 13047  0 14:53 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 25885 25884  0 14:53 pts/2    00:00:00 ps -ef
+jiang.2+ 25886 25884  0 14:53 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:53:36 2022
+##### ../build/read s3_vol_lambda_0
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+jiang.2+  2045 13047  0 14:54 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  2046  2045  0 14:54 pts/2    00:00:00 ps -ef
+jiang.2+  2047  2045  0 14:54 pts/2    00:00:00 grep -v ^[ ]*root
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  3 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:27 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:22 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:18 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:39 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  3 14:42 ?        00:00:22 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:54:56 2022
+##### ../build/read s3_vol_lambda_80
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  2 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:27 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:23 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:19 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:39 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+jiang.2+ 10846 13047  0 14:55 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 10847 10846  0 14:55 pts/2    00:00:00 ps -ef
+jiang.2+ 10848 10846  0 14:55 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  2 14:42 ?        00:00:23 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:56:00 2022
+##### ../build/read s3_vol_lambda_60
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  2 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:28 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:23 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:20 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:40 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+jiang.2+ 19394 13047  0 14:57 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 19395 19394  0 14:57 pts/2    00:00:00 ps -ef
+jiang.2+ 19396 19394  0 14:57 pts/2    00:00:00 grep -v ^[ ]*root
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  2 14:42 ?        00:00:24 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:57:54 2022
+##### ../build/read s3_vol_lambda_100
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  2 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:28 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:23 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:21 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:41 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  2 14:42 ?        00:00:25 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+jiang.2+ 27914 13047  0 14:59 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 27915 27914  0 14:59 pts/2    00:00:00 ps -ef
+jiang.2+ 27916 27914  0 14:59 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 14:59:13 2022
+##### ../build/read s3_vol_lambda_0
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+jiang.2+  4127 13047  0 15:00 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  4128  4127  0 15:00 pts/2    00:00:00 ps -ef
+jiang.2+  4129  4127  0 15:00 pts/2    00:00:00 grep -v ^[ ]*root
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  2 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:28 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:24 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:21 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:41 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  2 14:42 ?        00:00:25 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 15:00:16 2022
+##### ../build/read s3_vol_lambda_80
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  1 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:28 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:24 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:21 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:41 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 12883 13047  0 15:01 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 12884 12883  0 15:01 pts/2    00:00:00 ps -ef
+jiang.2+ 12885 12883  0 15:01 pts/2    00:00:00 grep -v ^[ ]*root
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  2 14:42 ?        00:00:25 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 15:01:20 2022
+##### ../build/read s3_vol_lambda_100
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  1 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:28 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:24 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:21 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:41 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+jiang.2+ 21431 13047  0 15:02 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 21432 21431  0 15:02 pts/2    00:00:00 ps -ef
+jiang.2+ 21433 21431  0 15:02 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 21590     1  2 14:42 ?        00:00:25 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 15:02:23 2022
+##### ../build/read s3_vol_lambda_80
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  1 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:28 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:24 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:21 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:41 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  2 14:42 ?        00:00:25 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+jiang.2+ 29946 13047  0 15:03 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+ 29947 29946  0 15:03 pts/2    00:00:00 ps -ef
+jiang.2+ 29948 29946  0 15:03 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----
+#DATE - Tue Sep 13 15:03:26 2022
+##### ../build/read s3_vol_lambda_40
+---- PS INFO START ----
+UID        PID  PPID  C STIME TTY          TIME CMD
+syslog    1658     1  0 Aug22 ?        00:00:52 /usr/sbin/rsyslogd -n
+message+  1697     1  0 Aug22 ?        00:00:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+daemon    1925     1  0 Aug22 ?        00:00:00 /usr/sbin/atd -f
+memcache  2128     1  0 Aug22 ?        00:01:31 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1 -P /var/run/memcached/memcached.pid
+_chrony   2256     1  0 Aug22 ?        00:00:01 /usr/sbin/chronyd
+www-data  4440  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  4441  2957  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+kang.10+  6182     1  0 10:17 ?        00:00:00 /lib/systemd/systemd --user
+kang.10+  6183  6182  0 10:17 ?        00:00:00 (sd-pam)
+jiang.2+  6222 13047  0 15:04 pts/2    00:00:00 sh -c ps -ef | grep -v "^[ ]*root"
+jiang.2+  6223  6222  0 15:04 pts/2    00:00:00 ps -ef
+jiang.2+  6224  6222  0 15:04 pts/2    00:00:00 grep -v ^[ ]*root
+kang.10+  6430  6180  0 10:17 ?        00:00:04 sshd: kang.1002@notty
+kang.10+  6480     1  0 10:17 ?        00:00:00 sh /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6492  6480  0 10:17 ?        00:00:11 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kang.1002/.vscode-server/.784b0177c56c607789f9638da7b6bf3230d47a8c.token
+kang.10+  6516     1  1 14:46 ?        00:00:16 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {4D6C0F38-A743-43FE-AD16-8BBF416E06AC}
+kang.10+  6523  6492  0 10:17 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=ptyHost --logsPath /home/kang.1002/.vscode-server/data/logs/20220913T101742
+kang.10+  6765  6492  0 10:18 ?        00:02:28 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+kang.10+  6776  6492  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/bootstrap-fork --type=fileWatcher
+kang.10+  6849  6765  0 10:18 ?        00:02:24 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+kang.10+  6898  6765  0 10:18 ?        00:00:00 /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/node /home/kang.1002/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=6765
+kang.10+  7251     1  0 10:38 ?        00:02:21 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {36325A3A-AD96-43AB-968A-458006A5810C}
+kang.10+  8700     1  0 10:56 ?        00:01:41 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {67CE843D-627A-43EF-89EB-A27A4C8EF00A}
+kang.10+ 10709 10475  0 11:21 ?        00:00:00 sshd: kang.1002@pts/0
+kang.10+ 10710 10709  0 11:21 pts/0    00:00:00 -bash
+postfix  11973  3211  0 13:57 ?        00:00:00 pickup -l -t unix -u -c
+jiang.2+ 12836     1  0 14:40 ?        00:00:00 /lib/systemd/systemd --user
+jiang.2+ 12837 12836  0 14:40 ?        00:00:00 (sd-pam)
+jiang.2+ 13032     1  0 14:42 ?        00:00:00 SCREEN -S read
+jiang.2+ 13033 13032  0 14:42 pts/2    00:00:00 /bin/bash
+jiang.2+ 13046 13033  0 14:42 pts/2    00:00:00 /bin/bash ./read.sh
+jiang.2+ 13047 13046  0 14:42 pts/2    00:00:00 python randomization.py ../results/output.txt ../results/log.txt
+postfix  20132  3211  0 Sep02 ?        00:00:00 qmgr -l -t unix -u
+kang.10+ 21590     1  1 14:42 ?        00:00:25 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {72EE76F9-EFBA-4E37-90F2-8CC3100CCAB3}
+kang.10+ 30114     1  0 14:43 ?        00:00:01 /home/kang.1002/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools-srv 6849 {68E1ADC8-FEE9-4EF5-BCE4-791BFBDDA0E1}
+---- PS INFO END ----

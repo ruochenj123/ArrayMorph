@@ -1,0 +1,90 @@
+../build/read 256
+Tue Apr 19 17:09:14 2022
+0 0 
+0 0 
+Total Time: 185.794
+../build/read 4
+Tue Apr 19 17:12:33 2022
+0 0 
+0 0 
+Total Time: 78.2286
+../build/read 1024
+Tue Apr 19 17:14:06 2022
+0 0 
+0 0 
+Total Time: 308.909
+../build/read 256
+Tue Apr 19 17:19:24 2022
+0 0 
+0 0 
+Total Time: 164.055
+../build/read 16
+Tue Apr 19 17:22:12 2022
+0 0 
+0 0 
+Total Time: 79.3315
+../build/read 256
+Tue Apr 19 17:23:45 2022
+0 0 
+0 0 
+Total Time: 129.931
+../build/read 16
+Tue Apr 19 17:26:04 2022
+0 0 
+0 0 
+Total Time: 78.1299
+../build/read 1024
+Tue Apr 19 17:27:37 2022
+0 0 
+0 0 
+Total Time: 311.209
+../build/read 4
+Tue Apr 19 17:32:55 2022
+0 0 
+0 0 
+Total Time: 78.582
+../build/read 1
+Tue Apr 19 17:34:28 2022
+0 0 
+0 0 
+Total Time: 77.3764
+../build/read 64
+Tue Apr 19 17:36:02 2022
+0 0 
+0 0 
+Total Time: 88.2082
+../build/read 1
+Tue Apr 19 17:37:35 2022
+0 0 
+0 0 
+Total Time: 77.6452
+../build/read 64
+Tue Apr 19 17:39:08 2022
+0 0 
+0 0 
+Total Time: 88.2151
+../build/read 64
+Tue Apr 19 17:40:41 2022
+0 0 
+0 0 
+Total Time: 87.5449
+../build/read 1024
+Tue Apr 19 17:42:14 2022
+0 0 
+0 0 
+Total Time: 323.132
+../build/read 4
+Tue Apr 19 17:47:48 2022
+0 0 
+0 0 
+Total Time: 77.5953
+../build/read 1
+Tue Apr 19 17:49:21 2022
+0 0 
+0 0 
+Total Time: 77.5133
+../build/read 16
+Tue Apr 19 17:50:54 2022
+0 0 
+0 0 
+Total Time: 78.1977

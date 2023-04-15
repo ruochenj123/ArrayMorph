@@ -10,7 +10,6 @@ using namespace std;
 #define Y 32 * 1024
 int main(void)
 {
-    cout << "start" << endl;
     hid_t   file_id, dset_id, space_id, dcpl_id;
     hsize_t chunk_dims[2] = {16 * 1024, 16 * 1024};
     hsize_t dset_dims[2] = {X, Y};
@@ -20,7 +19,6 @@ int main(void)
         for (int j = 0; j < Y; j++)
             data[i * Y + j] = i + j;
     
-    cout << "VOL start" << endl;
     hid_t fapl = H5Pcreate(H5P_FILE_ACCESS);
 
     // register vol

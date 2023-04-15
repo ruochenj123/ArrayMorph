@@ -1,0 +1,2 @@
+Date,Type,Selectivity,Platform,Total Time (s),Cost ($),Transfer Size (bytes)
+"Sun Mar 26 02:03:10 2023,TileDB,0.01,azure,458.8232922554016,0.11358152465820312,1513728000",,,,0,,
