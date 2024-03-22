@@ -8,8 +8,8 @@ project (s3_vol DESCRIPTION "S3 VOL connector")
 
 
 # Find HDF5
-#SET(CMAKE_INSTALL_PREFIX /home/jiang.2091a/Desktop/hdf5/build/)
-find_package (HDF5 1.13 COMPONENTS C REQUIRED)
+# SET(CMAKE_INSTALL_PREFIX /home/jiang.2091/HDF5/1.14/build/)
+find_package (HDF5 1.14.2 COMPONENTS C REQUIRED)
 link_directories (${HDF5_LIBRARY_DIRS})
 include_directories (${HDF5_INCLUDE_DIR})
 set (LINK_LIBS ${LINK_LIBS} ${HDF5_C_${LIB_TYPE}_LIBRARY})

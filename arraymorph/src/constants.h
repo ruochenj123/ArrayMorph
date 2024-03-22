@@ -7,11 +7,12 @@ using namespace std;
 
 #define SUCCESS 1
 #define FAIL -1
-// #define LOG_ENABLE
+#define LOG_ENABLE
 #define VOL_ENABLE
+#define PROFILE_ENABLE
 // #define PROFILE
 #define FILL_VALUE 0
-#define DUMMY_WRITE
+// #define DUMMY_WRITE
 #define PROCESS
 // #define MERGE_TEST
 #define POOLEXECUTOR
@@ -36,11 +37,12 @@ typedef struct Result {
 } Result;
 
 enum QPlan {
+	NONE=-1,
 	GET=0,
-	GET_BYTE_RANGE,
-	LAMBDA_MERGE,
-	MERGE,
-	LAMBDA
+	GET_BYTE_RANGE=2,
+	LAMBDA_MERGE=3,
+	MERGE=4,
+	LAMBDA=5
 };
 
 enum SPlan
@@ -50,9 +52,8 @@ enum SPlan
 	AZURE_BLOB
 };
 
-const SPlan SP = SPlan::S3;
-// #define DUMMY_PLAN
-const QPlan TEST_PLAN=GET;
+extern SPlan SP;
+extern QPlan SINGLE_PLAN;
 // micro-profiler
 
 // throughput
@@ -70,7 +71,7 @@ const vector<vector<int>> NUMBER_OF_REQUESTS{
 };
 
 const vector<vector<double>> THROUGHPUTS{
-	{55.2, 75.6, 95.3, 106, 107, 107.4, 106.3, 99},
+	{55.2, 75.6, 95.3, 95, 95, 107.4, 106.3, 99},
 	{108.1, 108.7, 106, 106.7, 93, 75.8},
 	{100.4, 107.4, 107.6, 104, 72, 59.9}
 };
@@ -81,12 +82,12 @@ const vector<double> THROUGHPUTS_BY_SIZE{
 
 // overhead
 
-const vector<double> _alpha{57, 49};
-const vector<double> _beta{180, 72};
+const vector<double> _alpha{57, 49, 55};
+const vector<double> _beta{180, 72, 100};
 
 const vector<double> _epsilon = {0.001, 0.001, 0.0295};
 
-const vector<double> _gamma{0, 0.97};
+const vector<double> _gamma{0.0001, 0.97, 0.0005};
 
 // price
 
@@ -100,7 +101,7 @@ const vector<double> CR{0.0000004, 0.0000004, 0.0000005};
 const vector<double> CT{0.09, 0.12, 0.08};
 // lambda (per second)
 
-const vector<double> CLAMBDA{0.0000169, 0.0000165};
+const vector<double> CLAMBDA{0.0000169, 0.0000165, 0.000016};
 
 // coefficient
 const double phi = 105;

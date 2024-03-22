@@ -50,15 +50,20 @@ S3VLDatasetObj::S3VLDatasetObj(string name, string uri, hid_t dtype, int ndims, 
     this->s3_client = client;
 
     // GC connection
-    string gc_connection_file = getenv("GOOGLE_CLOUD_STORAGE_JSON");
-    auto is = ifstream(gc_connection_file);
-  	auto json_string =
-        	std::string(std::istreambuf_iterator<char>(is.rdbuf()), {});
-  	auto credentials =
-        	google::cloud::MakeServiceAccountCredentials(json_string);
-  	this->gc_client = new gcs::Client(
-        	google::cloud::Options{}.set<google::cloud::UnifiedCredentialsOption>(
-            credentials).set<gcs::ConnectionPoolSizeOption>(gcConnections));
+	if (SP == GOOGLE) {
+		string gc_connection_file = getenv("GOOGLE_CLOUD_STORAGE_JSON");
+		auto is = ifstream(gc_connection_file);
+		auto json_string =
+				std::string(std::istreambuf_iterator<char>(is.rdbuf()), {});
+		auto credentials =
+				google::cloud::MakeServiceAccountCredentials(json_string);
+		this->gc_client = new gcs::Client(
+				google::cloud::Options{}.set<google::cloud::UnifiedCredentialsOption>(
+				credentials).set<gcs::ConnectionPoolSizeOption>(gcConnections));
+	}
+	else {
+		this->gc_client = NULL;
+	}
 }
 
 vector<hsize_t> S3VLDatasetObj::getChunkOffsets(int chunk_idx) {
@@ -95,7 +100,7 @@ void processGC(vector<S3VLChunkObj*> &chunk_objs, vector<CPlan> &gc_plans,
 	vector<vector<vector<hsize_t>>> &mappings, void* buf, gcs::Client *gc_client, 
 	string bucket_name) {
 
-    string lambda_url = getenv("GC_LAMBDA_URL");
+    const char* lambda_url = getenv("GC_LAMBDA_URL");
 
 	gc_req_num = gc_plans.size();
 	vector<thread> threads;
@@ -140,7 +145,7 @@ void processGC(vector<S3VLChunkObj*> &chunk_objs, vector<CPlan> &gc_plans,
 				for (int j = 0; j < mappings[i].size(); j++)
 					mappings[i][j][0] = j * rsize;
 				shared_ptr<AsyncCallerContext> context(new AsyncReadInput(buf, mappings[i], 1));
-				thread gc_th(Operators::GCLambda, lambda_url, query, context);
+				thread gc_th(Operators::HttpTrigger, lambda_url, query, context);
 				threads.push_back(move(gc_th));
 			}
 
@@ -157,6 +162,7 @@ void processAzure(vector<S3VLChunkObj*> &chunk_objs, vector<CPlan> &azure_plans,
 	vector<vector<vector<hsize_t>>> &mappings,
 	void* buf, BlobContainerClient &lclient, string bucket_name) {
 	azure_req_num = azure_plans.size();
+	const char* lambda_url = getenv("AZURE_LAMBDA_URL");
 	vector<thread> threads;
 	threads.reserve(azure_thread_num);
 	int azure_idx = 0;
@@ -191,6 +197,17 @@ void processAzure(vector<S3VLChunkObj*> &chunk_objs, vector<CPlan> &azure_plans,
 				thread azure_th(Operators::AzureGetRange, std::ref(lclient), chunk_objs[i]->uri, beg, end, context);
 	        	threads.push_back(move(azure_th));
 			}
+			else {
+				// process
+				string query = azure_plans[idx].lambda_query;
+				uint64_t rsize = mappings[i][0][2];
+            	transfer_size += rsize * mappings[i].size();
+				for (int j = 0; j < mappings[i].size(); j++)
+					mappings[i][j][0] = j * rsize;
+				shared_ptr<AsyncCallerContext> context(new AsyncReadInput(buf, mappings[i], 1));
+				thread gc_th(Operators::HttpTrigger, lambda_url, query, context);
+				threads.push_back(move(gc_th));
+			}
 		}
 		azure_idx = min(azure_req_num, azure_idx + azure_thread_num);
 		for (auto &t : threads)
@@ -201,13 +218,8 @@ void processAzure(vector<S3VLChunkObj*> &chunk_objs, vector<CPlan> &azure_plans,
 }
 
 herr_t S3VLDatasetObj::read(hid_t mem_space_id, hid_t file_space_id, void* buf) {
-
-
-	string azure_connection_string = getenv("AZURE_STORAGE_CONNECTION_STRING");
-	BlobContainerClient lclient
-      = BlobContainerClient::CreateFromConnectionString(azure_connection_string, bucket_name);
-	string lambda_path = getenv("AWS_LAMBDA_ACCESS_POINT");
-	string lambda_merge_path = getenv("AWS_LAMBDA_MERGE_ACCESS_POINT");
+	const char* lambda_path = getenv("AWS_LAMBDA_ACCESS_POINT");
+	// string lambda_merge_path = getenv("AWS_LAMBDA_MERGE_ACCESS_POINT");
     vector<vector<hsize_t>> ranges;
 	if (file_space_id != H5S_ALL) {
 		ranges = selectionFromSpace(file_space_id);
@@ -255,9 +267,17 @@ herr_t S3VLDatasetObj::read(hid_t mem_space_id, hid_t file_space_id, void* buf) 
 
     double cost;
     // cout << "start plan" << endl;
+    struct timeval start_opt, end_opt; 
+    gettimeofday(&start_opt, NULL);
     vector<CPlan> plans = QueryProcess(chunk_objs, SP, &cost);
+    gettimeofday(&end_opt, NULL);
+    double opt_t = (1000000 * ( end_opt.tv_sec - start_opt.tv_sec )
+                        + end_opt.tv_usec -start_opt.tv_usec) /1000000.0;
     assert(plans.size() == num);
+#ifdef PROFILE_ENABLE
+    cout << "query processer time: " << opt_t << endl;
     cout << "chunk num:" << num << endl;
+#endif
     // cout << "get plans" << endl;
 #ifdef LOG_ENABLE
     Logger::log("------ Plans:");
@@ -303,11 +323,13 @@ herr_t S3VLDatasetObj::read(hid_t mem_space_id, hid_t file_space_id, void* buf) 
     		}
     	}
     }
+#ifdef PROFILE_ENABLE
     cout << "Plans: " << endl;
     cout << "GET: " << get_num << endl;
     cout << "MERGE: " <<merge_num << endl;
     cout << "LAMBDA: " << lambda_num << endl;
     cout << "Multi-fetch: " << multi_fetch_num << endl;
+#endif
     // float ratio = 1;
     // for (int i = 0; i < int(ratio * s3_plans.size()); i++)
     //     s3_plans[i].qp = MERGE;
@@ -360,10 +382,14 @@ herr_t S3VLDatasetObj::read(hid_t mem_space_id, hid_t file_space_id, void* buf) 
     }
 
     thread azure_process, gc_process;
-    if (azure_plans.size() > 0)
+    if (SP == AZURE_BLOB) {
+		string azure_connection_string = getenv("AZURE_STORAGE_CONNECTION_STRING");
+		BlobContainerClient lclient
+		= BlobContainerClient::CreateFromConnectionString(azure_connection_string, bucket_name);
         azure_process = thread(processAzure, std::ref(chunk_objs), std::ref(azure_plans), 
 	    std::ref(mappings), buf, std::ref(lclient), bucket_name);
-    if (gc_plans.size() > 0)
+	}
+    else if (SP == GOOGLE)
 	    gc_process = thread(processGC, std::ref(chunk_objs), std::ref(gc_plans), 
 	    std::ref(mappings), buf, gc_client, bucket_name);
     if (azure_plans.size() > 0)
@@ -372,16 +398,20 @@ herr_t S3VLDatasetObj::read(hid_t mem_space_id, hid_t file_space_id, void* buf) 
         gc_process.join();
 
 	while (finish < s3_req_num);
-
+#ifdef PROFILE_ENABLE
 	cout << "transfer_size: " << transfer_size << endl;
 	cout << "s3_req_num: " << s3_req_num << endl;
 	cout << "azure_req_num: " << azure_req_num << endl;
 	cout << "gc_req_num: " << gc_req_num << endl;
+#endif
 	return SUCCESS;
 }
 
 herr_t S3VLDatasetObj::write(hid_t mem_space_id, hid_t file_space_id, const void* buf) {
-	string azure_connection_string = getenv("AZURE_STORAGE_CONNECTION_STRING");
+	// dummy string to initliaze a dummy azure client if Azure is not the storage platform
+	string azure_connection_string = "dummy";
+	if (SP == AZURE_BLOB)
+		azure_connection_string = getenv("AZURE_STORAGE_CONNECTION_STRING");
 	BlobContainerClient lclient
       = BlobContainerClient::CreateFromConnectionString(azure_connection_string, bucket_name);
 
@@ -505,7 +535,9 @@ herr_t S3VLDatasetObj::write(hid_t mem_space_id, hid_t file_space_id, const void
 			s3_threads.push_back(move(s3_th));
 		}
 		s3_idx = min(s3_req_num, s3_idx + threadNum);
+#ifdef LOG_ENABLE
 		cout << "idx: " << azure_idx << " " << gc_idx  << " " << s3_idx << endl;
+#endif
 		for (auto &t : azure_threads)
 			t.join();
 	    for (auto &t : gc_threads)
@@ -586,8 +618,8 @@ vector<S3VLChunkObj*> S3VLDatasetObj::generateChunks(vector<vector<hsize_t>> ran
 
 		
 		S3VLChunkObj *chunk = new S3VLChunkObj(chunk_uri, format, dtype, local_ranges, chunk_shape, n_bits[c], result_serial_offsets);
-		Logger::log("------ Generate Chunk");
-		Logger::log(chunk->to_string());
+		// Logger::log("------ Generate Chunk");
+		// Logger::log(chunk->to_string());
 		chunk_objs.push_back(chunk);
 	}
 	return chunk_objs;

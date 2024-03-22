@@ -266,11 +266,12 @@ herr_t Operators::AzureGetRange(BlobContainerClient &client, string blob_name, u
 // Google Cloud
 herr_t Operators::GCPut(gcs::Client *client, string bucket_name, string obj_name, char* buf, hsize_t length)
 {
-
+    // cout << "bucket_name: " << bucket_name << endl;
     Logger::log("------ GCPut ", obj_name);
     auto writer = client->WriteObject(bucket_name, obj_name);
     writer.write(buf, length);
     writer.Close();
+    // auto metadata = move(writer).metadata();
     delete[] buf;
     return SUCCESS;
 }
@@ -338,9 +339,9 @@ mem_cb(void *contents, size_t size, size_t nmemb, void *userp)
     return realsize;
 }
 
-herr_t Operators::GCLambda(string lambda_url, string query, shared_ptr<AsyncCallerContext> context){
+herr_t Operators::HttpTrigger(string lambda_url, string query, shared_ptr<AsyncCallerContext> context){
     string json = "{\"query\":\"" + query + "\"}";
-    Logger::log("------ GCLambda: ", lambda_url);
+    Logger::log("------ LambdaURL: ", lambda_url);
     Logger::log("------ query: ", json);
     std::shared_ptr<const AsyncReadInput> input = static_pointer_cast<const AsyncReadInput>(context);
     struct response chunk = {.memory = (char*)malloc(0), .size = 0};
@@ -369,7 +370,7 @@ herr_t Operators::GCLambda(string lambda_url, string query, shared_ptr<AsyncCall
     }
     curl_easy_cleanup(curl);
     curl_slist_free_all(headers);
-
+    Logger::log("------ return size: ", chunk.size);
 #ifdef PROCESS
     for (auto &m: input->mapping) {
         memcpy((char*)input->buf + m[1], chunk.memory + m[0], m[2]);

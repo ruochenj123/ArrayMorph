@@ -99,7 +99,8 @@ public:
     static herr_t GCPut(gcs::Client *client, string bucket_name, string obj_name, char* buf, hsize_t length);
     static herr_t GCGet(gcs::Client *client, string bucket_name, string obj_name, shared_ptr<AsyncCallerContext> context);
     static herr_t GCGetRange(gcs::Client *client, string bucket_name, string obj_name, uint64_t beg, uint64_t end, shared_ptr<AsyncCallerContext> context);
-    static herr_t GCLambda(string lambda_url, string query, shared_ptr<AsyncCallerContext> context);
+// Azure and GC lambda
+    static herr_t HttpTrigger(string lambda_url, string query, shared_ptr<AsyncCallerContext> context);
 };
 
 inline herr_t Operators::S3GetByteRangeAsync(S3Client *client, string bucket_name, const Aws::String &object_name, uint64_t beg, uint64_t end,

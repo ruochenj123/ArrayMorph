@@ -60,11 +60,17 @@ vector<vector<hsize_t>> Chunking(vector<hsize_t> dset_shape, int data_size,
 	const vector<int> chunk_sizes = CHUNK_SIZES[idx];
 	int ndims = dset_shape.size();
 	
+	int dset_size = data_size;
+	for (auto &d : dset_shape)
+		dset_size *= d;
+
 	vector<vector<size_t>> final_shapes;
 	vector<hsize_t> chunk_shape;
 	int re = -1;
 
 	for (auto &chunk_size: chunk_sizes) {
+		if (chunk_size * 1024 * 1024 > dset_size)
+			continue;
 		int cur = 0;
 		chunk_shape = GenerateChunkShape(dset_shape, data_size, chunk_size);
 
@@ -106,7 +112,7 @@ vector<hsize_t> FinalDecision(vector<hsize_t> dset_shape, hid_t type_id,
 	vector<hsize_t> final_shape;
 	double final_cost = DBL_MAX;
 
-	for (SPlan sp: {SPlan::S3, SPlan::GOOGLE, SPlan::AZURE_BLOB}) {
+	for (SPlan sp: {SPlan::AZURE_BLOB, SPlan::GOOGLE, SPlan::S3}) {
 		int idx = static_cast<int>(sp);
 		vector<vector<hsize_t>> chunk_shape_cand = Chunking(dset_shape, data_size, queries, sp);
 		for (auto& chunk_shape : chunk_shape_cand) {

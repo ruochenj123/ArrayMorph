@@ -16,7 +16,7 @@ double Cost(S3VLChunkObj* chunk, QPlan qp, SPlan sp, int nt, double* lambda_t) {
 			nr *= chunk->ranges[i][1] - chunk->ranges[i][0] + 1;
 		st = chunk->required_size;
 		c = CR[idx] * nr + CT[idx] * double(st) /1024 / 1024 / 1024;
-		to = nr * _epsilon[idx];
+		to = nr * _epsilon[idx] + 10000;
 	}
 	else if (qp == MERGE) {
 		nr = 1;
@@ -33,7 +33,10 @@ double Cost(S3VLChunkObj* chunk, QPlan qp, SPlan sp, int nt, double* lambda_t) {
 		double lambda_exec_time = _alpha[idx] * double(chunk->size) / 1024 / 1024 + _beta[idx];
 		nr = 1;
 		st = chunk->required_size;
-		c = CR[idx] + CT[idx] * double(st) / 1024 / 1024 / 1024 + lambda_exec_time * CLAMBDA[idx] / 1000;
+		double used_mem = 1;
+		if (sp == SPlan::AZURE_BLOB)
+			used_mem = chunk->size / 1024 / 1024 / 1024;
+		c = CR[idx] + CT[idx] * double(st) / 1024 / 1024 / 1024 + used_mem * lambda_exec_time * CLAMBDA[idx] / 1000;
 		to = lambda_exec_time * _gamma[idx] / 1000;
 		*lambda_t = lambda_exec_time;
 	}
@@ -83,20 +86,18 @@ bool Cmp(vector<size_t> &a, vector<size_t> &b) {
 vector<CPlan> QueryProcess(vector<S3VLChunkObj*> &chunks, SPlan sp, double *cost) {
 	int nr = chunks.size();
 	vector<CPlan> plans(nr);
-#ifdef DUMMY_PLAN
-	for (int i = 0; i < nr; i++) {
-        plans[i] = CPlan{i, TEST_PLAN};
+	if (SINGLE_PLAN != NONE) {
+		for (int i = 0; i < nr; i++) {
+			plans[i] = CPlan{i, SINGLE_PLAN};
+		}
+		return plans;
 	}
-    return plans;
-#endif
 	double total_cost = 0;
 	double lambda_t;
 	for (int i = 0; i < nr; i++) {
 		S3VLChunkObj *chunk = chunks[i];
 		CPlan p{i, GET};
-#ifdef LOG_ENABLE
 		Logger::log("------ plan for chunk: ", chunk->uri);
-#endif
 		if (chunk->size > chunk->required_size) {
 			double c = Cost(chunk, GET, sp, nr, &lambda_t);
 			double c1 = Cost(chunk, MERGE, sp, nr, &lambda_t);
@@ -106,10 +107,8 @@ vector<CPlan> QueryProcess(vector<S3VLChunkObj*> &chunks, SPlan sp, double *cost
 			}
 			if (sp == SPlan::S3) {
 				c1 = Cost(chunk, LAMBDA, sp, nr, &lambda_t);
-#ifdef LOG_ENABLE
 				Logger::log("S3 Lambda Time: ", lambda_t);
 				Logger::log("S3 Lambda Cost: ", c1);
-#endif
 				if (lambda_t < 60000 && c1 < c) {
 					p.qp = LAMBDA;
 					c = c1;
@@ -117,14 +116,21 @@ vector<CPlan> QueryProcess(vector<S3VLChunkObj*> &chunks, SPlan sp, double *cost
 			}
 			else if (sp == SPlan::GOOGLE && chunk->required_size < 10 * 1024 * 1024) {
 				c1 = Cost(chunk, LAMBDA, sp, nr, &lambda_t);
-#ifdef LOG_ENABLE
 				Logger::log("GC Lambda Time: ", lambda_t);
 				Logger::log("GC Lambda Cost: ", c1);
-#endif
 				if (c1 < c) {
 					p.qp = LAMBDA; 
 					c = c1;
 				}
+			}
+			else if (chunk->required_size < 5 * 1024 * 1024) {
+				c1 = Cost(chunk, LAMBDA, sp, nr, &lambda_t);
+				Logger::log("Azure Lambda Time: ", lambda_t);
+				Logger::log("Azure Lambda Cost: ", c1);
+				if (c1 < c) {
+					p.qp = LAMBDA; 
+					c = c1;
+				}	
 			}
 			total_cost += c;
 		}

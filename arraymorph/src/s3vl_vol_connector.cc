@@ -2,6 +2,7 @@
 #include "s3vl_vol_connector.h"
 #include "s3vl_file_callbacks.h"
 #include "s3vl_dataset_callbacks.h"
+#include "s3vl_initialize.h"
 #include "constants.h"
 
 #include <hdf5.h>
@@ -18,13 +19,13 @@ static herr_t S3_introspect_opt_query(void *obj, H5VL_subclass_t cls, int op_typ
 
 /* The VOL class struct */
 static const H5VL_class_t template_class_g = {
-    2,                                              /* VOL class struct version */
+    3,                                              /* VOL class struct version */
     S3_VOL_CONNECTOR_VALUE,                   /* value                    */
     S3_VOL_CONNECTOR_NAME,                    /* name                     */
     1,                                              /* version                  */
-    0,                                              /* capability flags         */
-    NULL,                                           /* initialize               */
-    NULL,                                           /* terminate                */
+    0,                                          /* capability flags         */
+    S3VLINITIALIZE::s3VL_initialize_init,                                           /* initialize               */
+    S3VLINITIALIZE::s3VL_initialize_close,                                           /* terminate                */
     {   /* info_cls */
         (size_t)0,                                  /* size    */
         NULL,                                       /* copy    */
@@ -34,9 +35,9 @@ static const H5VL_class_t template_class_g = {
         NULL,                                       /* from_str */
     },
     {   /* wrap_cls */
-        NULL,                                       /* get_object   */
+        S3VLDatasetCallbacks::S3VL_get_object,                                       /* get_object   */
         NULL,                                       /* get_wrap_ctx */
-        NULL,                                       /* wrap_object  */
+        S3VLDatasetCallbacks::S3VL_wrap_object,                                       /* wrap_object  */
         NULL,                                       /* unwrap_object */
         NULL,                                       /* free_wrap_ctx */
     },
@@ -56,7 +57,7 @@ static const H5VL_class_t template_class_g = {
         S3VLDatasetCallbacks::S3VL_dataset_read,                            /* read         */
         S3VLDatasetCallbacks::S3VL_dataset_write,                           /* write        */
         S3VLDatasetCallbacks::S3VL_dataset_get,                                       /* get          */
-        NULL,                                       /* specific     */
+        S3VLDatasetCallbacks::S3VL_dataset_specific,                                       /* specific     */
         NULL,                                       /* optional     */
         S3VLDatasetCallbacks::S3VL_dataset_close                                        /* close        */
     },
@@ -71,7 +72,7 @@ static const H5VL_class_t template_class_g = {
     {   /* file_cls */
         S3VLFileCallbacks::S3VL_file_create,                                       /* create       */
         S3VLFileCallbacks::S3VL_file_open,                               /* open         */
-        NULL,                                       /* get          */
+        S3VLFileCallbacks::S3VL_file_get,                                       /* get          */
         NULL,                                       /* specific     */
         NULL,                                       /* optional     */
         S3VLFileCallbacks::S3VL_file_close                               /* close        */
@@ -93,9 +94,9 @@ static const H5VL_class_t template_class_g = {
         NULL                                        /* optional     */
     },
     {   /* object_cls */
-        NULL,                                       /* open         */
+        S3VLDatasetCallbacks::S3VL_obj_open,                                       /* open         */
         NULL,                                       /* copy         */
-        NULL,                                       /* get          */
+        S3VLDatasetCallbacks::S3VL_obj_get,                                       /* get          */
         NULL,                                       /* specific     */
         NULL                                        /* optional     */
     },

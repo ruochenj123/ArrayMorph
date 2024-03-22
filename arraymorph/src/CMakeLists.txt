@@ -1,5 +1,5 @@
 # Set the template VOL connector name
-set (TVC_NAME arraymorph)
+set (TVC_NAME s3_arraymorph)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_CXX_STANDARD 14)
 #Load required services/packages: This basic example uses S3.
@@ -12,6 +12,7 @@ find_package(OpenSSL REQUIRED)
 
 # Build the template VOL
 add_library (${TVC_NAME} SHARED s3vl_vol_connector.cc)
+add_library (CONSTANTS constants.cc)
 add_library (OPERATORS operators.cc)
 add_library (VL_CHUNK_OBJ s3vl_chunk_obj.cc)
 add_library (QUERY_PROCESSOR query_processor.cc)
@@ -26,6 +27,7 @@ target_link_libraries(OPERATORS PRIVATE Azure::azure-storage-blobs)
 target_link_libraries(OPERATORS PRIVATE CURL::libcurl google-cloud-cpp::storage google-cloud-cpp::experimental-storage-grpc)
 target_link_libraries(OPERATORS ${OPENSSL_LIBRARIES})
 target_link_libraries(OPERATORS ${AWSSDK_LINK_LIBRARIES})
+target_link_libraries(OPERATORS CONSTANTS)
 target_link_libraries(OPERATORS PROFILER)
 target_link_libraries(VL_CHUNK_OBJ OPERATORS)
 target_link_libraries(VL_CHUNK_OBJ UTILS)
@@ -39,6 +41,7 @@ target_link_libraries(VL_DSET VL_FILE)
 target_link_libraries(VL_DSET VL_DSET_OBJ)
 target_link_libraries(${TVC_NAME} VL_DSET)
 target_link_libraries(${TVC_NAME} VL_FILE)
+target_link_libraries(${TVC_NAME} ${HDF5_C_LIBRARIES})
 
 # set_target_properties (${TVC_NAME} PROPERTIES VERSION ${PROJECT_VERSION})
 set_target_properties (${TVC_NAME} PROPERTIES SOVERSION 1)
