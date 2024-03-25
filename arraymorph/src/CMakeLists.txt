@@ -1,5 +1,5 @@
 # Set the template VOL connector name
-set (TVC_NAME s3_arraymorph)
+set (TVC_NAME arraymorph)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_CXX_STANDARD 14)
 #Load required services/packages: This basic example uses S3.
