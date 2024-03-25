@@ -9,14 +9,14 @@
 class S3VLINITIALIZE
 {
 public:
-    static Aws::SDKOptions opt;
     static herr_t s3VL_initialize_init(hid_t vipl_id);
     static herr_t s3VL_initialize_close();
 };
 
-Aws::SDKOptions S3VLINITIALIZE::opt = Aws::SDKOptions();
 inline herr_t S3VLINITIALIZE::s3VL_initialize_init(hid_t vipl_id) {
-    Aws::InitAPI(opt);
+    Aws::SDKOptions options;
+    options.loggingOptions.logLevel = Aws::Utils::Logging::LogLevel::Off;
+    Aws::InitAPI(options);
     Logger::log("------ Init VOL");
     const char* platform = std::getenv("STORAGE_PLATFORM");
     if (platform == NULL || platform == "S3") {
