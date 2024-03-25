@@ -207,15 +207,15 @@ void* S3VLDatasetCallbacks::S3VL_obj_open(void* obj, const H5VL_loc_params_t *lo
 
 herr_t S3VLDatasetCallbacks::S3VL_obj_get(void *obj, const H5VL_loc_params_t *loc_params, H5VL_object_get_args_t *args, hid_t dxpl_id, void **req) {
 	Logger::log("------ Object get");
-	args->op_type = H5VL_object_get_t::H5VL_OBJECT_GET_NAME;
-	auto by_name = args->args.get_name;
-	by_name.buf_size = 4;
-	string name = "test";
-	by_name.buf = new char[5];
-	strcpy(by_name.buf, name.c_str());
-	size_t *ptr;
-	*ptr = 4;
-	by_name.name_len = ptr;
+	// args->op_type = H5VL_object_get_t::H5VL_OBJECT_GET_NAME;
+	// auto by_name = args->args.get_name;
+	// by_name.buf_size = 4;
+	// string name = "test";
+	// by_name.buf = new char[5];
+	// strcpy(by_name.buf, name.c_str());
+	// size_t *ptr;
+	// *ptr = 4;
+	// by_name.name_len = ptr;
 	return SUCCESS;
 }	
 void* S3VLDatasetCallbacks::S3VL_wrap_object(void *obj, H5I_type_t obj_type, void* wrap_ctx) {

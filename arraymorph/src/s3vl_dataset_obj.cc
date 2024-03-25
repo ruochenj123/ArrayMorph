@@ -644,7 +644,16 @@ void S3VLDatasetObj::upload() {
 	Result re;
 	re.data = buffer;
 	re.length = length;
-	Operators::S3Put(s3_client, bucket_name, meta_name, re);
+	if (SP == SPlan::S3)
+		Operators::S3Put(s3_client, bucket_name, meta_name, re);
+	else if (SP == SPlan::AZURE_BLOB) {
+		string azure_connection_string = getenv("AZURE_STORAGE_CONNECTION_STRING");
+		BlobContainerClient lclient
+      	= BlobContainerClient::CreateFromConnectionString(azure_connection_string, bucket_name);
+		Operators::AzurePut(std::ref(lclient), meta_name, (uint8_t*)buffer, length);
+	}
+	else
+		Operators::GCPut(gc_client, bucket_name, meta_name, buffer, length);
 }
 
 S3VLDatasetObj* S3VLDatasetObj::getDatasetObj(S3Client *client, string bucket_name, string uri) {
