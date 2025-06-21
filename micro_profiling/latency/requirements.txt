@@ -1,0 +1,6 @@
+google-cloud-logging
+boto3
+s3-log-parse
+azure-monitor-opentelemetry
+azure-monitor-query
+azure-identity

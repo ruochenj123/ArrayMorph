@@ -1,0 +1,6 @@
+PythonVersion="3.9.7"
+packagedir=".python_packages/lib/site-packages"
+OperationId="|vw0auxPu0h8=.c3f5e000_"
+SourceDirectoryInBuildContainer="/tmp/zipdeploy/extracted"
+PlatformName="python"
+CompressDestinationDir="false"

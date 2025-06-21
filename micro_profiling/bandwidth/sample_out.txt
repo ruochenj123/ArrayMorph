@@ -1,0 +1,147 @@
+uploading benchmarking data
+uploading dataset with shape 23171
+uploading dataset with shape 11586
+uploading dataset with shape 5793
+uploading dataset with shape 2897
+uploading dataset with shape 1449
+uploading dataset with shape 725
+uploading dataset with shape 363
+uploading dataset with shape 182
+uploading dataset with shape 91
+Write Datasets Successfully! Using 2145.5993599891663 seconds.
+query processer time: 4e-06
+chunk num:9
+Plans: 
+GET: 9
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 19328228676
+s3_req_num: 9
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 167.191 seconds
+Number of Requests: 8
+Read Time: 167.23941349983215
+Average Throughput: 97.96733710750811 MB/s
+query processer time: 2e-06
+chunk num:36
+Plans: 
+GET: 36
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 19329897024
+s3_req_num: 36
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 165.358 seconds
+Number of Requests: 32
+Read Time: 165.35850644111633
+Average Throughput: 99.08168834262115 MB/s
+query processer time: 3e-06
+chunk num:144
+Plans: 
+GET: 144
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 19329897024
+s3_req_num: 144
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 167.403 seconds
+Number of Requests: 128
+Read Time: 167.40277433395386
+Average Throughput: 97.8717351918873 MB/s
+query processer time: 6e-06
+chunk num:529
+Plans: 
+GET: 529
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 17758760644
+s3_req_num: 529
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 155.747 seconds
+Number of Requests: 512
+Read Time: 155.74674224853516
+Average Throughput: 105.19642185423686 MB/s
+query processer time: 2.1e-05
+chunk num:2116
+Plans: 
+GET: 2116
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 17771022864
+s3_req_num: 2116
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 155.844 seconds
+Number of Requests: 2048
+Read Time: 155.84444761276245
+Average Throughput: 105.13046984330468 MB/s
+query processer time: 7.6e-05
+chunk num:8281
+Plans: 
+GET: 8281
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 17410802500
+s3_req_num: 8281
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 153.608 seconds
+Number of Requests: 8192
+Read Time: 153.60841989517212
+Average Throughput: 106.66081983774735 MB/s
+query processer time: 0.000313
+chunk num:32761
+Plans: 
+GET: 32761
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 17267536836
+s3_req_num: 32761
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 155.437 seconds
+Number of Requests: 32768
+Read Time: 155.43721866607666
+Average Throughput: 105.40590046967766 MB/s
+query processer time: 0.001267
+chunk num:130321
+Plans: 
+GET: 130321
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 17267011216
+s3_req_num: 130321
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 156.029 seconds
+Number of Requests: 131072
+Read Time: 156.02915048599243
+Average Throughput: 105.00601938142886 MB/s
+query processer time: 0.011574
+chunk num:519841
+Plans: 
+GET: 519841
+MERGE: 0
+LAMBDA: 0
+Multi-fetch: 0
+transfer_size: 17219213284
+s3_req_num: 519841
+azure_req_num: 0
+gc_req_num: 0
+VOL read time: 469.296 seconds
+Number of Requests: 524288
+Read Time: 469.2958815097809
+Average Throughput: 34.91187680422576 MB/s
+Profiling finished. Using 1751.5194947719574 seconds.

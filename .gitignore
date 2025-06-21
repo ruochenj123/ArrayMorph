@@ -1,0 +1,6 @@
+.vscode
+arraymorph/build
+arraymorph/src/constants.h
+# examples/
+__pycache__
+.github
